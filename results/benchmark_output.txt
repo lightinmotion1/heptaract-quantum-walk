@@ -1,0 +1,80 @@
+=================================================================
+  HEPTARACT QUANTUM WALK — CIRCUIT + BENCHMARK
+=================================================================
+
+[ CIRCUIT ]  Qiskit — quantum walk leap at t = π/2
+     ┌───────┐┌─┐                  
+q_0: ┤ Rx(π) ├┤M├──────────────────
+     ├───────┤└╥┘┌─┐               
+q_1: ┤ Rx(π) ├─╫─┤M├───────────────
+     ├───────┤ ║ └╥┘┌─┐            
+q_2: ┤ Rx(π) ├─╫──╫─┤M├────────────
+     ├───────┤ ║  ║ └╥┘┌─┐         
+q_3: ┤ Rx(π) ├─╫──╫──╫─┤M├─────────
+     ├───────┤ ║  ║  ║ └╥┘┌─┐      
+q_4: ┤ Rx(π) ├─╫──╫──╫──╫─┤M├──────
+     ├───────┤ ║  ║  ║  ║ └╥┘┌─┐   
+q_5: ┤ Rx(π) ├─╫──╫──╫──╫──╫─┤M├───
+     ├───────┤ ║  ║  ║  ║  ║ └╥┘┌─┐
+q_6: ┤ Rx(π) ├─╫──╫──╫──╫──╫──╫─┤M├
+     └───────┘ ║  ║  ║  ║  ║  ║ └╥┘
+c: 7/══════════╩══╩══╩══╩══╩══╩══╩═
+               0  1  2  3  4  5  6 
+  Total gates: 14  (7 × Rx(π) + 7 × measure)
+  Circuit depth: 2
+
+[ QUANTUM LEAP ]  Running on Aer statevector simulator...
+  P(anti-home) = 1.0000  (expect 1.0000)
+  Wall time:    69.80 ms
+  Gate ops:     OrderedDict({'rx': 7, 'measure': 7})
+  Shot results: {'1111111': 1024}
+
+[ CLASSICAL RANDOM WALK ]  10,000 trials...
+  Avg steps to anti-home:  163.2 ± 156.2
+  Min / Max:               7 / 1313
+  Theoretical expectation: 448  (n × 2^(n-1))
+  Wall time (10k trials):  345.6 ms
+
+[ CLASSICAL EXHAUSTIVE ]  Steps to find anti-home: 128
+  (worst case = 128 vertices)
+
+[ QUANTUM WALK SWEEP ]  Probability curve home → anti-home
+  t=0 → t=π, peak at t=1.5629 (P=0.999564)
+  t=0.00π  |                                                  | 0.0000
+  t=0.32π  |                                                  | 0.0000
+  t=0.63π  |                                                  | 0.0006
+  t=0.95π  |██                                                | 0.0540
+  t=1.26π  |█████████████████████████                         | 0.5096
+  t=1.58π  |█████████████████████████████████████████████████ | 0.9996
+  t=1.89π  |███████████████████████                           | 0.4741
+  t=2.21π  |██                                                | 0.0459
+  t=2.53π  |                                                  | 0.0005
+  t=2.84π  |                                                  | 0.0000
+
+[ SCALING ]  Classical vs Quantum ops as n-cube grows:
+
+   n    vertices     classical (ops)     quantum (gates)       speedup
+──────────────────────────────────────────────────────────────────────
+   1           2                   1                   1           1.0x
+   2           4                   4                   2           2.0x
+   3           8                  12                   3           4.0x
+   4          16                  32                   4           8.0x
+   5          32                  80                   5          16.0x
+   6          64                 192                   6          32.0x
+   7         128                 448                   7          64.0x ← we are here
+   8         256               1,024                   8         128.0x
+   9         512               2,304                   9         256.0x
+  10        1024               5,120                  10         512.0x
+  11        2048              11,264                  11       1,024.0x
+  12        4096              24,576                  12       2,048.0x
+  13        8192              53,248                  13       4,096.0x
+
+[ SUMMARY ]
+  Quantum walk:          7 gates, 1 measurement, P=1.0
+  Classical random walk: ~163 steps on average
+  Classical exhaustive:  up to 128 checks
+  Speedup (heptaract):   ~23x over random walk
+                         ~18x over exhaustive
+
+  The walk scales as O(n) quantum gates vs O(n·2^n) classical steps.
+  At n=50 qubits: quantum = 50 gates, classical ≈ 2.8 × 10¹⁶ steps.
