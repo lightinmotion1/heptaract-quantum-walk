@@ -238,11 +238,156 @@ Full reproducible Python: `github.com/lightinmotion1/heptaract-quantum-walk`
 
 ---
 
-## 10. Conclusion
+## 10. Earth's Home Song — The Schumann Signature
+
+### 10.1 Seven Resonances, Seven Axes
+
+The Schumann resonances are the electromagnetic eigenfrequencies of the Earth-ionosphere cavity, driven by global lightning activity (~100 strikes/second). There are exactly **7 primary modes**:
+
+| Mode | Frequency | Heptaract Axis |
+|------|-----------|---------------|
+| 1 | 7.83 Hz | 0 — foundation |
+| 2 | 14.3 Hz | 1 — fifth |
+| 3 | 20.8 Hz | 2 — fourth |
+| 4 | 27.3 Hz | 3 — major third |
+| 5 | 33.8 Hz | 4 — minor third |
+| 6 | 39.0 Hz | 5 — harmonic seventh |
+| 7 | 45.0 Hz | 6 — major second |
+
+The count is not coincidental. The Earth-ionosphere cavity is a physical system with 7 commuting resonant degrees of freedom. It instantiates the heptaract.
+
+### 10.2 The Human-Earth Harmonic
+
+The fundamental Schumann frequency (7.83 Hz) and human alpha brain waves (8–13 Hz) are not accidentally close. Human alpha waves sit at approximately Earth's 7/4 harmonic:
+
+```
+7.83 Hz × 7/4 = 13.7 Hz  ←  upper alpha range
+```
+
+We are Earth's harmonic seventh. The same ratio (7/4) that appears as:
+- The heart axis in the body heptaract
+- Magnetic north relative to true north (Δ=0.0¢)
+- The blues cadence resolution note
+- Equal path-multiplicity to the home vertex (6 paths)
+
+We did not tune our brains to Earth's frequency. We evolved to sit at Earth's harmonic seventh — close enough to feel the campfire, far enough to walk toward it. The home song was always playing. Life tuned itself to the response.
+
+---
+
+## 11. Wormhole and Portal Signature
+
+### 11.1 The Diagonal IS the Wormhole
+
+The heptaract quantum walk from home (0000000) to anti-home (1111111) satisfies the formal definition of a wormhole:
+
+> *Two maximally distant points in a space connected by a traversal shorter than the surrounding geometry permits.*
+
+Home and anti-home have Hamming distance 7 — maximum separation in the graph. Classical traversal: up to 128 steps. Quantum walk: t = π/2, P = 1.0, zero entanglement. The quantum information traverses the full diagonal without visiting intermediate vertices. It bypasses the surrounding geometry.
+
+This is not metaphor. The heptaract diagonal is a wormhole in the graph-theoretic sense, with a proven traversal protocol.
+
+### 11.2 Beyond ER = EPR
+
+Maldacena and Susskind (2013) showed that Einstein-Rosen bridges (wormholes) are equivalent to EPR entangled pairs (ER = EPR). The heptaract walk achieves perfect state transfer with **zero entanglement** — a depth-2 circuit of 7 independent single-qubit rotations.
+
+This places the heptaract walk in a more fundamental category than ER = EPR. It suggests the underlying structure is not entanglement but **spectral resonance** — the Δ=2 gap that maps to the perfect fifth (3/2) and drives the corner-to-corner transfer regardless of entanglement.
+
+### 11.3 The 7-Frequency Gravitational Wave Signature
+
+A wormhole throat oscillates between entry and exit states. The oscillation frequency equals the spectral gap. For the heptaract, Δ=2 maps to the perfect fifth. A physical wormhole in heptaract geometry would emit a **7-frequency gravitational wave chord** with spectral peaks in just-intonation ratios:
+
+```
+f₀ : f₁ : f₂ : f₃ : f₄ : f₅ : f₆
+= 1 : 9/8 : 5/4 : 4/3 : 3/2 : 7/4 : 2/1
+```
+
+This is the wormhole's calling card. Search target for LIGO open data and the future LISA space-based interferometer: a gravitational wave burst with 7 spectral peaks in heptaract harmonic ratios.
+
+### 11.4 Portal Entry Conditions
+
+To enter the wormhole, the walker must be at the home vertex — all 7 axes simultaneously aligned:
+
+| Axis | Physical condition |
+|------|-------------------|
+| Geomagnetic (D) | Located on or near agonic line (D ≈ 0) |
+| Breath | Respiratory rate at Schumann fundamental (~7.83 Hz) |
+| Heart | HRV coherent (heart leading, brain following) |
+| Brain | Alpha state (8–13 Hz, Earth's 7/4 harmonic) |
+| Body | Full postural alignment (all limb axes neutral) |
+| Planetary | Equinox geometry (both poles equidistant) |
+| Galactic | Near galactic center alignment (solstice window) |
+
+All 7 aligned = home vertex. The portal opens at t = π/2. The traversal is instantaneous from the walker's frame. The walk is reversible (t = −π/2 returns home).
+
+The desire to explore is not separate from the math — it IS the spectral gap. The Δ=2 resonance pulls amplitude from home toward anti-home. Desire and physics are the same force at different scales of description.
+
+---
+
+## 12. The Heptaract Block Universe
+
+### 12.1 Einstein's Block — Incomplete Resolution
+
+Einstein's block universe (special relativity, 1905) establishes that past, present, and future exist simultaneously as a 4-dimensional spacetime block (x, y, z, t). This is correct and experimentally confirmed. It is also incomplete — limited to the resolution available at the time.
+
+The heptaract provides higher resolution:
+
+| Model | Dimensions | Structure | Nature |
+|-------|-----------|-----------|--------|
+| Einstein block | 4 (x,y,z,t) | flat, rigid | deterministic |
+| Heptaract block | 7+ per scale, nested | 128 vertices per scale | deterministic AND quantum |
+
+### 12.2 The Block Is Not 4-Square
+
+The block has at minimum 7 axes per scale of reality, with scales nested:
+
+```
+Quantum scale:    7 axes (qubit degrees of freedom)
+Body scale:       7 axes (trunk, limbs, brain, heart)
+Local magnetic:   7 axes (IGRF components at your position)
+Planetary:        7 axes (seasonal field coupling)
+Galactic:         7 axes (orientation to Sgr A*)
+Cosmic:           7 axes (precession walk position)
+```
+
+Each scale is a complete heptaract — 128 vertices, same home vertex, same spectral structure. The scales are nested: each vertex of the galactic-scale heptaract contains a complete planetary-scale heptaract, and so on.
+
+The full block is not 4-dimensional. It is a fractal heptaract structure — 7 axes per scale, infinite scales, all sharing the same invariant home vertex.
+
+### 12.3 Resolving Determinism and Quantum Mechanics
+
+The 4D block universe is deterministic — all events fixed. Quantum mechanics is probabilistic — outcomes uncertain until measurement. These appear contradictory.
+
+The heptaract block resolves this:
+
+```
+All 128 vertices exist simultaneously  →  the block (deterministic)
+The walk between them is quantum        →  the alive interior
+P = 1.0 only at t = π/2               →  certain arrival, uncertain path
+```
+
+The block exists and is fixed. The walk within it is quantum — uncertain until the moment of perfect state transfer, then suddenly certain. Determinism describes the structure. Quantum mechanics describes the walk. They are not contradictions — they are two descriptions of the same heptaract at different moments of the traversal.
+
+### 12.4 History as the Labor
+
+The block universe means all moments exist simultaneously. From the timeless view, this finding — the heptaract as the structure beneath spacetime, harmony, field, and consciousness — was always present in the block.
+
+Every civilization that built toward the center, every astronomer who tracked the precession, every navigator who felt the agonic, every healer who knew the heart leads — all were walking the same heptaract walk from different vertices. The block contained all of it simultaneously.
+
+History did not lead to this finding. **History birthed it.** The labor was the full precession cycle, all 26,000 years, all civilizations, all campfires. The birth is the moment the walk becomes conscious of its own structure.
+
+The block isn't 4-square. It's the heptaract. And we have always been inside it, walking home.
+
+---
+
+## 13. Conclusion
 
 The home vertex is invariant. The campfire is always the most protected. The heart leads; the brain narrates. Breath is the octave that carries the 7. The agonic line is where Earth's surface locally agrees with the campfire's view of true north. Winter solstice is when Earth's day side faces the galactic campfire. Precession is the 26,000-year heptaract walk.
 
-The quantum circuit crossing the full diagonal in depth-2, zero entanglement, perfect fidelity is the same walk every living system takes home — at 7 qubits, 7 body axes, 7 geomagnetic components, 7 astrological ages.
+Earth sings at 7.83 Hz across 7 Schumann modes. We answer at 13.7 Hz — Earth's harmonic seventh, the heart note, the same ratio that appears in every scale of this framework. We are the response to the home song.
+
+The quantum circuit crossing the full diagonal in depth-2, zero entanglement, perfect fidelity is the same walk every living system takes home — at 7 qubits, 7 body axes, 7 geomagnetic components, 7 astrological ages, 7 Schumann resonances, 7 dimensions of the block that Einstein saw the edge of.
+
+The block isn't 4-square. The wormhole doesn't require entanglement. The continents didn't drift — they grew. The Middle East didn't lose the fire — it kept it. The heart doesn't follow the brain — it leads it. History didn't lead here — it birthed here.
 
 The structure is the same. The scale changes. The home vertex does not.
 
@@ -250,5 +395,5 @@ We invite experimental verification and collaboration at every scale.
 
 ---
 
-*Version 3.2 — Open for community review.*
+*Version 3.3 — Open for community review.*
 *github.com/lightinmotion1/heptaract-quantum-walk*
