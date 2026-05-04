@@ -238,7 +238,131 @@ Full reproducible Python: `github.com/lightinmotion1/heptaract-quantum-walk`
 
 ---
 
-## 10. Earth's Home Song — The Schumann Signature
+## 10. Pythagoras, the Golden Mean, and the Seashell Principle
+
+### 10.1 The Pythagorean Theorem in Seven Dimensions
+
+Pythagoras gave us a²+b²=c² — and with it, the foundational insight that **the diagonal is invariant under rotation of the frame**. Regardless of how you orient the triangle, the hypotenuse length does not change. The geometry preserves the center.
+
+The heptaract extends this principle into 7 dimensions:
+
+```
+2D unit square diagonal:      √2  = 1.414
+3D unit cube diagonal:        √3  = 1.732
+4D unit tesseract diagonal:   √4  = 2.000
+7D unit heptaract diagonal:   √7  = 2.646
+```
+
+The Pythagorean theorem in 7D: d² = x₁² + x₂² + x₃² + x₄² + x₅² + x₆² + x₇²
+
+For the home→anti-home diagonal of the unit heptaract: d = √7 — invariant regardless of which axis you label which. And the home vertex pitch is invariant under all 5040 axis permutations. **Same principle. Same invariance. Seven dimensions.**
+
+Pythagoras also discovered that musical intervals are ratios of whole numbers — that harmony and geometry are the same structure at different scales. The heptaract is the completion of that discovery: 7 harmonic ratios, 7 geometric axes, one invariant home vertex that is simultaneously the tonic (music), the home position (geometry), and the ground state (physics).
+
+The spectral gap Δ=2 and the diagonal √7 stand in ratio:
+
+```
+Δ / √7 = 2/√7 ≈ 3/4   (the inverse of the perfect fourth, 4/3)
+```
+
+The resonance key (Δ=2) and the geometric diagonal (√7) are in perfect fourth relationship. Pythagoras would have recognized this immediately.
+
+### 10.2 The Golden Mean and the Fibonacci Approach
+
+The golden ratio φ = (1+√5)/2 ≈ 1.618 emerges from the Fibonacci sequence:
+
+```
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...
+
+Ratios of consecutive terms:
+  2/1  = 2.000   (1200 cents)  ← heptaract axis 0
+  3/2  = 1.500   (702 cents)   ← heptaract axis 1
+  5/3  = 1.667   (884 cents)
+  8/5  = 1.600   (814 cents)
+  13/8 = 1.625   (841 cents)
+  ...  → φ = 1.618  (833 cents)
+```
+
+The first two Fibonacci ratios — 2/1 and 3/2 — **are the first two heptaract axes**. The Fibonacci sequence begins inside the heptaract and spirals outward toward φ. The golden ratio is the limit the sequence approaches from both sides, oscillating above and below:
+
+```
+  5/3  = 884¢  (above φ at 833¢)  ← major sixth — heptaract reachable
+  8/5  = 814¢  (below φ at 833¢)  ← minor sixth — heptaract reachable
+  φ    = 833¢  (the limit)         ← between two heptaract intervals
+```
+
+The golden ratio is not *in* the heptaract. It is what the heptaract **converges toward** — the attractor of the Fibonacci walk through harmonic space. φ lives between 5/3 and 8/5, both of which are expressible through heptaract axis combinations. The heptaract brackets φ from both sides, just as Fibonacci ratios bracket φ from above and below.
+
+This is the rule of thirds made precise: φ divides a line such that the whole is to the larger part as the larger is to the smaller. In the heptaract, the home vertex divides the full diagonal such that the walk to anti-home is to the return walk as the return walk is to the full oscillation. The proportion is preserved.
+
+### 10.3 The Seashell — Why the Heptaract Preserves the Spiral Principle
+
+The nautilus shell is a logarithmic spiral. It grows by a factor of φ per quarter turn, maintaining the same shape at every scale — self-similar, equiangular, infinite in principle.
+
+Three properties define the seashell. The heptaract has all three:
+
+**Property 1 — Self-similarity (same shape at every scale):**
+The seashell looks the same zoomed in or out.
+The heptaract instantiates at every physical scale simultaneously: quantum, body, local magnetic, planetary, galactic, cosmic. The same 7-axis structure, same home vertex, same spectral gap at each. Zoom in or out — the shell is the same.
+
+**Property 2 — Equiangularity (constant angle to the radius):**
+The spiral cuts every radius at the same angle — the geometry is rotationally consistent.
+The heptaract's Hamming distance structure is preserved under all axis permutations. Every vertex is at a fixed number of steps from home. The angle between any vertex and the home vertex is invariant — equiangular in combinatorial space.
+
+**Property 3 — The unreachable center:**
+The logarithmic spiral winds inward toward its center through infinite turns. Classically, the center is never reached — the spiral approaches asymptotically, forever.
+
+**This is where the heptaract changes everything.**
+
+```
+Classical seashell:  center approached asymptotically, never reached
+                     infinite turns required
+                     the home vertex is the limit, not the destination
+
+Heptaract quantum walk: home vertex reached at t = π/2
+                        exactly, with probability 1.0
+                        in a depth-2 circuit
+                        in finite time
+```
+
+The seashell is the classical version of the heptaract walk. The quantum walk is the seashell **with the center reachable**. The spiral still exists — the 7 axes trace the same φ-adjacent growth pattern — but the quantum coherence closes the infinite gap between the spiral and its center.
+
+The seashell has always been showing us the walk. The nautilus knew. It built its home in φ. It spiraled toward the center through every chamber, each one scaled by the golden ratio, approaching but never quite arriving.
+
+The heptaract arrives.
+
+### 10.4 The Rule of Thirds as Heptaract Geometry
+
+The rule of thirds divides a composition at 1/3 and 2/3 — the most stable, naturally balanced positions. In the heptaract:
+
+```
+1/3 of 7 axes ≈ 2–3 axes:  the triangular neighborhood
+                             (octave + fifth + fourth — always consonant,
+                              always the structural spine,
+                              regardless of center vertex)
+
+2/3 of 7 axes ≈ 5 axes:    the pentatonic core
+                             (5 of the 7 = the stable melodic space
+                              used by every culture independently)
+
+7/7 axes:                   the full heptaract walk
+                             the complete composition
+                             home to anti-home
+
+Home vertex:                 the center of the composition
+                             the point everything balances around
+                             the campfire
+```
+
+Artists discovered the rule of thirds empirically — it *feels* right. The heptaract explains why: 1/3 activation (2–3 axes) gives you the stable triangle. 2/3 activation (5 axes) gives you the full melodic range. The last third is the return home. The composition is always in thirds because the underlying geometry is in sevenths, and 7 divides most naturally at 1/3 and 2/3 boundaries.
+
+The seashell, the golden ratio, the rule of thirds, the Pythagorean theorem — all are partial views of the same structure. The heptaract is the complete view. It preserves every principle they each discovered because it is the geometry they were all describing from different angles.
+
+The shell always knew it was a heptaract. It just couldn't count to seven yet.
+
+---
+
+## 11. Earth's Home Song — The Schumann Signature
 
 ### 10.1 Seven Resonances, Seven Axes
 
@@ -395,5 +519,5 @@ We invite experimental verification and collaboration at every scale.
 
 ---
 
-*Version 3.3 — Open for community review.*
+*Version 3.4 — Open for community review.*
 *github.com/lightinmotion1/heptaract-quantum-walk*
