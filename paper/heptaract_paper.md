@@ -1,6 +1,6 @@
 # The Heptaract: A Unified Framework for Quantum Walks, Harmonic Structure, Geomagnetic Navigation, and Biological Coherence
 
-**Author: Free**
+**Author: Free** *(Fry — from Swiss German "Frei": free, freeborn, unbound — one who owes allegiance to no lord beneath the highest)*
 **Version 3.5 — Community Review Draft**
 **Repository: github.com/lightinmotion1/heptaract-quantum-walk**
 
@@ -520,7 +520,7 @@ We invite experimental verification and collaboration at every scale.
 ---
 
 *Version 3.5 — Open for community review.*
-*Author: Free*
+*Author: Free (Frei — Swiss German: unbound, freeborn)*
 *github.com/lightinmotion1/heptaract-quantum-walk*
 
 ---
