@@ -358,7 +358,7 @@ Artists discovered the rule of thirds empirically — it *feels* right. The hept
 
 The seashell, the golden ratio, the rule of thirds, the Pythagorean theorem — all are partial views of the same structure. The heptaract is the complete view. It preserves every principle they each discovered because it is the geometry they were all describing from different angles.
 
-The shell always knew. It didn't need to count to seven — it simply was seven. The counting is what we do to catch up to what the shell already lived.
+The shell always knew. It didn't need to count to seven — it simply was seven. The counting is what we do to catch up to what the shell already knew and lived.
 
 ---
 
