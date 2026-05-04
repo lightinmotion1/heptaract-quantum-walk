@@ -398,7 +398,55 @@ We did not tune our brains to Earth's frequency. We evolved to sit at Earth's ha
 
 ---
 
-## 11. Wormhole and Portal Signature
+## 12. The Threshold Flash — From Zinc Spark to Plasma Halo
+
+### 11.1 The Same Event at Every Scale
+
+The heptaract is scale-invariant. Its geometry repeats across nested levels. So does its most dramatic event: the **threshold flash** — the burst of light emitted at the moment two vertices become one.
+
+**At the cellular scale:** When a sperm and egg merge, the egg releases a concentrated burst of zinc ions in a radial wave. The zinc ions bind to fluorescent markers and the result — documented by Northwestern University in 2016 — is a visible flash of light. Biophotons. The first act of a new human life is *light*. Not warmth, not movement, not breath. Light.
+
+**At the atmospheric scale:** When a spacecraft re-enters Earth's atmosphere, it crosses a phase boundary — the vacuum of space meets the density of air. Energy that was distributed across the vehicle's surface concentrates at the leading edge. The air ionizes. The craft wears a plasma halo — orange, white, incandescent — for the duration of the crossing. The "stormy conditions" of re-entry are not chaos. They are the geometry locking in.
+
+Both events share the same structure:
+
+| Parameter | Sperm + Egg | Spacecraft Re-entry |
+|---|---|---|
+| Two things becoming one | Gametes → zygote | Vehicle → atmosphere |
+| Phase boundary crossed | Cellular membrane | Atmospheric threshold |
+| Energy concentrates | Zinc ion burst | Plasma sheath |
+| Emission | Biophoton flash | Plasma halo |
+| After the flash | New life begins | New trajectory begins |
+
+### 11.2 The Heptaract Explanation
+
+In quantum walk terms, both are **t=π/2 events**. The walk begins at home (0000000). It traverses the full diagonal. At t=π/2, all amplitude concentrates at the anti-home vertex (1111111) with probability P=1.0.
+
+The flash IS this concentration.
+
+When two systems that have been traversing separate walks reach the same vertex simultaneously, their amplitudes add. The energy that was distributed across the walk collapses to a point. The geometry announces the arrival the only way geometry can: with light.
+
+The "stormy conditions" — the turbulence of re-entry, the biochemical cascade of fertilization — are the walk's final steps. The chaos before the portal opens. The halo and the zinc spark are not side effects. They are the signal.
+
+### 11.3 The Scale-Invariant Signature
+
+The heptaract predicts this pattern appears wherever two maximally distant vertices complete their walk simultaneously:
+
+- **Cellular:** sperm + egg → zinc spark (documented)
+- **Atmospheric:** spacecraft + ionosphere → plasma halo (documented)
+- **Geological:** continental collision → igneous bloom (documented)
+- **Stellar:** binary merger → gravitational wave + electromagnetic burst (documented — GW170817)
+- **Quantum:** qubit entanglement → Bell state flash (measurable)
+
+Every scale. The same event. Two becoming one, and the geometry lighting up to mark it.
+
+The halo is not the storm. The halo is the proof the storm is over.
+
+*From zinc spark to plasma halo: the heptaract announces every threshold with light.*
+
+---
+
+## 13. Wormhole and Portal Signature
 
 ### 11.1 The Diagonal IS the Wormhole
 
@@ -447,7 +495,7 @@ The desire to explore is not separate from the math — it IS the spectral gap. 
 
 ---
 
-## 12. The Heptaract Block Universe
+## 14. The Heptaract Block Universe
 
 ### 12.1 Einstein's Block — Incomplete Resolution
 
@@ -503,7 +551,7 @@ The block isn't 4-square. It's the heptaract. And we have always been inside it,
 
 ---
 
-## 13. Conclusion
+## 15. Conclusion
 
 The home vertex is invariant. The campfire is always the most protected. The heart leads; the brain narrates. Breath is the octave that carries the 7. The agonic line is where Earth's surface locally agrees with the campfire's view of true north. Winter solstice is when Earth's day side faces the galactic campfire. Precession is the 26,000-year heptaract walk.
 
