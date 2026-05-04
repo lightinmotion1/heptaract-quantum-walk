@@ -446,55 +446,6 @@ The halo is not the storm. The halo is the proof the storm is over.
 
 ---
 
-## 13. Wormhole and Portal Signature
-
-### 11.1 The Diagonal IS the Wormhole
-
-The heptaract quantum walk from home (0000000) to anti-home (1111111) satisfies the formal definition of a wormhole:
-
-> *Two maximally distant points in a space connected by a traversal shorter than the surrounding geometry permits.*
-
-Home and anti-home have Hamming distance 7 — maximum separation in the graph. Classical traversal: up to 128 steps. Quantum walk: t = π/2, P = 1.0, zero entanglement. The quantum information traverses the full diagonal without visiting intermediate vertices. It bypasses the surrounding geometry.
-
-This is not metaphor. The heptaract diagonal is a wormhole in the graph-theoretic sense, with a proven traversal protocol.
-
-### 11.2 Beyond ER = EPR
-
-Maldacena and Susskind (2013) showed that Einstein-Rosen bridges (wormholes) are equivalent to EPR entangled pairs (ER = EPR). The heptaract walk achieves perfect state transfer with **zero entanglement** — a depth-2 circuit of 7 independent single-qubit rotations.
-
-This places the heptaract walk in a more fundamental category than ER = EPR. It suggests the underlying structure is not entanglement but **spectral resonance** — the Δ=2 gap that maps to the perfect fifth (3/2) and drives the corner-to-corner transfer regardless of entanglement.
-
-### 11.3 The 7-Frequency Gravitational Wave Signature
-
-A wormhole throat oscillates between entry and exit states. The oscillation frequency equals the spectral gap. For the heptaract, Δ=2 maps to the perfect fifth. A physical wormhole in heptaract geometry would emit a **7-frequency gravitational wave chord** with spectral peaks in just-intonation ratios:
-
-```
-f₀ : f₁ : f₂ : f₃ : f₄ : f₅ : f₆
-= 1 : 9/8 : 5/4 : 4/3 : 3/2 : 7/4 : 2/1
-```
-
-This is the wormhole's calling card. Search target for LIGO open data and the future LISA space-based interferometer: a gravitational wave burst with 7 spectral peaks in heptaract harmonic ratios.
-
-### 11.4 Portal Entry Conditions
-
-To enter the wormhole, the walker must be at the home vertex — all 7 axes simultaneously aligned:
-
-| Axis | Physical condition |
-|------|-------------------|
-| Geomagnetic (D) | Located on or near agonic line (D ≈ 0) |
-| Breath | Respiratory rate at Schumann fundamental (~7.83 Hz) |
-| Heart | HRV coherent (heart leading, brain following) |
-| Brain | Alpha state (8–13 Hz, Earth's 7/4 harmonic) |
-| Body | Full postural alignment (all limb axes neutral) |
-| Planetary | Equinox geometry (both poles equidistant) |
-| Galactic | Near galactic center alignment (solstice window) |
-
-All 7 aligned = home vertex. The portal opens at t = π/2. The traversal is instantaneous from the walker's frame. The walk is reversible (t = −π/2 returns home).
-
-The desire to explore is not separate from the math — it IS the spectral gap. The Δ=2 resonance pulls amplitude from home toward anti-home. Desire and physics are the same force at different scales of description.
-
----
-
 ## 14. The Heptaract Block Universe
 
 ### 12.1 Einstein's Block — Incomplete Resolution
@@ -567,5 +518,57 @@ We invite experimental verification and collaboration at every scale.
 
 ---
 
-*Version 3.4 — Open for community review.*
+*Version 3.5 — Open for community review.*
 *github.com/lightinmotion1/heptaract-quantum-walk*
+
+---
+
+## Appendix A. Wormhole and Portal Signature
+*(Theoretical extension — connected to the main framework, held separately for readers ready for this thread.)*
+
+### A.1 The Diagonal IS the Wormhole
+
+The heptaract quantum walk from home (0000000) to anti-home (1111111) satisfies the formal definition of a wormhole:
+
+> *Two maximally distant points in a space connected by a traversal shorter than the surrounding geometry permits.*
+
+Home and anti-home have Hamming distance 7 — maximum separation in the graph. Classical traversal: up to 128 steps. Quantum walk: t = π/2, P = 1.0, zero entanglement. The quantum information traverses the full diagonal without visiting intermediate vertices. It bypasses the surrounding geometry.
+
+This is not metaphor. The heptaract diagonal is a wormhole in the graph-theoretic sense, with a proven traversal protocol.
+
+### A.2 Beyond ER = EPR
+
+Maldacena and Susskind (2013) showed that Einstein-Rosen bridges (wormholes) are equivalent to EPR entangled pairs (ER = EPR). The heptaract walk achieves perfect state transfer with **zero entanglement** — a depth-2 circuit of 7 independent single-qubit rotations.
+
+This places the heptaract walk in a more fundamental category than ER = EPR. It suggests the underlying structure is not entanglement but **spectral resonance** — the Δ=2 gap that maps to the perfect fifth (3/2) and drives the corner-to-corner transfer regardless of entanglement.
+
+### A.3 The 7-Frequency Gravitational Wave Signature
+
+A wormhole throat oscillates between entry and exit states. The oscillation frequency equals the spectral gap. For the heptaract, Δ=2 maps to the perfect fifth. A physical wormhole in heptaract geometry would emit a **7-frequency gravitational wave chord** with spectral peaks in just-intonation ratios:
+
+```
+f₀ : f₁ : f₂ : f₃ : f₄ : f₅ : f₆
+= 1 : 9/8 : 5/4 : 4/3 : 3/2 : 7/4 : 2/1
+```
+
+Search target for LIGO open data and the future LISA space-based interferometer: a gravitational wave burst with 7 spectral peaks in heptaract harmonic ratios. That is the wormhole's calling card.
+
+### A.4 Portal Entry Conditions
+
+To enter the wormhole, the walker must be at the home vertex — all 7 axes simultaneously aligned:
+
+| Axis | Physical condition |
+|------|-------------------|
+| Geomagnetic (D) | Located on or near agonic line (D ≈ 0) |
+| Breath | Respiratory rate at Schumann fundamental (~7.83 Hz) |
+| Heart | HRV coherent (heart leading, brain following) |
+| Brain | Alpha state (8–13 Hz, Earth's 7/4 harmonic) |
+| Body | Full postural alignment (all limb axes neutral) |
+| Planetary | Equinox geometry (both poles equidistant) |
+| Galactic | Near galactic center alignment (solstice window) |
+
+All 7 aligned = home vertex. The portal opens at t = π/2. The walk is reversible (t = −π/2 returns home).
+
+The desire to explore is not separate from the math — it IS the spectral gap. The Δ=2 resonance pulls amplitude from home toward anti-home. Desire and physics are the same force at different scales of description.
+
+*We are always exploring. We are always already home. The portal is the recognition of both at once.*
