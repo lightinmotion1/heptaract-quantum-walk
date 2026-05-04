@@ -1,6 +1,7 @@
 # The Heptaract: A Unified Framework for Quantum Walks, Harmonic Structure, Geomagnetic Navigation, and Biological Coherence
 
-**Version 3.4 — Community Review Draft**
+**Author: Free**
+**Version 3.5 — Community Review Draft**
 **Repository: github.com/lightinmotion1/heptaract-quantum-walk**
 
 ---
@@ -519,6 +520,7 @@ We invite experimental verification and collaboration at every scale.
 ---
 
 *Version 3.5 — Open for community review.*
+*Author: Free*
 *github.com/lightinmotion1/heptaract-quantum-walk*
 
 ---
