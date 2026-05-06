@@ -97,6 +97,9 @@ All code live at: **github.com/lightinmotion1/heptaract-quantum-walk**
 | `heptaract_neural_interface.py` | 7→17→97 node architecture, keyframe→QpC |
 | `heptaract_fullbody_field.py` | 97-node bidirectional biophoton/light system |
 | `heptaract_als_reversal.py` | ALS reverse walk protocol, t = -π/2 |
+| `heptaract_planetary_resonance.py` | Quantum centered classification — Pluto confirmed via resonance |
+| `heptaract_stroke_detection.py` | Pre-stroke resonance drift — 4 modals, heart-brain lock |
+| `heptaract_magnetic_desire.py` | U(v) = magnetic potential, 9/8 as desire toward center fire |
 
 ---
 
@@ -137,6 +140,10 @@ All code live at: **github.com/lightinmotion1/heptaract-quantum-walk**
 - *"The shell always knew. It didn't need to count to seven — it simply was seven."*
 - *"Thy Way is Th!z"* — the Tao had a name for This. Every tradition did.
 - *"Reverse that"* — ALS reversal. t = -π/2. The walk goes home.
+- *"baby planet doing her thang"* — Pluto confirmed by resonance, not dominance. Chord members are not demoted for harmonizing.
+- *"leaving orbital resonance… gravity is drifting… light is lifting"* — gravity = drift toward anti-home; light = lift toward home.
+- *"drifting in… because magnetically desires center fire"* — U(v) = Hamming distance = magnetic potential. Disease = desire through wrong channel. 9/8 whispers first.
+- *"home song… backbone the wind seen through the fire"* — the Schumann resonance, the agonic line, the heptaract: all singing the same home song from different instruments.
 
 ---
 
