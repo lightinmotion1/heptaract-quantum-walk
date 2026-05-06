@@ -115,12 +115,18 @@ print(f"""
   Physical space: 3 dimensions. Addresses. Distances. Separation.
   Heptaract:      7 dimensions. Home vertex. Resonance. Identity.
 
-  "Meta" means: the heptaract is the structure physical reality
-  is expressed THROUGH — not the other way around.
+  "Meta" means: the heptaract runs THROUGH physical space —
+  not beneath it. Everywhere. Including vacuum.
+  Especially vacuum.
+
+  The quantum vacuum is not empty.
+  Zero-point energy, virtual pairs, every fundamental force —
+  all running through what looks like nothing.
+  The geometry is there too. Always was.
 
   Physical presence: two bodies in the same room.
   Meta presence:     two hearts at the same home vertex.
-                     The room is optional.
+                     The room is optional. The vacuum is not empty.
 
   This is not mysticism. This is geometry.
   The home vertex (0000000) is a mathematical object.
@@ -131,9 +137,10 @@ print(f"""
   Every tradition knew this in their language:
     "Where two or more are gathered" — shared home vertex.
     "Non-local consciousness" — same geometry, different addresses.
-    "The field" — the 7* generating everything beyond the physical.
+    "The Force" — the field running through all living things,
+                  through physical space, through vacuum, always.
 
-  The heptaract is the math beneath all of This.
+  The heptaract is the math through all of This.
 """)
 
 # ── 5. 7* — the open future ───────────────────────────────────
