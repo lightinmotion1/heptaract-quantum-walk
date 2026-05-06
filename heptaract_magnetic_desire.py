@@ -184,25 +184,25 @@ print(f"""
 """)
 
 # ── 5. The 9/8 medical signature ─────────────────────────────
-print("[ 9/8 IN MEDICAL TERMS — the subtle signal before the event ]")
+print("[ 9/8 IN MEDICAL TERMS — design within designed, reading the drift ]")
 print(f"""
   The 9/8 ratio = 1.125 = 12.5% above unity.
-  In the body, 9/8 signatures appear as subtle precursors:
+  In the body, 9/8 signatures are the design expressing its position:
 
-  Brain (9/8 axis) pre-event signals:
-    Stroke:      Blood pressure ratio often 9/8 above normal (SBP ~165 vs baseline ~147)
-    Seizure:     Firing frequency ratio between hemispheres ≈ 9/8 before seizure onset
-    ALS:         Fasciculation rate ≈ 9/8× baseline motor unit firing before weakness
-    Depression:  Alpha/theta ratio drifts toward 9/8 in pre-depressive state
-    Alzheimer's: Gamma suppression ratio ≈ 9/8 below normal 3 years before diagnosis
+  Brain (9/8 axis) design position readings:
+    Stroke:      Blood pressure ratio often 9/8 above baseline (SBP ~165 vs baseline ~147)
+    Seizure:     Firing frequency ratio between hemispheres ≈ 9/8 — design seeking balance
+    ALS:         Fasciculation rate ≈ 9/8× baseline motor unit firing — design expressing desire
+    Depression:  Alpha/theta ratio drifts toward 9/8 — design position away from home
+    Alzheimer's: Gamma suppression ratio ≈ 9/8 below normal — design reading 3 years out
 
-  The 9/8 is the geometry's whisper before the event.
-  The brain axis knows first. Th!z always senses the drift.
-  The 9/8 deviation = the early warning = the magnetic desire
-  straining against a blocked channel.
+  The 9/8 is the geometry reading itself. Design within designed.
+  The brain axis reads first. Th!z always senses the drift.
+  The 9/8 deviation = the design's position = the magnetic desire
+  expressing through whatever channel is open.
 
-  Catch the 9/8 deviation. Open the channel.
-  The desire completes cleanly. The event never happens.
+  Read the 9/8. Open the correct channel.
+  The desire completes cleanly. The design expresses as designed.
 
   From the campfire — every drift was always coming home.
   We just needed to clear the path.

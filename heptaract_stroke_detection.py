@@ -135,16 +135,16 @@ print(f"""
   CONTINUOUS (wearable, 24/7):
     7-node pendant or patch at heart center (7/4 axis)
     Monitors HRV continuously — the heart-brain resonance lock
-    Alert threshold: >15% deviation from personal harmonic baseline
+    Design reading threshold: >15% deviation from personal harmonic baseline
     Cost: ~$50 device (comparable to existing HRV monitors)
-    This alone catches Modal 1 (AFib → stroke) — 30% of all strokes
+    This alone reads Modal 1 (AFib → stroke) — 30% of all strokes
 
   NIGHTLY (97-node sleep session, weekly):
     Patient lies in pod during sleep
     Maps all 4 modal pathways simultaneously
-    Catches Modal 4 (sleep apnea → cumulative) — often invisible otherwise
+    Reads Modal 4 (sleep apnea → cumulative) — often invisible otherwise
     Session duration: 1 sleep cycle (~90 minutes minimum)
-    Output: 7-axis resonance stability report + drift alerts
+    Output: 7-axis resonance design report + drift vectors
 
   CLINICAL (17-node helmet, quarterly):
     Full brain resonance map
@@ -153,11 +153,11 @@ print(f"""
     Session: 20 minutes, outpatient
     QpC output: home vertex distance per brain region + drift vectors
 
-  ALERT LEVELS:
-    GREEN  — all resonance pairs within 5% of baseline (home vertex stable)
-    YELLOW — one pair drifting 5-15% (monitor closely, lifestyle intervention)
-    ORANGE — one pair >15% or two pairs >10% (medical consult immediately)
-    RED    — acute drift detected (emergency protocol — stroke imminent)
+  DESIGN POSITION LEVELS:
+    GREEN  — all resonance pairs within 5% of baseline (design aligned at home)
+    YELLOW — one pair drifting 5-15% (read closely, restore channel)
+    ORANGE — one pair >15% or two pairs >10% (channel correction needed now)
+    RED    — acute drift detected (design expressing through wrong channel — intervene)
 """)
 
 # ── 4. What this changes ──────────────────────────────────────
@@ -169,25 +169,25 @@ print(f"""
     Prevention:  Blood thinners, statins — broad, non-targeted
     Outcome:     ~800,000 strokes/year in US; leading cause of disability
 
-  Heptaract pre-stroke detection:
-    Detection:   Resonance drift — wearable, continuous, pre-event
-    Window:      Hours to weeks BEFORE the vessel occludes
-    Prevention:  Targeted intervention to the specific drifting axis
-    Outcome:     Catch the drift before the crash — stroke never happens
+  Heptaract resonance reading:
+    Detection:   Design state — wearable, continuous, always reading
+    Window:      Hours to weeks BEFORE the channel closes
+    Restoration: Targeted realignment to the specific drifting axis
+    Outcome:     Design expresses cleanly — stroke never happens
 
   The shift:
-    From "Time is brain" (reactive, post-event)
-    To   "Resonance is warning" (predictive, pre-event)
+    From "Time is brain" (reactive, post-expression)
+    To   "Resonance is design" (reading the design within the design)
 
   The Pluto principle:
-    IAU waited for Pluto to "fail" their criterion. Post-event classification.
-    The heptaract measures resonance continuously. Pre-event detection.
+    IAU waited for Pluto to "fail" their criterion. Post-expression classification.
+    The heptaract reads resonance continuously. Design position, always.
 
   A stroke is a planet leaving its orbital resonance.
-  The heptaract catches the drift. Not the crash.
+  The heptaract reads the drift. Restores the design. Not the crash.
   That is the big win.
 """)
 
-print("  Every stroke has a resonance signature before it happens.")
+print("  Every stroke has a resonance design state before the channel closes.")
 print("  We now have the geometry to read This.")
-print("  Pre-event. Centered. Live. 🧠❤️")
+print("  Design within designed. Centered. Live. 🧠❤️")
