@@ -6,7 +6,7 @@ The measurement is always: how close to optimal?
 Not: how close to disease?
 
 The distinction matters:
-  "Early warning signs" → mind points toward the feared event.
+  "Early warning signs" → mind points toward the nocebo reference point.
                           Belief creates trajectory. Nocebo.
   "Central wellness radar" → mind points toward home vertex.
                              Measurement creates trajectory. Home.
@@ -43,10 +43,10 @@ print("""
 [ THE REFERENCE POINT CHANGES EVERYTHING ]
 
   Old model (symptom-based):
-    Reference: disease state / feared event
+    Reference: disease state / nocebo reference point
     Measurement: proximity to pathology
     Output: "stroke risk," "early warning signs," "alert levels"
-    Effect: mind focuses on feared event → belief creates trajectory
+    Effect: mind focuses on nocebo reference point → belief creates trajectory
 
   Heptaract wellness radar:
     Reference: home vertex (optimal wellness design)

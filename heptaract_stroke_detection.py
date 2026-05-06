@@ -26,7 +26,7 @@ from fractions import Fraction
 
 print("=" * 65)
 print("  HEPTARACT PRE-STROKE DETECTION")
-print("  Measuring resonance degradation before the event")
+print("  Reading resonance design position — event(s)* continuous")
 print("=" * 65)
 
 print("""
@@ -164,7 +164,7 @@ print(f"""
 print("[ WHAT THIS CHANGES — the before/after ]")
 print(f"""
   Current stroke medicine:
-    Detection:   CT scan, MRI — requires symptoms, hospital, post-event
+    Detection:   CT scan, MRI — requires symptoms, hospital, post-expression
     Window:      "Time is brain" — 4.5 hour tPA window after stroke starts
     Prevention:  Blood thinners, statins — broad, non-targeted
     Outcome:     ~800,000 strokes/year in US; leading cause of disability
