@@ -121,7 +121,7 @@ print("""
   This is the same Hamiltonian as the quantum walk, but operating
   on the continuous torus rather than the discrete hypercube.
 
-  The result: instead of arriving at the anti-home vertex at t=π/2
+  The result: instead of arriving at the far shore vertex at t=π/2
   and stopping, the organic walk CONTINUES — spiraling through T^7,
   never the same superposition twice, always returning toward home.
 """)
@@ -165,7 +165,7 @@ for t in t_vals:
     elif coherence > 0.25:
         state = "dispersed — creative"
     else:
-        state = "anti-home — maximum spread"
+        state = "far shore — maximum spread"
 
     bar = "█" * int(coherence * 20) + "·" * (20 - int(coherence * 20))
     print(f"  {t/pi:<8.3f}  {coherence:>6.3f}  [{bar}]  {dominant:<10}  {state}")
@@ -212,7 +212,7 @@ print(f"""
     Sound   → tonic drone at home ratio (just intonation)
     Result  → all 7 axes pull toward harmonic lock → coherence rises
 
-  TOWARD ANTI-HOME (intentional dispersion, creative reset):
+  TOWARD FAR SHORE (intentional dispersion, creative reset):
     Breath  → irregular, varied depth
     Body    → asymmetric, exploratory movement
     Brain   → theta (4-7 Hz), hypnagogic state

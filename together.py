@@ -156,7 +156,7 @@ evals,evecs=np.linalg.eigh(A)
 home_v = 0b1011101   # true-north-aligned vertex (from earlier: all axes positive)
 # magnetic north vertex: same except D-axis (bit 5) flips — D goes from 0 to 1
 mag_v  = home_v ^ (1<<5)   # flip the D-axis
-# anti-home = all 7 axes flipped
+# far shore = all 7 axes flipped
 anti_v = (1<<7)-1
 
 print(f"  Campfire vertex:      {home_v:07b}  ({home_v})")
@@ -184,7 +184,7 @@ print(f"\n  Walk campfire → magnetic north:")
 print(f"    Peak P = {p_mag_peak:.4f}  at t = {t_mag:.4f}  ({t_mag/np.pi:.4f}π)")
 print(f"    Hamming distance = {bin(home_v^mag_v).count('1')} edge(s)  → {bin(home_v^mag_v).count('1')} gate(s)")
 
-print(f"\n  Walk campfire → anti-home (full diagonal leap):")
+print(f"\n  Walk campfire → far shore (full diagonal leap):")
 print(f"    Peak P = {p_anti_peak:.4f}  at t = {t_anti:.4f}  ({t_anti/np.pi:.4f}π)")
 
 print(f"\n  Ratio of walk times (mag/full): {t_mag/t_anti:.4f}")

@@ -11,7 +11,7 @@ The coupling is MAXIMUM at equinoxes. Minimum at solstices.
 
 In heptaract terms:
 - Solstice: one pole toward sun, one away → asymmetric → one vertex dominates
-- Equinox:  both poles equidistant from sun → SYMMETRIC → home AND anti-home
+- Equinox:  both poles equidistant from sun → SYMMETRIC → home AND far shore
             both active simultaneously → full chord, not single note
             → melodic harmony
 
@@ -47,7 +47,7 @@ def russell_mcpherron_angle(day_of_year):
 
 def heptaract_openness(day_of_year):
     """
-    How 'open' the heptaract's home↔anti-home axis is at a given day.
+    How 'open' the heptaract's home↔far shore axis is at a given day.
     Equinox = both vertices active = maximum melodic range.
     Solstice = one vertex dominant = single sustained note.
     """
@@ -134,7 +134,7 @@ print(f"""
 
   At EQUINOX:
     BOTH poles equidistant from sun → both equally exposed
-    Symmetric. HOME and ANTI-HOME both active simultaneously.
+    Symmetric. HOME and FAR SHORE both active simultaneously.
     The heptaract is playing both ends of the diagonal at once.
     That's not a note — that's a CHORD.
     The full I↔VII tension. Maximum melodic range.
@@ -151,7 +151,7 @@ print(f"""
 print(f"[ THE PITCH OF THE EQUINOX ]")
 
 # At equinox, the dipole axis lies in the ecliptic plane
-# The angle between home and anti-home = the full diagonal
+# The angle between home and far shore = the full diagonal
 # = all 7 axes traversed = the sum of all interval ratios
 
 from fractions import Fraction
@@ -160,7 +160,7 @@ AXES = [Fraction(2,1), Fraction(3,2), Fraction(4,3), Fraction(5,4),
 
 # home vertex pitch (from earlier: axes 0,2,3,4,6 active)
 home_bits   = [1,0,1,1,1,0,1]
-# anti-home  = all flipped
+# far shore  = all flipped
 anti_bits   = [0,1,0,0,0,1,0]
 
 def fold(r):
@@ -193,7 +193,7 @@ nearest = min(intervals.items(), key=lambda x: abs(x[1]-ec))
 print(f"  Nearest named interval: {nearest[0]} ({nearest[1]}¢)  Δ={abs(nearest[1]-ec):.1f}¢")
 print()
 print(f"  At equinox, Earth's magnetic field plays the interval")
-print(f"  between home and anti-home simultaneously.")
+print(f"  between home and far shore simultaneously.")
 print(f"  That interval is the {nearest[0]}.")
 print(f"  That is the sound of both poles singing at once.")
 print(f"  That is the melodic harmony the seasons unlock.")

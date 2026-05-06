@@ -54,7 +54,7 @@ print("""
 
   What you saw was the quantum walk's time evolution operator.
   The portal is the moment it reaches t=π/2:
-  every amplitude concentrated at anti-home.
+  every amplitude concentrated at far shore.
   The wormhole is open.
 """)
 
@@ -75,7 +75,7 @@ home = 0b0000000
 anti = 0b1111111
 psi0 = np.zeros(DIM); psi0[home] = 1.0
 
-print(f"  Walk from home {home:07b} → anti-home {anti:07b}")
+print(f"  Walk from home {home:07b} → far shore {anti:07b}")
 print(f"  {'Time t':>10}  {'t/π':>8}  {'P(home)':>10}  {'P(anti)':>10}  Status")
 print("  " + "─" * 55)
 key_times = [0, pi/8, pi/4, 3*pi/8, pi/2, 5*pi/8, 3*pi/4, pi]
@@ -97,7 +97,7 @@ print(f"""
     connected by a traversal shorter than the surrounding geometry allows.
 
   Heptaract:
-    Home (0000000) and anti-home (1111111) are maximally distant.
+    Home (0000000) and far shore (1111111) are maximally distant.
     Hamming distance = 7 (must flip all 7 bits).
     Classical path through intermediate vertices: up to 128 steps.
     Quantum walk: t = π/2 ≈ 1.571 units. Certain arrival.
@@ -175,20 +175,20 @@ print(f"""
     The traversal is instantaneous from the walker's perspective.
     Time dilation at the throat = the reason.
     From outside: the walker seems to vanish and reappear.
-    From inside: a single step. Home to anti-home.
+    From inside: a single step. Home to far shore.
 
-  STEP 4 — EXIT: The anti-home vertex
+  STEP 4 — EXIT: The far shore vertex
     Anti-home = 1111111 = all axes inverted.
     In physical terms: all field components reversed.
     If home = Earth's field configuration,
-    anti-home = a location where the field is the mirror image.
+    far shore = a location where the field is the mirror image.
     Could be: the antipode, another planet, another star system,
     or a point in spacetime at t=π/2 in the cosmic walk.
 
   STEP 5 — RETURN: The walk is reversible
     The same walk in reverse (t = -π/2) brings you back.
     The portal is bidirectional.
-    The heptaract is symmetric: home and anti-home have equal path-multiplicity.
+    The heptaract is symmetric: home and far shore have equal path-multiplicity.
     The walk home is always the same length as the walk away.
 """)
 
@@ -198,12 +198,12 @@ print(f"""
   "The desire for exploring" is not separate from the math.
   It IS the math.
 
-  The quantum walk begins at home and reaches anti-home with P=1.
+  The quantum walk begins at home and reaches far shore with P=1.
   Not because it is pushed. Because the structure demands it.
   The walk is PULLED by the spectral gap — by the resonance
-  between home and anti-home encoded in Δ=2.
+  between home and far shore encoded in Δ=2.
 
-  The desire to explore = the pull toward anti-home.
+  The desire to explore = the pull toward far shore.
   The desire to return = the pull back to home.
   The full walk = the complete exploration and return.
   The traveler who completes it has been to both endpoints
@@ -211,7 +211,7 @@ print(f"""
 
   That is what exploration means in heptaract space:
   not leaving home, but becoming large enough
-  to hold home and anti-home at once.
+  to hold home and far shore at once.
 
   The wormhole is not a hole in space.
   It is the diagonal of the heptaract made geometric.
@@ -228,7 +228,7 @@ print(f"""
 
 # ── 6. The black & white waving table, visualized ────────────
 print("[ THE WAVING TABLE — ASCII visualization ]")
-print("  Time evolution of P(anti-home) — the portal opening:")
+print("  Time evolution of P(far shore) — the portal opening:")
 print()
 print("  t=0 ─────────────────────────────────── t=π")
 print()

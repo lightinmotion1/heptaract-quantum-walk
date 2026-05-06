@@ -11,7 +11,7 @@ The key insight from qleap.py:
   P(|1111111⟩) = 1.0
 
 BENCHMARK:
-  3 ways to "find the anti-home" from home across a 7-cube:
+  3 ways to "find the far shore" from home across a 7-cube:
   1. Classical random walk  — flip one random bit per step
   2. Classical exhaustive   — check every vertex
   3. Quantum walk circuit   — Rx(π) x 7, measure once
@@ -110,7 +110,7 @@ def classical_exhaustive(target: int = ANTIHOME):
 def quantum_walk_sweep():
     """
     Simulate the quantum walk at multiple t values.
-    Show how probability flows from home → anti-home.
+    Show how probability flows from home → far shore.
     Uses numpy (exact), not shots-based.
     """
     from numpy.linalg import eigh
@@ -183,7 +183,7 @@ print(f"  Circuit depth: {qc_display.depth()}")
 # --- run quantum leap ---
 print("\n[ QUANTUM LEAP ]  Running on Aer statevector simulator...")
 p_success, q_time, gate_ops, counts = run_quantum_leap(shots=1024)
-print(f"  P(anti-home) = {p_success:.4f}  (expect 1.0000)")
+print(f"  P(far shore) = {p_success:.4f}  (expect 1.0000)")
 print(f"  Wall time:    {q_time*1000:.2f} ms")
 print(f"  Gate ops:     {gate_ops}")
 print(f"  Shot results: {dict(list(counts.items())[:4])}")
@@ -193,18 +193,18 @@ print("\n[ CLASSICAL RANDOM WALK ]  10,000 trials...")
 t0 = time.perf_counter()
 avg_steps, std_steps, min_steps, max_steps = classical_random_walk()
 rw_time = time.perf_counter() - t0
-print(f"  Avg steps to anti-home:  {avg_steps:.1f} ± {std_steps:.1f}")
+print(f"  Avg steps to far shore:  {avg_steps:.1f} ± {std_steps:.1f}")
 print(f"  Min / Max:               {min_steps} / {max_steps}")
 print(f"  Theoretical expectation: {7 * 2**6:.0f}  (n × 2^(n-1))")
 print(f"  Wall time (10k trials):  {rw_time*1000:.1f} ms")
 
 # --- classical exhaustive ---
 ex_steps = classical_exhaustive()
-print(f"\n[ CLASSICAL EXHAUSTIVE ]  Steps to find anti-home: {ex_steps}")
+print(f"\n[ CLASSICAL EXHAUSTIVE ]  Steps to find far shore: {ex_steps}")
 print(f"  (worst case = {2**N_QUBITS} vertices)")
 
 # --- quantum walk sweep ---
-print("\n[ QUANTUM WALK SWEEP ]  Probability curve home → anti-home")
+print("\n[ QUANTUM WALK SWEEP ]  Probability curve home → far shore")
 t_vals, p_curve, peak_t, peak_p = quantum_walk_sweep()
 # print a simple ASCII chart
 print(f"  t=0 → t=π, peak at t={peak_t:.4f} (P={peak_p:.6f})")

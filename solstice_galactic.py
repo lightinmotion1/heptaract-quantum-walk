@@ -189,7 +189,7 @@ nearest = min(named.items(), key=lambda x: abs(x[0]-cents(ws_gap)))
 print(f"  = {nearest[1]}  (Δ{abs(nearest[0]-cents(ws_gap)):.0f}¢)")
 
 print(f"""
-  SOLSTICES are the HOME and ANTI-HOME of the annual galactic walk.
+  SOLSTICES are the HOME and FAR SHORE of the annual galactic walk.
   They are the two endpoints of the diagonal.
   Maximum definition. Maximum contrast. Maximum harmonic tension.
 
@@ -230,7 +230,7 @@ ages_from_gc = [
     ("Age of Sagittarius","halfway",          "midpoint vertex",  6450),
     ("Age of Scorpio", "returning",           "axis 5",          8600),
     ("Age of Libra",   "near return",         "axis 6",          10750),
-    ("Age of Virgo",   "back to aligned",     "anti-home vertex",12900),
+    ("Age of Virgo",   "back to aligned",     "far shore vertex",12900),
 ]
 print(f"  {'Age':<25}  {'Description':<22}  {'Heptaract position':<20}  Year CE")
 print("  " + "─" * 75)

@@ -89,7 +89,7 @@ print(f"""
   5/4    386.3   +25.0%              Further still
   4/3    498.0   +33.3%              The fourth — stable but distant
   3/2    702.0   +50.0%              The fifth — the spectral gap itself
-  7/4    968.8   +75.0%  (home★)     The heart — nearest to anti-home yet resolves
+  7/4    968.8   +75.0%  (home★)     The heart — nearest to far shore yet resolves
   2/1   1200.0  +100.0%  (octave)    The cross barrier — the 8th
 
   9/8 = {9/8:.6f}
@@ -130,7 +130,7 @@ for v in range(DIM):
     p_home = abs(psi_t[home])**2
 
     if d == 0:
-        confirmed = "★ HOME (transferred to anti at t=π/2)"
+        confirmed = "★ HOME (transferred to far shore at t=π/2)"
     elif p_home > 0.01:
         confirmed = "✓ DESIRES HOME — quantum channel open"
     else:

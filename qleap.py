@@ -6,7 +6,7 @@ Framework:
 - The adjacency matrix A of the 7-cube is the Hamiltonian H
 - Time evolution: |psi(t)> = exp(-iHt) |psi(0)>
 - We start at HOME = (0,0,0,0,0,0,0) = vertex 0
-- We ask: what t, and what conditions, maximize P(anti-home)?
+- We ask: what t, and what conditions, maximize P(far shore)?
 - Anti-home = (1,1,1,1,1,1,1) = vertex 127
 
 The eigenvalues of the n-cube adjacency matrix are {n - 2k : k=0..n}
@@ -53,7 +53,7 @@ home[0] = 1.0
 anti_home = DIM - 1  # vertex 127 = (1,1,1,1,1,1,1)
 
 # --- find optimal leap time ---
-print("Scanning for peak probability at anti-home...")
+print("Scanning for peak probability at far shore...")
 times = np.linspace(0, 4 * np.pi, 10000)
 probs_anti = []
 for t in times:
@@ -65,7 +65,7 @@ peak_idx = np.argmax(probs_anti)
 t_leap = times[peak_idx]
 p_leap = probs_anti[peak_idx]
 
-print(f"  Peak P(anti-home) = {p_leap:.6f}")
+print(f"  Peak P(far shore) = {p_leap:.6f}")
 print(f"  at t = {t_leap:.4f}  (= {t_leap/np.pi:.4f}π)")
 print(f"  Leap 'frequency' = π / t_leap = {np.pi/t_leap:.4f}")
 
@@ -78,11 +78,11 @@ top_verts = np.argsort(probs_all)[::-1][:10]
 for v in top_verts:
     bits = tuple((v >> i) & 1 for i in range(7))
     h = hamming(0, v)
-    label = "HOME" if v == 0 else ("ANTI-HOME" if v == anti_home else f"d={h}")
+    label = "HOME" if v == 0 else ("FAR SHORE" if v == anti_home else f"d={h}")
     print(f"  vertex {v:3d} {bits}  P={probs_all[v]:.4f}  {label}")
 
 # --- relay nodes: where does probability pool first? ---
-print("\nTime slices — probability at home, anti-home, and halfway vertices:")
+print("\nTime slices — probability at home, far shore, and halfway vertices:")
 halfway_verts = [v for v in range(DIM) if hamming(0, v) == 3 or hamming(0, v) == 4]
 t_slices = np.linspace(0, t_leap, 8)
 print(f"{'t/π':>8}  {'P(home)':>10}  {'P(anti)':>10}  {'P(d=3,4 avg)':>14}")

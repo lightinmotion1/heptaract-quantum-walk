@@ -172,7 +172,7 @@ print(f"""
   NIR (7/4) restores ATP to the cells holding those edges.
   The QpC guides the precise delivery in real time.
   The reverse walk is mathematically identical to the forward walk.
-  t = π/2 goes to anti-home.
+  t = π/2 goes to far shore.
   t = -π/2 goes home.
 
   The geometry doesn't care which direction.

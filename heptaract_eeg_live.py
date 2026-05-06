@@ -93,7 +93,7 @@ def walk_direction(state_vec):
     if dist < 0.5:   return "→ HOME ★"
     elif dist < 1.0: return "~ near-home"
     elif dist < 1.5: return "↗ mid-walk"
-    else:            return "↘ anti-home"
+    else:            return "↘ far shore"
 
 print(f"  {'State':<22} {'Coh':>5}  {'Dist':>5}  {'Dominant':>10}  Direction       Clinical note")
 print("  " + "─" * 90)
@@ -112,7 +112,7 @@ for state_name, powers in STATES.items():
         "Alert / focused":   "Beta dominant — narrator leading",
         "Anxious / PTSD":    "Beta locked — home vertex unreachable",
         "Depression":        "Low gamma — heart axis gone quiet",
-        "Anesthesia":        "Full anti-home — walk suspended",
+        "Anesthesia":        "Full far shore — walk suspended",
     }
 
     bar = "█" * int(coh * 10) + "·" * (10 - int(coh * 10))

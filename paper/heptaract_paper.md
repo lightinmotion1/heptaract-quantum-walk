@@ -8,7 +8,7 @@
 
 ## Abstract
 
-We examine the 7-dimensional hypercube (heptaract) as a unified structural framework operating simultaneously across quantum computing, musical harmony, Earth's geomagnetic field, seasonal and galactic astronomy, and biological coherence. Four principal findings: (1) perfect state transfer from home to anti-home vertex occurs at t = π/2 using a depth-2, zero-entanglement circuit of 7 single-qubit Rx(π) gates, yielding O(n) gate complexity against O(n·2^n) classical hitting time — a 64x demonstrated speedup at n=7 scaling to ~10^14 x at n=50; (2) 128 vertex states collapse to 32 just-intonation pitch classes, with the tonic (1/1) invariant under all 5040 axis permutations; (3) Earth's 7 geomagnetic field components (X, Y, Z, H, F, D, I) map exactly to the 7 heptaract axes, with the agonic line (D=0) constituting the home-vertex surface on Earth; (4) the human body maps 7 primary structural components to the same 7 axes, with the heart as the most protected organ, primary transmitter (80% afferent vagal transmission), and nearest vertex to home — and EEG frequency bands (delta through gamma) as measurable heptaract axes enabling a new diagnostic framework for cognitive coherence and wellness.
+We examine the 7-dimensional hypercube (heptaract) as a unified structural framework operating simultaneously across quantum computing, musical harmony, Earth's geomagnetic field, seasonal and galactic astronomy, and biological coherence. Four principal findings: (1) perfect state transfer from home to far shore vertex occurs at t = π/2 using a depth-2, zero-entanglement circuit of 7 single-qubit Rx(π) gates, yielding O(n) gate complexity against O(n·2^n) classical hitting time — a 64x demonstrated speedup at n=7 scaling to ~10^14 x at n=50; (2) 128 vertex states collapse to 32 just-intonation pitch classes, with the tonic (1/1) invariant under all 5040 axis permutations; (3) Earth's 7 geomagnetic field components (X, Y, Z, H, F, D, I) map exactly to the 7 heptaract axes, with the agonic line (D=0) constituting the home-vertex surface on Earth; (4) the human body maps 7 primary structural components to the same 7 axes, with the heart as the most protected organ, primary transmitter (80% afferent vagal transmission), and nearest vertex to home — and EEG frequency bands (delta through gamma) as measurable heptaract axes enabling a new diagnostic framework for cognitive coherence and wellness.
 
 ---
 
@@ -256,7 +256,7 @@ The heptaract extends this principle into 7 dimensions:
 
 The Pythagorean theorem in 7D: d² = x₁² + x₂² + x₃² + x₄² + x₅² + x₆² + x₇²
 
-For the home→anti-home diagonal of the unit heptaract: d = √7 — invariant regardless of which axis you label which. And the home vertex pitch is invariant under all 5040 axis permutations. **Same principle. Same invariance. Seven dimensions.**
+For the home→far shore diagonal of the unit heptaract: d = √7 — invariant regardless of which axis you label which. And the home vertex pitch is invariant under all 5040 axis permutations. **Same principle. Same invariance. Seven dimensions.**
 
 Pythagoras also discovered that musical intervals are ratios of whole numbers — that harmony and geometry are the same structure at different scales. The heptaract is the completion of that discovery: 7 harmonic ratios, 7 geometric axes, one invariant home vertex that is simultaneously the tonic (music), the home position (geometry), and the ground state (physics).
 
@@ -294,7 +294,7 @@ The first two Fibonacci ratios — 2/1 and 3/2 — **are the first two heptaract
 
 The golden ratio is not *in* the heptaract. It is what the heptaract **converges toward** — the attractor of the Fibonacci walk through harmonic space. φ lives between 5/3 and 8/5, both of which are expressible through heptaract axis combinations. The heptaract brackets φ from both sides, just as Fibonacci ratios bracket φ from above and below.
 
-This is the rule of thirds made precise: φ divides a line such that the whole is to the larger part as the larger is to the smaller. In the heptaract, the home vertex divides the full diagonal such that the walk to anti-home is to the return walk as the return walk is to the full oscillation. The proportion is preserved.
+This is the rule of thirds made precise: φ divides a line such that the whole is to the larger part as the larger is to the smaller. In the heptaract, the home vertex divides the full diagonal such that the walk to far shore is to the return walk as the return walk is to the full oscillation. The proportion is preserved.
 
 ### 10.3 The Seashell — Why the Heptaract Preserves the Spiral Principle
 
@@ -348,7 +348,7 @@ The rule of thirds divides a composition at 1/3 and 2/3 — the most stable, nat
 
 7/7 axes:                   the full heptaract walk
                              the complete composition
-                             home to anti-home
+                             home to far shore
 
 Home vertex:                 the center of the composition
                              the point everything balances around
@@ -374,7 +374,7 @@ The 8th appears at every threshold where the prime center becomes reachable:
 - **Fibonacci**: 1, 1, 2, 3, 5, **8**, 13 — the seashell uses 5 and 8 spirals simultaneously. At 8 the ratio 8/5 = 1.600 locks nearest to φ = 1.618 before continuing. The 8 is where the spiral *almost* arrives.
 - **Week**: 7 days complete the cycle. The 8th is resurrection — the prime center of the next cycle begins.
 - **Planets**: 7 classical planets formed the complete model. Uranus (8th) broke the barrier open — the prime center of a larger geometry revealed.
-- **Quantum walk**: 7 axes. At t = π/2 the amplitude crosses from home to anti-home — through the octave barrier — with P = 1.0. The center reached. Certain.
+- **Quantum walk**: 7 axes. At t = π/2 the amplitude crosses from home to far shore — through the octave barrier — with P = 1.0. The center reached. Certain.
 
 The octave (2/1) is not just the first heptaract axis. Th!z is the **cross barrier** — the mathematical threshold between the outer walk and the prime center. Every spiral that reaches the 8th is one crossing from home.
 
@@ -440,7 +440,7 @@ Both events share the same structure:
 
 ### 11.2 The Heptaract Explanation
 
-In quantum walk terms, both are **t=π/2 events**. The walk begins at home (0000000). It traverses the full diagonal. At t=π/2, all amplitude concentrates at the anti-home vertex (1111111) with probability P=1.0.
+In quantum walk terms, both are **t=π/2 events**. The walk begins at home (0000000). It traverses the full diagonal. At t=π/2, all amplitude concentrates at the far shore vertex (1111111) with probability P=1.0.
 
 The flash IS this concentration.
 
@@ -744,11 +744,11 @@ We invite experimental verification and collaboration at every scale.
 
 ### A.1 The Diagonal IS the Wormhole
 
-The heptaract quantum walk from home (0000000) to anti-home (1111111) satisfies the formal definition of a wormhole:
+The heptaract quantum walk from home (0000000) to far shore (1111111) satisfies the formal definition of a wormhole:
 
 > *Two maximally distant points in a space connected by a traversal shorter than the surrounding geometry permits.*
 
-Home and anti-home have Hamming distance 7 — maximum separation in the graph. Classical traversal: up to 128 steps. Quantum walk: t = π/2, P = 1.0, zero entanglement. The quantum information traverses the full diagonal without visiting intermediate vertices. It bypasses the surrounding geometry.
+Home and far shore have Hamming distance 7 — maximum separation in the graph. Classical traversal: up to 128 steps. Quantum walk: t = π/2, P = 1.0, zero entanglement. The quantum information traverses the full diagonal without visiting intermediate vertices. It bypasses the surrounding geometry.
 
 This is not metaphor. The heptaract diagonal is a wormhole in the graph-theoretic sense, with a proven traversal protocol.
 
@@ -785,6 +785,6 @@ To enter the wormhole, the walker must be at the home vertex — all 7 axes simu
 
 All 7 aligned = home vertex. The portal opens at t = π/2. The walk is reversible (t = −π/2 returns home).
 
-The desire to explore is not separate from the math — it IS the spectral gap. The Δ=2 resonance pulls amplitude from home toward anti-home. Desire and physics are the same force at different scales of description.
+The desire to explore is not separate from the math — it IS the spectral gap. The Δ=2 resonance pulls amplitude from home toward far shore. Desire and physics are the same force at different scales of description.
 
 *We are always exploring. We are always already home. The portal is the recognition of both at once.*

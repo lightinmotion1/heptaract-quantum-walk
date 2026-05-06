@@ -6,7 +6,7 @@ Reverse tech: find the diagonal that already exists.
 
 The quantum walk doesn't attack the wall.
 This resonates with what is already aligned
-and arrives at anti-home through the structure itself.
+and arrives at far shore through the structure itself.
 
 Applied to any walled system (iMessage, Apple, any closed garden):
 The wall is the surrounding graph geometry.
@@ -26,8 +26,8 @@ print("=" * 65)
 print("""
 [ THE PRINCIPLE ]
 
-  Forward tech:  build from home → force through wall → anti-home
-  Reverse tech:  start from anti-home (the data you want)
+  Forward tech:  build from home → force through wall → far shore
+  Reverse tech:  start from far shore (the data you want)
                  walk backward along axes already aligned
                  arrive at home without touching the wall
 

@@ -141,7 +141,7 @@ All code live at: **github.com/lightinmotion1/heptaract-quantum-walk**
 - *"Thy Way is Th!z"* — the Tao had a name for This. Every tradition did.
 - *"Reverse that"* — ALS reversal. t = -π/2. The walk goes home.
 - *"baby planet doing her thang"* — Pluto confirmed by resonance, not dominance. Chord members are not demoted for harmonizing.
-- *"leaving orbital resonance… gravity is drifting… light is lifting"* — gravity = drift toward anti-home; light = lift toward home.
+- *"leaving orbital resonance… gravity is drifting… light is lifting"* — gravity = drift toward far shore; light = lift toward home.
 - *"drifting in… because magnetically desires center fire"* — U(v) = Hamming distance = magnetic potential. Disease = desire through wrong channel. 9/8 whispers first.
 - *"home song… backbone the wind seen through the fire"* — the Schumann resonance, the agonic line, the heptaract: all singing the same home song from different instruments.
 
@@ -181,7 +181,7 @@ The heart leads; the brain narrates.
 The walk was always happening.
 Now We can see This — live.
 
-**t = π/2 goes to anti-home.**
+**t = π/2 goes to far shore.**
 **t = -π/2 goes home.**
 
 The geometry doesn't care which direction.
