@@ -1,5 +1,6 @@
 # THE HEPTARACT PAPERS
-## v3.9 — The Bridge Through Tradition & Progression, Harmoniously
+## v3.91 — The Bridge Through Tradition & Progression, Harmoniously
+### *…and one floor lower: the sub-atomic relationships, checked*
 ### *Confexionz (Confessions) of a Starving Artist*
 
 *A working document for the people who will test This and build the tools — and a freesis for any walker who can receive This. Written by an artistic mathematician at the desk; the real maths laughs often, and We laugh with This.*
@@ -9,7 +10,7 @@ May 2026
 
 ---
 
-## VERSION NOTES — v3.7 → v3.9
+## VERSION NOTES — v3.7 → v3.91
 
 **v3.6** added **Book Eight — QpC**: Quantum physical Center. Piezoelectric body coupling, canonical body-axis frequencies from `heptaract_allday_qpc.py`, the Schumann ladder through just-intonation, the centered ψ-neal with XRP polarization channel, and mathematical testimonials placing pQ alongside QpC (snapshot alongside film).
 
@@ -27,6 +28,10 @@ May 2026
 - **Re-roots the good scare in true love — the haunted-house register.** Appendix B's scare is now the *fun*, sought-out kind (people come to New Orleans for the haunted houses) — drawing the walker in to wonder while marking the edge kindly. Held in the Care Axiom (tlpCQm@#\*); body-state readings stay design-readings, not alarms.
 - Adds the **round mound towns** of This very land — Watson Brake, Poverty Point's concentric round ridges, the LSU Campus Mounds in Baton Rouge (older than the pyramids) — as the Indigenous American house in Book Twelve and the round-in-earth breadcrumb (round mounds → round table → round freesis).
 - Holds open, as invitation, the slots Free has marked and not yet named: the fourth R, the seven-letter coupling acronym, the ninth axis, the eight wise-ways slots, TLP.
+
+**v3.91** opens **Book Thirteen — The Sub-Atomic Floor**: the relationship structure beneath the atom, in three parts — the discussion, a Q&A, and an R&D programme. The book leads with the count that does *not* flatter the framework: the settled hypercube of matter has **five** axes, not seven — one generation of matter is exactly the 16 even-parity vertices of a 5-cube (the SO(10) spinor), and all four gauge anomalies cancel as a *parity condition on hypercube vertices*. From that honest floor: the heptaract's own rung has a name — the 128 vertices are the two Weyl spinors of **SO(14)**, branching as two generations plus two mirror generations, with the mirror problem printed rather than buried; **hypercube parity is chirality**, and since seven is odd the perfect-transfer walk carries 64 → 64-bar, making t = ±π/2 a chirality exchange and the Hamming distance from home an exact U(1) charge; and the seven axes stop being a list and become an **algebra** — Fano plane, octonions, G₂ = Aut(𝕆) — where mainstream work (Furey 2018; Acharya & Witten 2001; Freund–Rubin) already stands at seven for reasons that have nothing to do with This framework. A relationship table marks every row **FORCED**, **CHOSEN**, **UNASSIGNED**, or **DO NOT COUPLE** — and the just-intonation ratios and the Schumann band are marked DO NOT COUPLE, deliberately. Everything is computed live by the new dependency-free module `heptaract_subatomic.py` (output preserved at `results/subatomic_output.txt`). Book Thirteen closes with **What Would Kill This** — five named kill conditions, each with an instrument and a falsifier.
+
+*The file keeps the v3.9 series name; the `.9x` passes are tracked here in the version notes rather than in the filename, so the repo history and the companion `.docx` stay paired. The `.docx` is still the v3.9 export and lags this pass.*
 
 The v3.1 body (Books One through Seven) is preserved structurally; language is brought home to the discipline — "We / they / This," "proper," centered-ease — at the seams and through all new content, with a full line-by-line sweep continuing across the `.9x` series.
 
@@ -52,6 +57,7 @@ The v3.1 body (Books One through Seven) is preserved structurally; language is b
 - **Book Ten — For The Children** · the inheritance · the )pQcM jubilee math · the pride
 - **Book Eleven — 9D Update + Session Expansions** · the engineering house · *Themself*(fire), the K@t at 9/8, the 97-node Tanning Bed, Mars DNA, exoplanet tuning
 - **Book Twelve — Many Houses, One Floor** · the cross-tradition reading
+- **Book Thirteen — The Sub-Atomic Floor** · the relationship structure beneath the atom · the settled hypercube is five (SO(10)) · the heptaract rung is SO(14) · parity is chirality · Fano, octonions, G₂ · **Q&A from the floor** · **the R&D programme and what would kill This**
 - **Book Nine — The Headline** · the six bridging lines (resting, not closing)
 - **Colophon**
 - **Appendix A** — wormhole as heptaract diagonal
@@ -2018,6 +2024,393 @@ The claim across the houses is modest and structural: **the same few shapes keep
 **And the houses laugh, too.** The maths laughs in every tongue — the Uncarved Block grinning at cleverness, the koan breaking the grasping mind open, the Showman turning failure into spectacle, Pooh out-Tao-ing the clever ones by sitting still. Humour is on the floor with everything else, and We keep This — here and everywhere.
 
 **This book proves nothing and points at everything.** No house need be the only house for the floor to be one floor. *For those who can receive* — and many houses have been receiving for a very long time. We carry En'heduanna's name first, and We bow to each house for keeping the floor swept while the instruments caught up.
+
+🜔
+
+---
+
+# Book Thirteen — The Sub-Atomic Floor
+## The Relationship Structure Beneath The Atom — Discussion, Q&A, R&D
+🜔
+
+The framework has walked outward and inward: planets, the agonic line, the body's seven axes, the cell, the bond. Every floor so far has been *above* the atom or *at* the atom. This book goes one floor lower and asks the same question We have asked everywhere else, in the same voice, with the same discipline:
+
+**Is there a seven-shaped relationship structure beneath the atom — and can We check This rather than assert This?**
+
+The answer is layered, and the first layer does not flatter Us. We lead with That anyway, because a framework that hides their own inconvenient count is not doing math — This is doing marketing.
+
+Everything in this book is computed live by `heptaract_subatomic.py` in the repo. Pure standard library — no numpy, no qiskit — so any tester can run This on any machine and read the receipts without installing anything. The printed output is preserved at `results/subatomic_output.txt`. Where a number appears below, the module prints That number.
+
+---
+
+## 13.1 — The Honest Lead: The Settled Matter Hypercube Has Five Axes
+**LANE 2 — settled, textbook, not ours**
+
+A weight of the SO(10) spinor representation is a five-vector whose entries are each ±½, with an **even number of minus signs**. That is not a metaphor for a hypercube. That *is* one parity class of a 5-cube: 2⁵ ÷ 2 = **16 vertices**.
+
+Sixteen is exactly the number of left-handed Weyl fermions in one generation of matter — including the right-handed neutrino, which SO(10) requires and which neutrino oscillation later handed us.
+
+Label the five axes: coordinates 1, 2, 3 are colour (SU(3)_c); coordinates 4, 5 are weak (SU(2)_L × SU(2)_R). Then **every Standard Model charge is a linear function of the vertex**:
+
+```
+B − L  =  (2/3)(s₁ + s₂ + s₃)
+T₃L    =  (s₄ − s₅) / 2
+T₃R    = −(s₄ + s₅) / 2
+Y/2    =  T₃R + (B − L)/2
+Q      =  T₃L + Y/2
+```
+
+Run the module and the whole generation falls out of the parity class, with colour multiplicity included and nothing assigned by hand:
+
+| where the minus signs fall | field | count |
+|---|---|---|
+| 1 colour, 1 weak | q — (u,d) quark doublet | 6 |
+| 2 colour | u^c — anti-up | 3 |
+| 2 colour, 2 weak | d^c — anti-down | 3 |
+| 3 colour, 1 weak | l — (ν,e) lepton doublet | 2 |
+| 0 colour, 2 weak | e^c — anti-electron | 1 |
+| none | ν^c — right-handed neutrino | 1 |
+| | **total** | **16** |
+
+And then the part that should stop a reader:
+
+```
+gravity × U(1)_Y      Σ Y                  = 0
+U(1)_Y³               Σ Y³                 = 0
+SU(3)² × U(1)_Y       Σ Y over coloured    = 0
+SU(2)² × U(1)_Y       Σ Y over doublets    = 0
+SO(10) trace          Σ (B − L)            = 0
+neutrality            Σ Q                  = 0
+```
+
+**Anomaly freedom of a generation is a parity condition on the vertices of a hypercube.** The most delicate consistency requirement in the Standard Model — the one that forces the electron's charge to be exactly three times the down quark's, the one that makes the theory quantum-mechanically legal at all — is what you get for free by taking half the corners of a cube.
+
+**The reading We owe the reader:** the settled hypercube of matter has **five** axes. Not seven. A **penteract**, not a heptaract. If this framework were the kind that counts to seven by squinting, This is precisely where the squinting would happen. We are not going to do That. The five is real, the five is beautiful, and the five is the floor the next section stands on.
+
+🜔
+
+---
+
+## 13.2 — The Heptaract's Own Rung Has A Name: SO(14)
+**LANE 2 for the math — OPEN for the physics**
+
+Now run the same construction with seven coordinates instead of five.
+
+A Weyl spinor of SO(2n) has 2^(n−1) weights, which is exactly one parity class of an n-cube. For n = 7:
+
+```
+heptaract vertices           = 128
+even parity class            =  64     ← SO(14) spinor
+odd  parity class            =  64     ← conjugate spinor (64-bar)
+```
+
+**The heptaract is the weight hypercube of SO(14).** Their 128 vertices are not "like" the two Weyl spinors of SO(14) — they are those spinors, vertex for vertex, once you read a bit as a sign.
+
+Two facts make SO(14) a legitimate candidate rather than a curiosity, and We state both because both are checkable:
+
+1. **SO(14) = SO(4k+2) with k = 3.** The orthogonal groups whose spinor representations are *complex* are exactly SO(4k+2): SO(6), SO(10) (k=2, the settled one), SO(14) (k=3). Complex is what a chiral theory needs. A real or pseudo-real spinor cannot give you a chiral generation.
+2. **The spinor is anomaly-free.** SO(4k+2) spinors carry no gauge anomaly. So SO(14) clears the two gates a grand-unified group has to clear before anybody bothers looking further.
+
+Split the seven axes as **5 + 2** — SO(14) contains SO(10) × SO(4), and SO(4) = SU(2) × SU(2). The module does the split by counting parity of the first five coordinates alone, and the 64 comes apart as:
+
+```
+(16, 2, 1)      = 32 states = 2 × 16    ← two generations
+(16-bar, 1, 2)  = 32 states = 2 × 16    ← two MIRROR generations
+```
+
+**The honest problem, stated plainly and not buried at the end:** this delivers mirror generations alongside the ordinary ones, and mirror fermions are not observed at any energy We can reach. This is the standard objection to SO(14) unification and This is a real objection. We do not have the answer.
+
+What We have is the *shape* of the question, and This is worth having. The mirrors sit in the **opposite parity class** from their partners. Parity of the vertex is exactly the thing the heptaract walk moves. So the mirror problem and the walk are the same problem wearing two hats — which is the next section, and which is a research programme, not a result.
+
+🜔
+
+---
+
+## 13.3 — Parity Is Chirality, And Seven Is Odd
+**LANE 2 for the math — LANE 1 for the reading**
+
+Identify a heptaract bit `1` with a minus sign in the weight vector. Then:
+
+```
+home vertex  0000000  →  (+½)⁷   parity even  →  64
+far shore    1111111  →  (−½)⁷   parity odd   →  64-bar
+Hamming distance home → far  =  7 edges  (ODD)
+```
+
+**Seven is odd.** So the two ends of the perfect-transfer walk cannot sit in the same parity class. They are structurally forbidden from doing so — This is not a choice, This is what an odd-dimensional cube is.
+
+Which means the repo's headline result — P = 1.0 at t = π/2, depth-2 circuit, zero entanglement — is, in this reading, not a translation across the shape. This is a **chirality exchange**:
+
+```
+t = +π/2      64      →  64-bar      (to the far shore)
+t = −π/2      64-bar  →  64          (home)
+```
+
+The framework said This years ago in their own tongue: *the walk goes to the far shore and the walk comes home; the geometry does not care which direction.* In sub-atomic language that same sentence reads: **the antipodal walk on an odd-dimensional cube is a chirality exchange.** One geometry. Two vocabularies. The second vocabulary is one the physics community already speaks fluently, and That is the point of writing this book.
+
+### The Hamming charge
+
+The framework's U(v) — the "magnetic desire" potential of `heptaract_magnetic_desire.py`, the Hamming distance from center fire — is not decoration here. Under this identification This is an exact additive quantum number:
+
+```
+X = Σ sᵢ = 7/2 − k          (k = Hamming weight = distance from home)
+
+k:   0     1     2     3     4     5     6     7
+X:  7/2   5/2   3/2   1/2  −1/2  −3/2  −5/2  −7/2
+     64   64b    64   64b    64   64b    64   64b
+```
+
+X is the charge under the diagonal U(1) in the SO(14) Cartan subalgebra. **Distance from home is a conserved charge, linear in the distance.** The framework's most poetic quantity turns out to be the least poetic kind of object there is.
+
+**The caveat, and This is a load-bearing one:** the bit-to-minus-sign identification is *Our choice*, not a derivation. This is the natural choice and every word of 13.3 rests on This. A tester who shows the identification cannot be made canonical — that some other, equally natural assignment breaks the reading — has taken the load out of this section, and We would want to know that within the week. It is written here as a target, deliberately.
+
+🜔
+
+---
+
+## 13.4 — The Seven Axes Multiply: Fano, Octonions, G₂
+**LANE 2 — published, mainstream, and pointedly not ours**
+
+Everywhere else in this document the seven axes are a *list*: seven ratios, seven components, seven body sites. At the sub-atomic floor the seven axes stop being a list and become an **algebra**.
+
+Give the seven axes the structure seven points uniquely carry: the **Fano plane**, PG(2,2), built cyclically as lines {i, i+1, i+3} mod 7.
+
+```
+lines:  {0,1,3} {0,2,6} {0,4,5} {1,2,4} {1,5,6} {2,3,5} {3,4,6}
+points = 7 · lines = 7 · points per line = 3 · lines per point = 3
+every pair of points on exactly one line: 21 of 21 pairs covered
+```
+
+Those seven lines are the seven quaternionic triples, and they generate the multiplication table of the **octonions** — the largest normed division algebra, the last one, the one that gives up associativity to exist at all. The module builds the table from the Fano incidences and then *checks* This rather than asserting This:
+
+```
+e_a² = −1 for all seven                       OK
+e_a e_b = − e_b e_a                           OK
+|uv|² = |u|²|v|²   (2000 random pairs)        max err 8.9e−15
+alternative: (uu)v = u(uv)  (500 pairs)       max err 2.7e−15
+associative INSIDE a Fano line                max gap 0.0
+associative OFF the lines                     max gap 2.0
+```
+
+A normed division algebra, alternative, **associative exactly on the seven lines and nowhere else**. The seven axes are not labels sitting next to each other. They multiply, and their relationships *are* the Fano incidences.
+
+### Why This matters at the sub-atomic floor
+
+Three results, none of them ours, all of them citable, all of them already standing at seven:
+
+- **Furey (2018)** — *SU(3)_c × SU(2)_L × U(1)_Y (× U(1)_X) as a symmetry of division algebra ladder operators*, Eur. Phys. J. C **78**, 375. The Standard Model gauge group is derived from ladder operators of the algebra ℂ ⊗ ℍ ⊗ 𝕆. Colour SU(3) appears as the stabiliser of one imaginary octonion unit inside G₂. Seven imaginary units; one gets singled out; SU(3) is what is left holding still.
+- **G₂ = Aut(𝕆)**, dimension 14, rank 2, acting on exactly these seven imaginary units — and G₂ is the **holonomy group of the 7-manifolds M-theory compactifies on** to produce chiral matter and non-abelian gauge fields in four dimensions (Acharya & Witten, *Chiral fermions from manifolds of G₂ holonomy*, 2001). Not seven as ornament. Seven as the only compact dimension count that does the job.
+- **11 = 4 + 7.** Eleven-dimensional supergravity on the round S⁷ gives SO(8) gauge symmetry (Freund–Rubin; Duff, Nilsson & Pope, *Kaluza-Klein supergravity*, Phys. Rep. 130, 1986). The four We stand in, and the seven We do not see.
+
+**The reading.** This is the most important paragraph in the book. Everywhere else in this document, when the number seven shows up, the reader is entitled to ask whether We put This there. Here We did not. Mainstream theoretical physics arrived at seven on its own, three separate times, decades before this framework existed, for reasons having nothing to do with campfires or just intonation: the octonions have seven imaginary units, G₂ holonomy needs seven dimensions, and eleven minus four is seven. **This is where a heptaract reading of matter has to connect or fail** — and This is testable precisely because the seven was already there waiting.
+
+🜔
+
+---
+
+## 13.5 — Seven Commuting Labels, And The Seventh Is The Anomalous One
+**LANE 2 — with a caveat that is more interesting than the count**
+
+Ask what a single Standard Model fermion state carries as simultaneously-measurable labels — the maximal set of mutually commuting charges you can pin on one particle at once:
+
+| label | origin | reads | status |
+|---|---|---|---|
+| J_z | little group SO(3) | spin projection | exact |
+| T₃L | SU(2)_L Cartan | weak isospin | exact |
+| Y | U(1)_Y | hypercharge | exact |
+| λ₃ | SU(3)_c Cartan 1 | colour isospin | exact |
+| λ₈ | SU(3)_c Cartan 2 | colour hypercharge | exact |
+| B | accidental U(1)_B | baryon number | **anomalous** |
+| L | accidental U(1)_L | lepton number | **anomalous** |
+
+```
+rank SU(3) × SU(2) × U(1) = 2 + 1 + 1 = 4
++ spin Cartan                         = 1     → 5 gauge / Lorentz labels
++ accidental global B, L              = 2     → 7 commuting labels
+```
+
+**Now the caveat, which is the whole reason this section exists.** B and L are conserved perturbatively but are individually broken by the electroweak (chiral) anomaly. Only **B − L** survives exactly. So the count of *exactly* conserved commuting labels is 5 + 1 = **six**, and the seventh is real only at the classical and perturbative level — where, in fairness, This is real all day and every experiment ever run has used This.
+
+We do not get to round that up. A framework that reaches seven by quietly keeping an anomalous charge has reached six and lied about This.
+
+What We say instead is the honest and *more* interesting thing:
+
+> The seventh label exists, is used constantly, and is destroyed by exactly the mechanism — the chiral anomaly — that 13.3 says the heptaract walk moves.
+
+The seventh axis is the anomalous one. The framework's own headline result is a chirality exchange. Those two sentences were written about different things by different traditions and they are pointing at the same object. **That is a falsifiable place to look, not a decoration** — and 13.9's R&D track puts an instrument on This.
+
+🜔
+
+---
+
+## 13.6 — The Relationship Table
+*What maps, what We chose, what is not assigned. Read the right-hand column first.*
+
+| framework quantity | sub-atomic counterpart | status |
+|---|---|---|
+| hypercube parity class | chirality (Weyl spinor vs conjugate) | **FORCED** — parity *is* the chirality label |
+| 5-cube even class (16) | one generation of matter, SO(10) spinor | **FORCED** — settled textbook math |
+| anomaly cancellation | parity condition on vertices | **FORCED** — computed above, nothing assumed |
+| heptaract (128 = 64+64) | SO(14) Weyl spinors | **FORCED** — dimension and complexity both check |
+| 64 → 2 gen + 2 mirror | SO(10) × SO(4) branching | **FORCED** — counted by the module |
+| bit `1` ↔ minus sign | the identification behind 13.3 | **CHOSEN** — natural, load-bearing, attackable |
+| U(v), Hamming distance from home | diagonal U(1) charge X = 7/2 − k | **CHOSEN** — follows from the identification above |
+| t = ±π/2 walk | chirality exchange | **CHOSEN** — follows, same dependency |
+| the 7 axes | imaginary octonion units / Fano points | **CHOSEN** — but the algebra checks out exactly |
+| spectral gap Δ = 2 | *an energy scale in GeV* | **UNASSIGNED** — We have no calibration and are not pretending to |
+| the 3 generations | *why three, from 2+2 mirrors* | **UNASSIGNED** — open, and known-hard |
+| just-intonation axis ratios (2/1, 7/4, 3/2, …) | — | **DO NOT COUPLE** — a labelling isomorphism on seven objects; carries no sub-atomic claim |
+| Schumann band, 7.83 Hz and their ladder | — | **DO NOT COUPLE** — a cavity resonance of the Earth-ionosphere system; classical electrodynamics at megametre scale; nothing to do with particle physics |
+
+The last two rows are the ones We are proudest of. The framework *could* rhyme the body's 7/4 against the harmonic seventh and call That a sub-atomic result. This is exactly the move that would let a physicist stop reading on page one, and This would deserve That. Seven at the body's scale and seven at the octonion's scale are two different sevens until somebody shows a mechanism, and nobody has, Ourselves included.
+
+🜔
+
+---
+
+## 13.7 — What This Book Does Not Claim
+
+Said plainly and early, so no tester spends a week discovering This:
+
+- **No new force, no new particle, no modification to the Standard Model Lagrangian** is proposed here.
+- **No mass is predicted.** The 19 free parameters of the Standard Model (26 with neutrino masses) are not derived, reduced, or explained by anything above.
+- **No energy scale is assigned.** Δ = 2 is dimensionless in the walk. There is no calibration to GeV. Marked UNASSIGNED, not marked "pending" — pending implies We know how.
+- **No claim of priority.** SO(10)'s spinor geometry is decades old. Octonions and the Standard Model is Furey's line of work and Dixon's and Baez's before that. G₂ holonomy is Acharya and Witten. What is offered here is a **relationship structure and a computed reading**, not a discovery.
+- **No claim that the mirror problem is solved.** It is not. It is named, located in the parity class, and handed to the R&D track.
+
+**What This does claim:** a checkable relationship structure. Hypercube parity is chirality. The settled matter hypercube is five. The heptaract is the next complex-spinor rung and that rung has a name, SO(14). The seven axes carry the octonion algebra that published work already ties to SU(3) × SU(2) × U(1) and to G₂ holonomy. Every line of That is above, computed, and falsifiable.
+
+🜔
+
+---
+
+## 13.8 — Q&A From The Floor
+*The questions a physicist actually asks, answered without dodging. Where the answer is "We do not know," the answer is "We do not know."*
+
+**Q1 — Isn't this numerology? You wanted seven and you found seven.**
+Partly, and We flagged where. That is what 13.1 is for: We ran the count and This came out **five**, and We led the book with the five. If the method were numerology, section 13.1 would not exist — or This would have found a way to make sixteen into a heptaract. The three sevens in 13.4 (octonions, G₂ holonomy, 11−4) are not ours and predate the framework by decades. The honest summary: 13.1, 13.2, 13.4, and 13.5's count are checkable and were not tuned; 13.3's *reading* depends on one chosen identification, which is labelled CHOSEN in the table and offered as a target.
+
+**Q2 — The Standard Model gauge group has rank 4. Where do your other three Cartan directions come from?**
+Spin (J_z), and the two accidental global U(1)s, B and L. That is 4 + 1 + 2 = 7 commuting labels. And then the honest deduction in 13.5: B and L are individually anomalous, only B − L is exact, so the count of exactly-conserved labels is six. We publish the six.
+
+**Q3 — SO(14) predicts mirror fermions that nobody has seen. Isn't the idea dead on arrival?**
+As a straightforward GUT, SO(14) has that problem and This is why the literature moved past it. We are not proposing SO(14) as *the* unified group. We are reporting a structural identity: the heptaract's vertex set *is* the SO(14) spinor weight set. The mirror content is what makes the identification honest rather than convenient — it is the cost the shape carries, and We print the cost.
+
+**Q4 — Then why say it at all?**
+Because it converts a vague claim ("seven is fundamental") into a specific one ("the seven-cube is the SO(14) weight hypercube, whose spinor is 2 generations + 2 mirrors, and whose parity classes are chirality"). A specific claim can be refuted. A vague one cannot. Refutability is the point of the book.
+
+**Q5 — Why are there three generations, when your 64 gives two plus two mirrors?**
+We do not know. Nobody does — the generation problem is one of the oldest open questions in the field, and no framework here or elsewhere has solved This. Marked UNASSIGNED in 13.6. Anyone who tells you the number three falls out of a hypercube should be asked to show the branching.
+
+**Q6 — Does this predict proton decay?**
+Any SO(10)-containing unification generically does, through gauge-boson exchange, and current limits (Super-K, and Hyper-K coming) already squeeze that hard. But a *rate* needs a unification scale, and 13.6 marks the scale UNASSIGNED. So: no prediction from Us, and We will not manufacture one. Somebody who fixes the scale gets a rate and gets a real test.
+
+**Q7 — Your perfect state transfer uses no entanglement. How can a product-state evolution be fundamental physics?**
+It is not offered as fundamental dynamics. The heptaract walk is a *transfer on the vertex set*, and the vertex set is what carries the weight-lattice structure. The reason the transfer factorises is that the seven axis terms commute — H = Σᵢ Xᵢ — which is exactly the statement that the seven Cartan directions commute. The lack of entanglement is not a bug in the physics reading; This is what a Cartan subalgebra looks like.
+
+**Q8 — Is the octonion connection anything more than citing Furey and gluing a hypercube on?**
+Fair, and mostly no — 13.4 is *reporting* published work, and We say so. The one thing added is the joining: the same seven objects that carry the octonion product also index the seven axes whose parity classes are the SO(14) chirality classes. Whether that joining is deep or clerical is genuinely open, and Track A of the R&D is the cheapest way to find out.
+
+**Q9 — What about the Schumann resonance, the body axes, the just intonation? Do they enter here?**
+No. Explicitly no, and the table marks them **DO NOT COUPLE**. 7.83 Hz is a cavity mode of the Earth-ionosphere waveguide — classical electrodynamics at megametre scale. Just intonation is a labelling of seven objects. Neither carries a sub-atomic claim and We will not pretend otherwise to make a page rhyme. If a mechanism is ever shown, That is a result and it will be written as one.
+
+**Q10 — What is the energy scale?**
+Unassigned. We have no calibration from Δ = 2 to GeV, and no honest route to one. This is the biggest hole in the book.
+
+**Q11 — What single result would kill this?**
+Several, and they are listed in 13.9 under *What Would Kill This*. The cheapest: show that the bit-to-sign identification in 13.3 cannot be made canonical — that a differently but equally natural assignment destroys the parity-is-chirality reading. That can be settled computationally in an afternoon and it takes out the load-bearing section.
+
+**Q12 — Why should a working physicist spend an hour on this?**
+Because the hour is cheap and specific: run `heptaract_subatomic.py`, read 13.1 through 13.5, and check whether the joining in Q8 is clerical. If it is clerical, say so and We will write That into the next version in Free's own hand. If it is not, the framework has handed you a hypercube-parity reading of chirality with a live open question about mirrors attached, and That is worth an afternoon of somebody's algebra.
+
+🜔
+
+---
+
+## 13.9 — R&D: The Sub-Atomic Programme
+*Three tracks by cost, not by ambition. Every item names the question, the instrument, and the falsifier. An item without a falsifier does not belong on the list and is not on it.*
+
+### Track A — Computational. Runnable this week, no apparatus, no funding.
+
+**A1 — Canonicality of the bit-to-sign identification.**
+*Question:* is the heptaract-bit ↔ weight-sign map in 13.3 forced up to relabelling, or is it one of several inequivalent natural choices?
+*Instrument:* enumerate the assignments compatible with the SO(14) Cartan basis; quotient by the Weyl group; count orbits.
+*Falsifier:* more than one orbit survives with equal claim → 13.3 is a choice dressed as a structure, and We retract the section's status from CHOSEN to DECORATIVE.
+
+**A2 — The mirror-projection question.**
+*Question:* is there a discrete symmetry acting on the heptaract vertex set whose invariant subspace removes the (16-bar, 1, 2) mirrors while preserving the (16, 2, 1)?
+*Instrument:* the hyperoctahedral group B₇ (order 645,120 — small enough to enumerate exhaustively) acting on the 64; search for subgroups with the required invariant decomposition.
+*Falsifier:* exhaustive search finds no such subgroup → the mirror problem is not soluble inside the vertex symmetry, and any resolution must come from dynamics, which This framework does not supply.
+
+**A3 — Does the walk commute with the charges?**
+*Question:* the framework's walk Hamiltonian is H = Σᵢ Xᵢ. Do the SO(14) Cartan charges commute with H, and what exactly does the perfect transfer do to each charge?
+*Instrument:* direct commutator computation on the 128-dimensional vertex space. Small, exact, no approximation.
+*Falsifier:* if H fails to act as a clean charge-conjugation on the Cartan, the "walk = chirality exchange" reading in 13.3 is wrong at the operator level, not just at the labelling level.
+
+**A4 — Is the octonion joining clerical?**
+*Question:* Q8's question, made precise. Does the Fano labelling of the seven axes interact with the SO(14) parity structure at all, or are they two independent structures sharing an index set?
+*Instrument:* check whether G₂ ⊂ SO(7) acting on the seven imaginary units lifts to an action on the 64 that respects the SO(10) × SO(4) branching.
+*Falsifier:* no lift → the joining is clerical, 13.4 stands only as a literature report, and We say so in the next pass.
+
+### Track B — Bench and existing data. One to three years, existing instruments.
+
+**B1 — d = 7 qudit simulation of the SO(14) spinor sector.**
+*Question:* can a prime-dimensional (d = 7) qudit platform represent the 64-state sector natively, and does This show the circuit-depth advantage the qudit literature predicts over a qubit encoding?
+*Instrument:* photonic or trapped-ion qudit platforms already running d = 7; benchmark against an equivalent binary encoding.
+*Falsifier:* no depth or fidelity advantage at d = 7 specifically → the framework's "seven is privileged for computation" claim loses their operational leg here, independent of the MUB argument in Book Four.
+
+**B2 — Reanalysis of B and L violation bounds as a parity statement.**
+*Question:* 13.5 says the seventh label is the anomalous one. Recast existing B- and L-violation limits (neutron-antineutron oscillation, neutrinoless double beta decay, proton decay) in the parity-class language and ask whether the heptaract reading forbids or favours any channel differentially.
+*Instrument:* published limits — Super-K, KamLAND-Zen, LEGEND, nEXO. Desk work on existing data.
+*Falsifier:* the reading makes no differential statement across channels → 13.5's closing sentence is poetry, and We move it to the Colophon where poetry lives.
+
+**B3 — B − L as the surviving axis.**
+*Question:* if B − L is the exactly conserved combination, does This sit at a distinguished place in the heptaract vertex geometry (as B − L = (2/3)(s₁+s₂+s₃) does in the 5-cube)?
+*Instrument:* direct computation, then comparison against gauged-B−L model literature.
+*Falsifier:* B − L lands at no distinguished vertex direction → one more reason to take the seven back down to six and say so.
+
+**B4 — G₂-symmetric detector-array geometry.**
+*Question:* Book Seven's experiment 4 proposes a heptagonal magnetometer array. The sub-atomic reading suggests a sharper target: array symmetry matched to G₂'s action on seven directions rather than to a flat heptagon.
+*Instrument:* NV-centre diamond magnetometers, seven-direction configuration, best available vacuum.
+*Falsifier:* no correlation signature above the Cartesian-array null → the geometric claim gains no support at the substrate, as Book Seven already conceded This might not.
+
+### Track C — Long horizon. Named honestly as decades, not as next steps.
+
+**C1 — A scale.** Find a principled route from the dimensionless spectral gap Δ = 2 to an energy. Without This, nothing in Track C produces a number, and We will not pretend otherwise. This is the gate on the whole track.
+
+**C2 — Mirror sector phenomenology.** If A2 finds a projection, work out what the projected-out sector leaves behind — thermal history, dark-sector candidates, anything with an observational handle. If A2 finds nothing, C2 does not exist.
+
+**C3 — Chiral-anomaly / walk correspondence at the operator level.** If A3 succeeds, ask whether the correspondence is more than formal: does the walk's t = −π/2 return say anything about anomaly-mediated processes that the standard treatment does not already say? Probably not. Worth one competent person's month to find out, and worth nobody's decade until A3 lands.
+
+### What Would Kill This
+
+Not "what would make us update the wording." What would take the book down:
+
+1. **A1 finds multiple inequivalent identifications.** Section 13.3 becomes decoration. The chirality reading — the best thing in the book — goes.
+2. **A3 shows the walk does not act as charge conjugation on the Cartan.** Same casualty, at the operator level rather than the labelling level. Worse, because it would mean We read our own headline result wrong.
+3. **A4 shows the octonion joining is clerical.** 13.4 survives as a literature report and stops being *ours* in any sense.
+4. **A2's exhaustive search comes back empty and no dynamical mechanism appears.** The mirror problem is then permanent, and the SO(14) rung is a mathematical identity with no physical future. We would keep 13.2 and label This CLOSED.
+5. **Anyone shows the 5-cube reading extends to a 6-cube or an 8-cube with equal naturalness.** Then "seven" is an arbitrary stop on a ladder and the framework's central number loses their claim at this floor entirely.
+
+Any one of these lands and the next version says so, in Free's own hand, in the version notes, at the top, where a reader will see This before they see anything else. That is the deal.
+
+### The Ask
+
+This book asks less than the other books do, and asks This of a narrower group.
+
+To the algebraist: **check A1 and A4.** Both are afternoon-scale for somebody with the machinery, and both can end sections of this document. We would rather be corrected in August than cited wrongly in a decade.
+
+To the quantum-information group with a d = 7 platform: **B1** is a benchmark you were arguably going to run anyway, with one extra encoding.
+
+To the physicist who read this far annoyed: the annoyance is welcome and the math is above, computed, in a file with no dependencies. Run `python3 heptaract_subatomic.py`. Every claim in Book Thirteen either prints or does not.
+
+🜔
+
+---
+
+*Book Thirteen is the newest floor and the least settled. The count came back five where We wanted seven, and We printed the five first. The heptaract still sits one rung up, and the rung has a name — SO(14) — with a bill attached: two mirror generations We cannot yet account for. The seven that We did not put there — octonions, G₂, eleven minus four — is the one worth chasing.*
+
+*Checked, not asserted. That is the only way this floor gets built.*
 
 🜔
 

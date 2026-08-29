@@ -1,7 +1,7 @@
 # WHERE WE ARE NOW
 ## Heptaract Framework — Current State Summary
 **Author: Free** *(Fry — Swiss German "Frei": free, freeborn, unbound)*
-**Date: May 2026 | Version 3.6**
+**Date: August 2026 | Version 3.91**
 
 ---
 
@@ -18,6 +18,8 @@ The heptaract (7-dimensional hypercube) is the underlying geometry of:
 7. **Organic life** — continuous walk on T^7, the 7-torus
 
 **One structure. Every scale. The home vertex does not move.**
+
+**And one floor lower — the honest one (v3.91).** We took the same machinery beneath the atom and the count came back **five, not seven**: one generation of matter is exactly the 16 even-parity vertices of a **5-cube** (the SO(10) spinor), with all four gauge anomalies cancelling as a *parity condition on hypercube vertices*. We lead with That. The heptaract sits one rung up and the rung has a name — **SO(14)** — whose 128 vertices are their two Weyl spinors, branching as 2 generations + 2 **mirror** generations. The mirrors are an unsolved bill and We print This. What does hold cleanly: **hypercube parity IS chirality**, seven is odd, so the perfect-transfer walk carries 64 → 64-bar — *t = ±π/2 is a chirality exchange*. See Book Thirteen.
 
 ---
 
@@ -66,6 +68,19 @@ ALS
   Reversal mechanism:   t = -π/2  (same walk, opposite direction)
   NIR → ATP:            Cytochrome c oxidase → motor neuron survival
 
+SUB-ATOMIC (v3.91 — Book Thirteen)
+  Settled matter hypercube:  5 axes (SO(10) spinor), NOT 7 — the honest lead
+  One generation:            16 even-parity vertices of a 5-cube
+  Anomalies (ΣY, ΣY³, SU(3)²Y, SU(2)²Y):  all = 0, from parity alone
+  Heptaract vertices:        128 = 64 + 64 = the two SO(14) Weyl spinors
+  SO(14) 64 branching:       2 generations + 2 MIRROR generations (open problem)
+  Walk parity:               7 edges = ODD → home and far shore opposite chirality
+  Hamming charge:            X = 7/2 − k, exact U(1) in the SO(14) Cartan
+  Axis algebra:              Fano plane → octonions (norm-mult. to 9e−15)
+  G₂ = Aut(𝕆):               dim 14, rank 2, holonomy of M-theory's 7-manifolds
+  Energy scale:              UNASSIGNED — Δ=2 is dimensionless, no GeV calibration
+  Schumann / just intonation → sub-atomic:  DO NOT COUPLE (deliberately)
+
 EYE-TECH COMMUNICATION
   Eye parameters:       7 (gaze H/V/diagonal, pupil, blink, saccade, fixation)
   Current speed:        10-15 words/min (letter by letter)
@@ -100,31 +115,43 @@ All code live at: **github.com/lightinmotion1/heptaract-quantum-walk**
 | `heptaract_planetary_resonance.py` | Quantum centered classification — Pluto confirmed via resonance |
 | `heptaract_stroke_detection.py` | Pre-stroke resonance drift — 4 modals, heart-brain lock |
 | `heptaract_magnetic_desire.py` | U(v) = magnetic potential, 9/8 as desire toward center fire |
+| `qleap.py` | Quantum leap across the 128 vertices — the walk in honest form |
+| `together.py` | Everything together — the campfire seeing both norths |
+| `heptaract_7star.py` | 7* — the shortest math, through physical space |
+| `heptaract_yinyang.py` | 7D living yin-yang, all frequencies, always forward |
+| `heptaract_allday_qpc.py` | Continuous center-measured life — QpC all day |
+| `heptaract_wellness_radar.py` | Central wellness radar, measured from home |
+| `heptaract_subatomic.py` | **Sub-atomic relationship structure** — SO(10)/SO(14) spinors as hypercube parity classes, anomaly cancellation, Fano/octonion axis algebra. **Standard library only — no numpy, no qiskit.** |
 
 ---
 
-## THE PAPER — Section Map (v3.6)
+## THE PAPER — Section Map (v3.91)
 
-1. Introduction
-2. Quantum Walk — Perfect State Transfer
-3. Pitch-Class Structure and Invariance
-4. Earth's Geomagnetic Field as Heptaract
-5. Seasonal and Galactic Alignment
-6. The Body Heptaract
-7. Diagnostic and Therapeutic Applications
-8. Open Questions
-9. Code
-10. Pythagoras, the Golden Mean, and the Seashell Principle
-11. Earth's Home Song — The Schumann Signature
-12. The Threshold Flash — From Zinc Spark to Plasma Halo
-13. Wormhole moved → **Appendix A** (connected but separate)
-14. The Heptaract Block Universe
-15. Organic Superposition — The k^n State Space
-16. Neural Interface — From 7 Nodes to Full Body
-17. ALS Reversal — The Reverse Walk Protocol
-18. Fast Reference — Key Numbers
-19. Conclusion
-- Appendix A: Wormhole and Portal Signature
+*File: `paper/The Heptaract Papers v3.9.md` — the `.9x` passes are tracked in the document's own VERSION NOTES, not in the filename, so the repo history and the companion `.docx` stay paired. **The `.docx` is still the v3.9 export and lags this pass — it needs regenerating.***
+
+- Preamble — The Center Fire
+- The Axiom of tlpCQm@#* — the Care Bedrock
+- Axioms · How We Read This Document · An Invitation
+- Book One — She Named the Floor First (En'heduanna)
+- Book Two — The First Floor (life is quantum)
+- Book Three — Three Families, One Sky
+- Book Four — HEPTARACT Is Better Math
+- Book Five — The Geometry In Detail
+- Book Six — The Campfire
+- Book Seven — For Those Who Will Test This
+- Book Eight — QpC (the body as instrument; the scale ladder)
+- Book Ten — For The Children (the inheritance; )pQcM jubilee math)
+- Book Eleven — 9D Update + Session Expansions (the engineering house)
+- Book Twelve — Many Houses, One Floor (cross-tradition)
+- **Book Thirteen — The Sub-Atomic Floor (NEW in v3.91)** — the relationship structure beneath the atom, in three parts:
+  - **13.1–13.7 the discussion** — the honest five (SO(10) penteract) · the SO(14) rung and the mirror bill · parity is chirality · Fano/octonions/G₂ · seven commuting labels and the anomalous seventh · the relationship table (FORCED / CHOSEN / UNASSIGNED / DO NOT COUPLE) · what This does not claim
+  - **13.8 the Q&A** — twelve questions from the floor, answered without dodging
+  - **13.9 the R&D** — Track A (computational, this week) · Track B (bench and existing data) · Track C (long horizon) · **What Would Kill This** — five named kill conditions · The Ask
+- Book Nine — The Headline
+- Colophon
+- Appendix A — Wormhole as heptaract diagonal
+- Appendix B — The Frontiers That Scare
+- Appendix C — The Marvelous Material
 
 ---
 
@@ -143,6 +170,7 @@ All code live at: **github.com/lightinmotion1/heptaract-quantum-walk**
 - *"baby planet doing her thang"* — Pluto confirmed by resonance, not dominance. Chord members are not demoted for harmonizing.
 - *"leaving orbital resonance… gravity is drifting… light is lifting"* — gravity = drift toward far shore; light = lift toward home.
 - *"drifting in… because magnetically desires center fire"* — U(v) = Hamming distance = magnetic potential. Disease = desire through wrong channel. 9/8 whispers first.
+- *"check This, do not assert This"* — the sub-atomic pass. The count came back five where We wanted seven, and We printed the five first. A framework that hides their own inconvenient count is not doing math.
 - *"home song… backbone the wind seen through the fire"* — the Schumann resonance, the agonic line, the heptaract: all singing the same home song from different instruments.
 
 ---
@@ -184,6 +212,9 @@ Now We can see This — live.
 **t = π/2 goes to far shore.**
 **t = -π/2 goes home.**
 
+And now We know what That sentence says in the other tongue:
+**the antipodal walk on an odd-dimensional cube is a chirality exchange.**
+
 The geometry doesn't care which direction.
 The walk is the walk.
 We are always already home.
@@ -192,4 +223,4 @@ We are always already home.
 
 *Author: Free (Frei — Swiss German: unbound, freeborn)*
 *github.com/lightinmotion1/heptaract-quantum-walk*
-*Version 3.6 — Open for community review*
+*Version 3.91 — Open for community review. Book Thirteen is the least settled floor and names five ways to kill This.*

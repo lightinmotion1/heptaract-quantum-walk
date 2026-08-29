@@ -1,0 +1,260 @@
+====================================================================
+  HEPTARACT SUB-ATOMIC RELATIONSHIP STRUCTURE
+  The floor beneath the atom, checked rather than asserted
+====================================================================
+
+====================================================================
+  RECEIPT 1 — THE SETTLED HYPERCUBE OF MATTER IS FIVE
+====================================================================
+
+  A weight of the SO(10) spinor is a 5-vector of +-1/2 with an EVEN
+  number of minus signs. That is one parity class of a 5-cube: 2^5 / 2 = 16.
+
+  Coordinates 1,2,3 = colour (SU(3)_c).  Coordinates 4,5 = weak (SU(2)_L x SU(2)_R).
+
+  Every Standard Model charge is then a linear function of the vertex:
+
+      B - L  =  (2/3) (s1 + s2 + s3)
+      T3L    =  (s4 - s5) / 2
+      T3R    = -(s4 + s5) / 2
+      Y/2    =  T3R + (B - L)/2
+      Q      =  T3L + Y/2
+
+  16 even-parity vertices of the 5-cube = one generation:
+
+   vertex   field                          B-L     T3L     Y       Q
+  --------------------------------------------------------------------
+   00000   nu^c   right-handed neutrino   1       0       0       0
+   00011   e^c    anti-electron           1       0       2       1
+   00101   q      (u,d) quark doublet     1/3     1/2     1/3     2/3
+   00110   q      (u,d) quark doublet     1/3     -1/2    1/3     -1/3
+   01001   q      (u,d) quark doublet     1/3     1/2     1/3     2/3
+   01010   q      (u,d) quark doublet     1/3     -1/2    1/3     -1/3
+   01100   u^c    anti-up quark           -1/3    0       -4/3    -2/3
+   01111   d^c    anti-down quark         -1/3    0       2/3     1/3
+   10001   q      (u,d) quark doublet     1/3     1/2     1/3     2/3
+   10010   q      (u,d) quark doublet     1/3     -1/2    1/3     -1/3
+   10100   u^c    anti-up quark           -1/3    0       -4/3    -2/3
+   10111   d^c    anti-down quark         -1/3    0       2/3     1/3
+   11000   u^c    anti-up quark           -1/3    0       -4/3    -2/3
+   11011   d^c    anti-down quark         -1/3    0       2/3     1/3
+   11101   l      (nu,e) lepton doublet   -1      1/2     -1      0
+   11110   l      (nu,e) lepton doublet   -1      -1/2    -1      -1
+
+  Multiplicities (colour counting falls out of the geometry):
+     q      (u,d) quark doublet     x 6
+     u^c    anti-up quark           x 3
+     d^c    anti-down quark         x 3
+     l      (nu,e) lepton doublet   x 2
+     nu^c   right-handed neutrino   x 1
+     e^c    anti-electron           x 1
+     TOTAL                          = 16 states
+
+  ANOMALY CANCELLATION — computed from the parity class, nothing assumed:
+     gravity x U(1)_Y     sum Y               = 0     OK
+     U(1)_Y^3             sum Y^3             = 0     OK
+     SU(3)^2 x U(1)_Y     sum Y over coloured = 0     OK
+     SU(2)^2 x U(1)_Y     sum Y over doublets = 0     OK
+     SO(10) trace         sum (B-L)           = 0     OK
+     neutrality           sum Q               = 0     OK
+
+  READING — LANE 2, settled.
+  Anomaly freedom of a generation is not a numerical accident tuned by hand.
+  This is a PARITY CONDITION on the vertices of a hypercube. The honest
+  headline for This framework: the settled hypercube of matter has FIVE
+  axes, not seven. We lead with This because a framework that hides their
+  own inconvenient count is not doing math.
+
+
+====================================================================
+  RECEIPT 2 — THE HEPTARACT AT THE SUB-ATOMIC FLOOR IS SO(14)
+====================================================================
+
+  Same construction, seven coordinates. A Weyl spinor of SO(2n) has
+  2^(n-1) weights = one parity class of an n-cube. For n = 7:
+
+     heptaract vertices          = 128
+     even parity class (64)      = 64   <- SO(14) spinor
+     odd  parity class (64-bar)  = 64   <- conjugate spinor
+
+  Split the seven axes as 5 + 2 — SO(14) contains SO(10) x SO(4),
+  and SO(4) = SU(2) x SU(2). The 64 decomposes by the parity of the
+  first five coordinates alone:
+
+     (16,  2, 1)   generations       = 32 states  = 2 x 16
+     (16-bar, 1, 2)   mirrors        = 32 states  = 2 x 16
+     64 = 2 generations + 2 mirror generations
+
+  READING — LANE 2 for the math, OPEN for the physics.
+  The math is exact and checkable above: the heptaract IS the weight
+  hypercube of SO(14), and SO(14) = SO(4k+2) with k=3, so their spinor is
+  complex and anomaly-free — a legitimate grand-unified candidate on those
+  two counts.
+
+  The honest problem, stated plainly and not buried: This delivers MIRROR
+  generations alongside the ordinary ones, and mirror fermions are not
+  observed at accessible energy. Any heptaract reading of matter owes an
+  account of where the mirrors went. We do not have that account. We have
+  the shape of the question: the mirrors sit in the OPPOSITE parity class
+  from their partners, and parity is exactly what the heptaract walk moves.
+  That is Receipt 3, and This is a research programme, not a result.
+
+
+====================================================================
+  RECEIPT 3 — THE WALK IS ODD, SO THE WALK FLIPS CHIRALITY
+====================================================================
+
+  Identify heptaract bit 1 with a minus sign in the weight vector.
+
+     home vertex 0000000  ->  weight (+1/2)^7   parity even  -> 64
+     far shore   1111111  ->  weight (-1/2)^7   parity odd   -> 64-bar
+     Hamming distance home -> far = 7 edges (ODD)
+
+  Seven is odd, so the two ends of the perfect-transfer walk cannot sit in
+  the same parity class. The repo's headline result — P = 1.0 at t = pi/2,
+  depth-2, zero entanglement — carries the spinor onto their conjugate.
+
+     t = +pi/2   64      ->  64-bar     (far shore)
+     t = -pi/2   64-bar  ->  64         (home)
+
+  The framework already said This in their own tongue: the walk goes to the
+  far shore and the walk comes home. In sub-atomic language that sentence
+  reads: the antipodal walk on an odd-dimensional cube is a chirality
+  exchange. Same geometry. Two vocabularies.
+
+  THE HAMMING CHARGE — distance from home is an exact U(1) charge:
+
+     k = Hamming wt   X = sum(s_i) = 7/2 - k    parity class
+  --------------------------------------------------------------------
+        0              7/2                       64
+        1              5/2                       64-bar
+        2              3/2                       64
+        3              1/2                       64-bar
+        4              -1/2                      64
+        5              -3/2                      64-bar
+        6              -5/2                      64
+        7              -7/2                      64-bar
+
+  X is the charge under the diagonal U(1) in the SO(14) Cartan. So the
+  framework's U(v) — the "magnetic desire" potential of
+  heptaract_magnetic_desire.py, the Hamming distance from center fire —
+  is not a metaphor imported into physics. On this identification This is
+  a conserved additive quantum number, linear in the distance from home.
+
+
+====================================================================
+  RECEIPT 4 — THE SEVEN AXES MULTIPLY: FANO PLANE AND OCTONIONS
+====================================================================
+
+  Give the seven axes the only structure seven points can carry that makes
+  them multiply: the Fano plane, PG(2,2). Lines {i, i+1, i+3} mod 7.
+
+     lines: {0,1,3}, {0,2,6}, {0,4,5}, {1,2,4}, {1,5,6}, {2,3,5}, {3,4,6}
+     points                            = 7
+     lines                             = 7
+     points per line                   = [3]
+     lines per point                   = [3]
+     every pair on exactly one line    = True
+     pairs covered                     = 21 of 21
+
+  The seven lines are the seven quaternionic triples. The multiplication
+  table they generate is checked here, not assumed:
+
+     e_a^2 = -1 for all seven                    OK
+     e_a e_b = - e_b e_a                         OK
+     |uv|^2 = |u|^2 |v|^2  (2000 random pairs)   max err 8.88e-15
+     alternative: (uu)v = u(uv)  (500 pairs)     max err 2.66e-15
+     associative INSIDE a Fano line              max gap 0.00e+00
+     associative OFF the lines                   max gap 2.00e+00
+
+  So: a normed division algebra, alternative, associative exactly on the
+  seven lines and nowhere else. The seven axes are not a list of labels.
+  They are the imaginary part of the octonions, and their relationships
+  are the Fano incidences.
+
+  WHY This matters sub-atomically — LANE 2, published, not ours:
+    * Furey (Eur. Phys. J. C 78, 375, 2018) derives SU(3)_c x SU(2)_L x U(1)_Y
+      from ladder operators of the algebra C (x) H (x) O. The colour SU(3)
+      appears as the stabiliser of one imaginary octonion unit inside G2.
+    * G2 = Aut(O) has dimension 14 and rank 2, acts on exactly these seven
+      imaginary units, and is the holonomy group of the 7-manifolds that
+      M-theory compactifies on to give chiral matter and non-abelian gauge
+      fields in four dimensions (Acharya & Witten, 2001).
+    * 11 = 4 + 7. Eleven-dimensional supergravity on the round S^7 gives
+      SO(8) gauge symmetry (Freund-Rubin; Duff, Nilsson, Pope 1986).
+
+  None of That is This framework's invention. All of This is the seven
+  already standing at the sub-atomic floor in mainstream literature, and
+  This is where a heptaract reading of matter has to connect or fail.
+
+
+====================================================================
+  RECEIPT 5 — SEVEN COMMUTING LABELS ON A STANDARD MODEL FERMION
+====================================================================
+
+     label     origin                 reads              status
+  --------------------------------------------------------------------
+     Jz        little group SO(3)     spin projection    exact
+     T3L       SU(2)_L Cartan         weak isospin       exact
+     Y         U(1)_Y                 hypercharge        exact
+     lambda3   SU(3)_c Cartan 1       colour isospin     exact
+     lambda8   SU(3)_c Cartan 2       colour hyperch.    exact
+     B         accidental U(1)_B      baryon number      ANOMALOUS
+     L         accidental U(1)_L      lepton number      ANOMALOUS
+
+     rank SU(3) x SU(2) x U(1) = 2 + 1 + 1 = 4
+     + spin Cartan                        = 1   -> 5 gauge/Lorentz labels
+     + accidental global B, L             = 2   -> 7 commuting labels
+
+  THE CAVEAT, WHICH IS THE INTERESTING PART — LANE 2.
+  B and L are conserved perturbatively but are individually broken by the
+  electroweak anomaly. Only B - L survives exactly. So the count of
+  EXACTLY conserved commuting labels is 5 + 1 = 6, and the seventh is real
+  only at the classical / perturbative level, where it is real all day.
+
+  We do not get to round That up. A framework that counts to seven by
+  quietly keeping an anomalous charge has counted to six and lied. What We
+  say instead is the honest and still-interesting thing: the seventh label
+  exists, is used constantly in practice, and is destroyed by exactly the
+  mechanism — the chiral anomaly — that Receipt 3 says the heptaract walk
+  moves. The seventh axis is the anomalous one. That is a falsifiable place
+  to look, not a decoration.
+
+
+====================================================================
+  WHAT This DOES NOT CLAIM
+====================================================================
+
+  Said plainly, so no tester wastes a week finding out for Themself:
+
+  * No new force, no new particle, no modification to the Standard Model
+    Lagrangian is proposed here.
+  * No mass is predicted. The 19 (26 with neutrino masses) free parameters
+    of the Standard Model are not derived, reduced, or explained.
+  * No energy scale is assigned. The heptaract spectral gap Delta = 2 is
+    dimensionless in the walk; there is no calibration to GeV, and We do
+    not have one. Marked UNASSIGNED, not marked pending.
+  * The just-intonation pitch labelling of the axes (2/1, 7/4, 3/2, 4/3,
+    5/4, 6/5, 9/8) is a labelling isomorphism on seven objects. This is
+    beautiful, This is useful for memory and for the body work, and This
+    carries NO sub-atomic claim. Do not couple the two.
+  * The Schumann band (7.83 Hz and their ladder) is a cavity resonance of
+    the Earth-ionosphere system. That is classical electrodynamics at
+    metre-to-megametre scale. It has nothing to do with particle physics
+    and We are not going to pretend otherwise to make a page rhyme.
+  * The bit-to-minus-sign identification in Receipt 3 is OUR CHOICE, not a
+    derivation. It is the natural one and the whole reading rests on This.
+    A tester who shows the identification cannot be made canonical has
+    taken the load out of Receipt 3, and We would want to know.
+
+  What This DOES claim: a checkable relationship structure. Hypercube
+  parity is chirality; the settled matter hypercube is five; the heptaract
+  is the next complex-spinor rung and is SO(14); the seven axes carry the
+  octonion algebra that mainstream work already ties to SU(3) x SU(2) x U(1)
+  and to G2 holonomy. Every line of That is above, computed, and falsifiable.
+
+====================================================================
+  Five receipts. One honest count of five where We wanted seven.
+  The heptaract sits one rung up, and the rung has a name: SO(14).
+  Center fire. Checked, not asserted. 🔥
+====================================================================

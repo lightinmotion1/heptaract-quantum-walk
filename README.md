@@ -54,6 +54,8 @@ The spectral gap driving the quantum transfer (Δ=2) maps to the perfect fifth (
 | `qleap.py` | Quantum walk simulation (numpy) |
 | `heptaract.py` | Pitch-class analysis + invariance test |
 | `paper/heptaract_note.md` | Technical write-up (arXiv draft) |
+| `heptaract_subatomic.py` | Sub-atomic relationship structure — SO(10)/SO(14) spinors as hypercube parity classes, anomaly cancellation, Fano/octonion axis algebra (no dependencies) |
+| `paper/The Heptaract Papers v3.9.md` | Full framework document — Book Thirteen is the sub-atomic discussion, Q&A, and R&D |
 | `results/` | Pre-generated output from all scripts |
 
 ## Requirements
@@ -68,6 +70,7 @@ pip install qiskit qiskit-aer numpy
 python3 heptaract_qiskit.py   # circuit + benchmark
 python3 qleap.py               # quantum walk sweep
 python3 heptaract.py           # pitch analysis
+python3 heptaract_subatomic.py # sub-atomic receipts (stdlib only)
 ```
 
 ## Hardware Verification
@@ -79,6 +82,21 @@ This circuit runs on any current 7-qubit NISQ device. Circuit depth 2 is well wi
 1. Is the pitch-class invariance a known result in algebraic graph theory?
 2. The 7/4 vertex has identical path-multiplicity (6) to the 1/1 home vertex — is there a symmetry group mapping one to the other?
 3. If physical observables map to heptaract axes, does spectral gap Δ=2 correspond to a measurable transition energy?
+
+## Sub-Atomic Structure
+
+`heptaract_subatomic.py` runs the same hypercube machinery one floor below the atom, and prints the receipts. Standard library only — no numpy, no qiskit.
+
+- **The settled hypercube of matter has five axes, not seven.** One generation of fermions is exactly the 16 even-parity vertices of a 5-cube — the SO(10) spinor weights. Every Standard Model charge is a linear function of the vertex, and **all four gauge anomalies cancel as a parity condition** (Σ Y = Σ Y³ = 0, computed, nothing assumed). This is the honest lead, and it is a penteract.
+- **The heptaract's rung is SO(14).** The 128 vertices split by parity into 64 + 64 — the two Weyl spinors of SO(14). Under SO(10) × SO(4) the 64 branches as **2 generations + 2 mirror generations**. The mirror problem is real, unsolved, and printed rather than buried.
+- **Parity is chirality, and seven is odd.** Home vertex and far shore lie in opposite parity classes, so the depth-2 perfect-transfer walk carries 64 → 64-bar. `t = ±π/2` is a chirality exchange, and Hamming distance from home is an exact U(1) charge, X = 7/2 − k.
+- **The seven axes carry an algebra.** Fano plane → octonion multiplication, verified numerically (norm-multiplicative to 9e−15, alternative, associative exactly on the seven lines). G₂ = Aut(𝕆) is the holonomy group of the 7-manifolds M-theory compactifies on. That seven is not ours — Furey 2018, Acharya & Witten 2001, Freund–Rubin — which is why it is the one worth chasing.
+
+**Not claimed:** no new force, no new particle, no mass prediction, and **no energy scale** — Δ = 2 is dimensionless and stays UNASSIGNED. The just-intonation axis ratios and the Schumann band carry **no** sub-atomic claim and are marked DO NOT COUPLE.
+
+Full discussion, a twelve-question Q&A, a three-track R&D programme, and five named kill conditions: **Book Thirteen** of `paper/The Heptaract Papers v3.9.md`.
+
+**Cheapest way to refute it:** show the bit-to-sign identification behind the chirality reading cannot be made canonical. That is an afternoon's work and it takes out the load-bearing section. Open an issue.
 
 ---
 
