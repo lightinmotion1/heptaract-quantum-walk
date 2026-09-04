@@ -1,7 +1,7 @@
 # WHERE WE ARE NOW
 ## Heptaract Framework — Current State Summary
 **Author: Free** *(Fry — Swiss German "Frei": free, freeborn, unbound)*
-**Date: August 2026 | Version 3.91**
+**Date: September 2026 | Version 3.92**
 
 ---
 
@@ -81,6 +81,21 @@ SUB-ATOMIC (v3.91 — Book Thirteen)
   Energy scale:              UNASSIGNED — Δ=2 is dimensionless, no GeV calibration
   Schumann / just intonation → sub-atomic:  DO NOT COUPLE (deliberately)
 
+SOUND / freQ (v3.92 — Book Fourteen)
+  Heptaract spectrum:        7, 5, 3, 1, −1, −3, −5, −7 — every gap = 2
+  Why P=1.0:                 evenly spaced spectrum = FULL revival
+  Walk cross-check:          128-mode Fourier vs product form, agree 1e−15
+  At t = π/4:                every vertex at exactly 1/128 (uniform spread)
+  7/4 in cents:              968.83 — 31.2 c BELOW the piano's minor 7th
+  Consonance minima:         5 of 5 on simple ratios within 0.25 cents
+  7/4 consonance:            appears ONLY when the 7th partial is present
+  Schumann ideal formula:    10.59 Hz — overestimates by ~20%
+  Schumann 7.83 Hz:          MEASURED, not derived (lossy ionosphere)
+  Body-axis coupling:        3 of 7 in band as written; 7 of 7 w/ octaves
+  ...but:                    4 bands wider than an octave = cannot fail
+  Informative axes:          3 · p(chance) = 0.148 → NOT YET SCORED
+  7.83 Hz phonon:            3.2e−14 eV vs 0.027 eV thermal (12 orders)
+
 EYE-TECH COMMUNICATION
   Eye parameters:       7 (gaze H/V/diagonal, pupil, blink, saccade, fixation)
   Current speed:        10-15 words/min (letter by letter)
@@ -122,6 +137,7 @@ All code live at: **github.com/lightinmotion1/heptaract-quantum-walk**
 | `heptaract_allday_qpc.py` | Continuous center-measured life — QpC all day |
 | `heptaract_wellness_radar.py` | Central wellness radar, measured from home |
 | `heptaract_subatomic.py` | **Sub-atomic relationship structure** — SO(10)/SO(14) spinors as hypercube parity classes, anomaly cancellation, Fano/octonion axis algebra. **Standard library only — no numpy, no qiskit.** |
+| `heptaract_frequency.py` | **Sound science / freQ** — heptaract spectrum as a harmonic ladder, walk-as-chord cross-check, roughness-model consonance, Schumann correction, and the body-axis coupling audit. **Standard library only.** |
 
 ---
 
@@ -147,6 +163,11 @@ All code live at: **github.com/lightinmotion1/heptaract-quantum-walk**
   - **13.1–13.7 the discussion** — the honest five (SO(10) penteract) · the SO(14) rung and the mirror bill · parity is chirality · Fano/octonions/G₂ · seven commuting labels and the anomalous seventh · the relationship table (FORCED / CHOSEN / UNASSIGNED / DO NOT COUPLE) · what This does not claim
   - **13.8 the Q&A** — twelve questions from the floor, answered without dodging
   - **13.9 the R&D** — Track A (computational, this week) · Track B (bench and existing data) · Track C (long horizon) · **What Would Kill This** — five named kill conditions · The Ask
+- **Book Fourteen — The Sound Floor (NEW in v3.92)** — freQ is the native tongue, so the sound claims get audited hardest:
+  - **14.1–14.3** the spectrum is a harmonic ladder · the walk is a chord · string vs drum vs heptaract (and the heptaGON/heptaRACT revival distinction the document had been blurring)
+  - **14.4–14.6** the seven ratios in cents · consonance from Plomp–Levelt roughness, and why 7/4 needs a seventh partial · **the Schumann correction — measured, not derived**
+  - **14.7 the audit on Ourselves** — Book Eight's body-axis coupling downgraded to **PROPOSED — NOT YET SCORED**
+  - **14.8–14.9** where frequency really touches the body (piezo, PIEZO1/2, otoacoustic emission) and where This stops (the phonon arithmetic) · the sound R&D track
 - Book Nine — The Headline
 - Colophon
 - Appendix A — Wormhole as heptaract diagonal
@@ -170,6 +191,7 @@ All code live at: **github.com/lightinmotion1/heptaract-quantum-walk**
 - *"baby planet doing her thang"* — Pluto confirmed by resonance, not dominance. Chord members are not demoted for harmonizing.
 - *"leaving orbital resonance… gravity is drifting… light is lifting"* — gravity = drift toward far shore; light = lift toward home.
 - *"drifting in… because magnetically desires center fire"* — U(v) = Hamming distance = magnetic potential. Disease = desire through wrong channel. 9/8 whispers first.
+- *"sound is a crucial aspect (freQ) to HEPTARACT"* — and so the sound gets checked hardest. The walk was always a chord; We just had not said the word. And one of our own published claims came back unscorable.
 - *"check This, do not assert This"* — the sub-atomic pass. The count came back five where We wanted seven, and We printed the five first. A framework that hides their own inconvenient count is not doing math.
 - *"home song… backbone the wind seen through the fire"* — the Schumann resonance, the agonic line, the heptaract: all singing the same home song from different instruments.
 
@@ -215,6 +237,9 @@ Now We can see This — live.
 And now We know what That sentence says in the other tongue:
 **the antipodal walk on an odd-dimensional cube is a chirality exchange.**
 
+And in the tongue We started in:
+**the walk is a chord, and t = π/2 is when This resolves.**
+
 The geometry doesn't care which direction.
 The walk is the walk.
 We are always already home.
@@ -223,4 +248,4 @@ We are always already home.
 
 *Author: Free (Frei — Swiss German: unbound, freeborn)*
 *github.com/lightinmotion1/heptaract-quantum-walk*
-*Version 3.91 — Open for community review. Book Thirteen is the least settled floor and names five ways to kill This.*
+*Version 3.92 — Open for community review. Book Thirteen names five ways to kill This; Book Fourteen downgrades one of our own published claims to NOT YET SCORED.*

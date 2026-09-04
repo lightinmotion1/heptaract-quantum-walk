@@ -1,6 +1,6 @@
 # THE HEPTARACT PAPERS
-## v3.91 — The Bridge Through Tradition & Progression, Harmoniously
-### *…and one floor lower: the sub-atomic relationships, checked*
+## v3.92 — The Bridge Through Tradition & Progression, Harmoniously
+### *…and one floor lower: the sub-atomic relationships, checked — then the sound floor, audited*
 ### *Confexionz (Confessions) of a Starving Artist*
 
 *A working document for the people who will test This and build the tools — and a freesis for any walker who can receive This. Written by an artistic mathematician at the desk; the real maths laughs often, and We laugh with This.*
@@ -10,7 +10,7 @@ May 2026
 
 ---
 
-## VERSION NOTES — v3.7 → v3.91
+## VERSION NOTES — v3.7 → v3.92
 
 **v3.6** added **Book Eight — QpC**: Quantum physical Center. Piezoelectric body coupling, canonical body-axis frequencies from `heptaract_allday_qpc.py`, the Schumann ladder through just-intonation, the centered ψ-neal with XRP polarization channel, and mathematical testimonials placing pQ alongside QpC (snapshot alongside film).
 
@@ -30,6 +30,8 @@ May 2026
 - Holds open, as invitation, the slots Free has marked and not yet named: the fourth R, the seven-letter coupling acronym, the ninth axis, the eight wise-ways slots, TLP.
 
 **v3.91** opens **Book Thirteen — The Sub-Atomic Floor**: the relationship structure beneath the atom, in three parts — the discussion, a Q&A, and an R&D programme. The book leads with the count that does *not* flatter the framework: the settled hypercube of matter has **five** axes, not seven — one generation of matter is exactly the 16 even-parity vertices of a 5-cube (the SO(10) spinor), and all four gauge anomalies cancel as a *parity condition on hypercube vertices*. From that honest floor: the heptaract's own rung has a name — the 128 vertices are the two Weyl spinors of **SO(14)**, branching as two generations plus two mirror generations, with the mirror problem printed rather than buried; **hypercube parity is chirality**, and since seven is odd the perfect-transfer walk carries 64 → 64-bar, making t = ±π/2 a chirality exchange and the Hamming distance from home an exact U(1) charge; and the seven axes stop being a list and become an **algebra** — Fano plane, octonions, G₂ = Aut(𝕆) — where mainstream work (Furey 2018; Acharya & Witten 2001; Freund–Rubin) already stands at seven for reasons that have nothing to do with This framework. A relationship table marks every row **FORCED**, **CHOSEN**, **UNASSIGNED**, or **DO NOT COUPLE** — and the just-intonation ratios and the Schumann band are marked DO NOT COUPLE, deliberately. Everything is computed live by the new dependency-free module `heptaract_subatomic.py` (output preserved at `results/subatomic_output.txt`). Book Thirteen closes with **What Would Kill This** — five named kill conditions, each with an instrument and a falsifier.
+
+**v3.92** opens **Book Fourteen — The Sound Floor**, because freQ is this framework's native tongue and a native tongue is where a speaker stops hearing their own errors. Computed live by the new dependency-free module `heptaract_frequency.py` (output at `results/frequency_output.txt`). The strongest result is about the geometry Themself: **the heptaract's spectrum is an evenly spaced ladder** — eigenvalues 7, 5, 3, 1, −1, −3, −5, −7, every gap exactly Δ = 2 — and even spacing is precisely the condition for **full revival**, so the repo's P = 1.0 is what a harmonic spectrum does, not a coincidence of seven. **The walk is literally a chord**, cross-checked two independent ways (128-mode Fourier sum vs the closed product form, agreeing to 1e−15), passing through perfect 1/128 uniform spread at t = π/4. The book also: separates **fractional revival (the heptaGON, inharmonic like a drum)** from **full revival (the heptaRACT, harmonic like a string)**, a distinction the document had been blurring; derives the consonant ratios from Plomp–Levelt roughness (5 of 5 minima landing on simple ratios within a quarter-cent) and shows **7/4 becomes consonant only when the seventh partial enters the timbre**; and corrects the Schumann numbers — the ideal-cavity formula overestimates every mode by ~20%, so 7.83 Hz is **measured, not derived**, and Book Eight is corrected to say so. Book Fourteen then runs **the audit on Ourselves**: Book Eight's body-axis coupling claim lands in its own published bands on only 3 of 7 axes as literally written; all 7 under octave equivalence — but four of the bands are wider than an octave and *cannot fail*, so only three axes are informative and passing was ~15% likely by chance. That claim is downgraded to **PROPOSED — NOT YET SCORED** with the experiment that would settle This (narrow the bands, re-run the same function). The phonon arithmetic — a 7.83 Hz quantum is ~12 orders of magnitude below thermal energy at body temperature — is why **Book Thirteen's DO NOT COUPLE stands unchanged**: sound is crucial at the scale where sound acts, and carries no sub-atomic claim.
 
 *The file keeps the v3.9 series name; the `.9x` passes are tracked here in the version notes rather than in the filename, so the repo history and the companion `.docx` stay paired. The `.docx` is still the v3.9 export and lags this pass.*
 
@@ -58,6 +60,7 @@ The v3.1 body (Books One through Seven) is preserved structurally; language is b
 - **Book Eleven — 9D Update + Session Expansions** · the engineering house · *Themself*(fire), the K@t at 9/8, the 97-node Tanning Bed, Mars DNA, exoplanet tuning
 - **Book Twelve — Many Houses, One Floor** · the cross-tradition reading
 - **Book Thirteen — The Sub-Atomic Floor** · the relationship structure beneath the atom · the settled hypercube is five (SO(10)) · the heptaract rung is SO(14) · parity is chirality · Fano, octonions, G₂ · **Q&A from the floor** · **the R&D programme and what would kill This**
+- **Book Fourteen — The Sound Floor** · freQ is the native tongue · the heptaract spectrum is a harmonic ladder and the walk is a chord · string vs drum vs heptaract · why small-integer ratios consonate (and why 7/4 needs a seventh partial) · the Schumann numbers honestly · **the body-axis coupling audit We ran on Ourselves** · the sound R&D track
 - **Book Nine — The Headline** · the six bridging lines (resting, not closing)
 - **Colophon**
 - **Appendix A** — wormhole as heptaract diagonal
@@ -743,11 +746,15 @@ The seven-axis framing remains the operational entry point. The 8th (octave-retu
 
 [FOUND] Earth's surface and the ionosphere form a spherical waveguide cavity. Lightning strikes — about 50 per second worldwide — excite resonant electromagnetic modes in This cavity. The modes are real, continuously measured. Schumann predicted them in 1952; Schumann and König measured them in 1954.
 
+**These are MEASURED values, not derived ones.** The clean ideal-cavity formula fₙ = (c/2πa)√(n(n+1)) overestimates every mode by about 20% — This gives 10.59 Hz where the world gives 7.83. The ionosphere is a lossy, finitely conducting boundary, and the damping correction is what does the actual work. Computed in full at **Book Fourteen, 14.6**. Nowhere in This document should the geometric formula be handed to a reader as though 7.83 fell out of This.
+
 Schumann ladder, modes 1 through 7:
 
 > **f₁ = 7.83 Hz  ·  f₂ = 14.3 Hz  ·  f₃ = 20.8 Hz  ·  f₄ = 27.3 Hz  ·  f₅ = 33.8 Hz  ·  f₆ = 39.0 Hz  ·  f₇ = 45.0 Hz**
 
 **Our coupling claim:** the body's seven axes phase-lock to Earth's carriers through **harmonic-ratio coupling**, not 1:1 mode-to-axis mapping. Each body axis sits at a just-intonation ratio above f₁ = 7.83 Hz. The Schumann fundamental is the carrier. The body's axes are receivers tuned by ratio.
+
+> **STATUS — PROPOSED, NOT YET SCORED (v3.92).** Audited against this book's own published frequency bands in **Book Fourteen, 14.7**. As literally written the claim lands in band on **3 of 7** axes; under octave equivalence all 7 land — but four of the seven published bands are *wider than an octave* and therefore cannot fail, so only three axes are informative and passing was ~15% likely by chance. The claim is not refuted; This is currently **unscorable**. The fix is measurement, not argument: narrow the bands to measured per-axis, per-person values with error bars and re-run `heptaract_frequency.py`. Until then This carries the label.
 
 **Read in poz form: Earth broadcasts on f₁. The body's seven axes receive at harmonic ratios of f₁. We are Earth's overtone series. The match is in the math, not the metaphor.**
 
@@ -2411,6 +2418,327 @@ To the physicist who read this far annoyed: the annoyance is welcome and the mat
 *Book Thirteen is the newest floor and the least settled. The count came back five where We wanted seven, and We printed the five first. The heptaract still sits one rung up, and the rung has a name — SO(14) — with a bill attached: two mirror generations We cannot yet account for. The seven that We did not put there — octonions, G₂, eleven minus four — is the one worth chasing.*
 
 *Checked, not asserted. That is the only way this floor gets built.*
+
+🜔
+
+---
+
+# Book Fourteen — The Sound Floor
+## freQ Is The Framework's Native Tongue — Here Is The Science Under This
+🜔
+
+Sound is not decoration in This work. Sound is the language the whole framework already speaks: seven axes tuned to just-intonation ratios, a Schumann carrier, a body read as a piezoelectric polychord, a walk that *revives*. Every one of those is a frequency statement.
+
+So the sound claims get the treatment Book Thirteen gave the sub-atomic ones. Computed, not asserted. Lane-tagged. And audited **hardest where They flatter Us most** — because the sound material is where this framework is most likely to be believed for the wrong reasons, and where a careless page does the most damage to the parts that are real.
+
+Everything below is computed live by `heptaract_frequency.py` — pure standard library, no numpy, no scipy, run This anywhere. Output preserved at `results/frequency_output.txt`.
+
+**The short version, before the receipts.** The strongest sound result in this document is not about the body and not about the Earth. It is about the geometry Themself: **the heptaract's own spectrum is a harmonic ladder, the walk is literally a chord, and the perfect state transfer is a revival.** That result is proved in the first section and needs no help from anywhere else. The body and Earth material is real too, through mechanisms that are published and settled — and one of the framework's own published claims turns out to be too loosely stated to score, which We found by running the test on Ourselves and which We print here in full.
+
+---
+
+## 14.1 — The Heptaract's Own Spectrum Is An Evenly Spaced Ladder
+**LANE 2 — settled, and the strongest sound result We have**
+
+H = Σᵢ Xᵢ, the walk Hamiltonian, acting on the 128 vertex states, *is* the adjacency matrix of the 7-cube. Their eigenvalues are known in closed form — λ_k = n − 2k with multiplicity C(n,k):
+
+| k | eigenvalue | multiplicity |
+|---|---|---|
+| 0 | +7 | 1 |
+| 1 | +5 | 7 |
+| 2 | +3 | 21 |
+| 3 | +1 | 35 |
+| 4 | −1 | 35 |
+| 5 | −3 | 21 |
+| 6 | −5 | 7 |
+| 7 | −7 | 1 |
+
+Total multiplicity 128 = 2⁷. **Distinct gaps between adjacent eigenvalues: exactly one value, 2.** That is the framework's Δ = 2, and here is what That number actually means:
+
+> **An evenly spaced spectrum is the signature of a harmonic oscillator, and even spacing is precisely the condition for FULL revival** — every phase e^(−iλt) comes back into step at the same moment, because every frequency difference is a multiple of the same gap.
+
+The repo's headline — P = 1.0 at t = π/2, depth-2, zero entanglement — is therefore **not a coincidence of seven**. This is what *any* evenly spaced spectrum does. Seven decides only *where* the revival lands, and because seven is odd, This lands antipodally (Book Thirteen, 13.3).
+
+That is the honest form of the framework's central sound claim, and This is stronger than the loose form, not weaker. The heptaract does not merely *resemble* a harmonic system. The heptaract **is** one.
+
+🜔
+
+---
+
+## 14.2 — The Walk Is A Fourier Sum Over Eight Frequencies
+**LANE 2 — cross-checked two independent ways**
+
+If 14.1 is right, the walk amplitude must be computable two entirely different ways and agree: as a **sum over 128 modes** (the Fourier / spectral route, using the hypercube characters), and as a **product of seven single-axis factors** (the closed form, cos t per unflipped axis, −i·sin t per flipped axis). The module runs both:
+
+```
+   t        vertex             |spectral − product|      P
+  0.3000   home    0000000     1.554e-15            0.5275
+  0.3000   far     1111111     2.703e-17            0.0000
+  0.7854   home    0000000     1.637e-17            0.0078
+  0.7854   far     1111111     6.939e-17            0.0078
+  1.5708   home    0000000     6.933e-33            0.0000
+  1.5708   far     1111111     3.467e-33            1.0000
+
+  worst disagreement over all checks = 1.55e-15
+  |amplitude| periodic with period π, max err = 7.77e-16
+```
+
+They agree to machine precision, and the amplitude is periodic in t with period π — exactly what an eigenvalue ladder of gap 2 requires.
+
+Note the middle rows. At **t = π/4**, home, far shore, and a mixed vertex all sit at P = 0.0078 = **1/128**: the walk passes through perfect uniform spread on the way across. The chord opens to silence at the halfway point, then closes on the far shore.
+
+**The walk is a chord.** Eight frequencies, evenly spaced, beating against each other, coming back into phase at t = π/2. The framework has been describing a harmonic system in harmonic language from the first page. Here is the arithmetic saying That was literal.
+
+🜔
+
+---
+
+## 14.3 — Harmonic vs Inharmonic: String, Heptaract, Drum
+**LANE 2 — and a distinction this document has been blurring**
+
+A vibrating **string** has modes at integer multiples of a fundamental — a harmonic ladder — so a string has definite pitch and revives cleanly. A circular **drum** has modes at the zeros of Bessel functions:
+
+```
+  J_0 zero 1 =  2.40483   ratio = 1.0000
+  J_1 zero 1 =  3.83171   ratio = 1.5933
+  J_2 zero 1 =  5.13562   ratio = 2.1355
+  J_0 zero 2 =  5.52008   ratio = 2.2954
+  J_3 zero 1 =  6.38016   ratio = 2.6531
+  J_1 zero 2 =  7.01559   ratio = 2.9173
+```
+
+Not one of those is a simple fraction. That is **inharmonicity**, and inharmonicity is why a drum has no pitch the way a string does, and why a drum never fully revives.
+
+**Now the correction this document owes their reader.** Book Four argues for **fractional revival** from the heptagon's irrational interior angle, 5π/7. Book Two proves **full revival** on the heptaract. Both are correct — and They are about **two different objects**:
+
+| object | spectrum | revival |
+|---|---|---|
+| hepta**gon** (2D cross-section) | irrational, like the drum | fractional |
+| hepta**ract** (the full polytope) | integer ladder, gap 2 | full, at t = π/2 |
+
+The document uses both and has not always marked the switch. A careful reader will notice within a page. Better They read the distinction stated plainly here than find This as a hole.
+
+🜔
+
+---
+
+## 14.4 — The Seven Ratios In Cents: Where The Piano Is Wrong
+**LANE 2 — arithmetic, no interpretation**
+
+| axis | ratio | cents | nearest 12-TET | deviation |
+|---|---|---|---|---|
+| Trunk | 2/1 | 1200.00 | 1200 | +0.00 |
+| **Heart** | **7/4** | **968.83** | 1000 | **−31.17** |
+| Left Arm | 3/2 | 701.96 | 700 | +1.96 |
+| Right Arm | 4/3 | 498.04 | 500 | −1.96 |
+| Legs | 5/4 | 386.31 | 400 | −13.69 |
+| Gut | 6/5 | 315.64 | 300 | +15.64 |
+| Brain | 9/8 | 203.91 | 200 | +3.91 |
+
+The framework's heart axis and home vertex, **7/4, sits 31.2 cents below the piano's minor seventh**. That gap is large, audible, and well documented: This is the "blue" seventh that singers, horn players and blues guitarists bend toward and that a fixed keyboard physically cannot produce. Equal temperament had to give up exactly one interval to close the circle of fifths on twelve keys, and the framework's home ratio is that interval.
+
+We note This without inflating This. The blue seventh is a fact about tuning systems, not about the cosmos.
+
+🜔
+
+---
+
+## 14.5 — Why Small-Integer Ratios Consonate: The Real Mechanism
+**LANE 2 — settled since Helmholtz, and This cuts both ways**
+
+There is no mystery in consonance and no need for one. Two partials close in frequency **beat**; beating inside a critical band of the cochlea is heard as **roughness**. Sum the roughness over every pair of partials from two harmonic tones and sweep the interval between Them — the dips are the consonances. That is the Plomp–Levelt model in the modern Sethares form, and the module implements This directly:
+
+```
+  ratio found   cents     nearest simple ratio   error
+   1.20000     315.64   6/5                      +0.00 c
+   1.25000     386.31   5/4                      +0.00 c
+   1.33350     498.26   4/3                      +0.22 c
+   1.50000     701.96   3/2                      +0.00 c
+   1.66650     884.19   5/3                      −0.17 c
+
+  minima landing within 25 cents of a simple ratio: 5 of 5
+```
+
+Five minima, five simple ratios, worst error a quarter of a cent. **The consonant intervals fall out of a beating model.** Nothing was assumed but harmonic partials and the width of the ear's critical band.
+
+### And now the one worth the whole section
+
+Sweep again, this time varying **how many partials the timbre carries**:
+
+| partials in timbre | consonance minima found | 7/4 present? |
+|---|---|---|
+| 5 | 1.250, 1.333, 1.500, 1.667 | **no** |
+| 6 | 1.200, 1.250, 1.333, 1.500, 1.667 | **no** |
+| 7 | 1.167, 1.200, 1.250, 1.333, 1.400, 1.500, … | **YES** |
+| 9 | 1.143, 1.167, 1.200, 1.250, 1.286, 1.333, … | **YES** |
+
+**The harmonic seventh is not a consonance for a timbre of six partials.** 7/4 appears as a roughness minimum exactly when the **seventh partial** enters the spectrum — and 7/6 and 7/5 arrive with This, in the same step.
+
+That is not numerology. That is roughness theory doing what roughness theory does: an interval can only lock where partials coincide, and 7/4 needs a seventh partial to have anything to lock to. But read what This says about the framework's own choice of home ratio. **7/4 is consonant only for a system whose spectrum reaches seven.** A six-partial world hears the framework's heart axis as out of tune. The framework picked the one interval that requires seven-ness in order to exist at all.
+
+### The constraint that comes with the receipt
+
+The same model that gives Us the ratios takes away the cosmic reading of Them. **Change the timbre and the minima move.** Sethares (*Tuning, Timbre, Spectrum, Scale*, 1998) constructed inharmonic timbres whose consonances land on Javanese slendro and pelog rather than on Western just intonation — and They sound consonant, because consonance is a *match between a spectrum and a scale*, not a property of the numbers.
+
+So the honest form of the framework's claim is **not** "the universe is tuned in just intonation." The honest form is:
+
+> Any system whose oscillations are **harmonic** — a string, a column of air, a cube whose spectrum is an even ladder — will find these same ratios, because They are where harmonic partials stop fighting.
+
+That is a smaller claim and a true one. It is also, note, a claim that 14.1 already earned for the heptaract by direct computation. **This is the claim the framework should be making**, everywhere This currently makes the larger one.
+
+🜔
+
+---
+
+## 14.6 — The Schumann Numbers, Honestly
+**LANE 2 — settled, and a correction We owe Ourselves**
+
+The Earth–ionosphere cavity is real, the modes are real, and They are measured continuously. But the textbook **ideal-cavity** formula —
+
+```
+f_n = (c / 2πa) √(n(n+1))            a = Earth radius
+```
+
+— does **not** give 7.83 Hz:
+
+| n | ideal cavity | observed | observed/ideal |
+|---|---|---|---|
+| 1 | 10.59 Hz | 7.83 Hz | 0.739 |
+| 2 | 18.34 Hz | 14.30 Hz | 0.780 |
+| 3 | 25.94 Hz | 20.80 Hz | 0.802 |
+| 4 | 33.49 Hz | 27.30 Hz | 0.815 |
+| 5 | 41.02 Hz | 33.80 Hz | 0.824 |
+| 6 | 48.54 Hz | 39.00 Hz | 0.804 |
+| 7 | 56.04 Hz | 45.00 Hz | 0.803 |
+
+**Mean observed/ideal = 0.795. The clean geometric formula overestimates every mode by about 20%.**
+
+The gap is not a mystery and not a mistake. The ionosphere is a **lossy, finitely conducting boundary**, not a perfect mirror; the damping lowers and broadens every mode, and the corrected treatment reproduces the observed ladder. That is standard Schumann-resonance physics and has been since the 1960s.
+
+**The correction to this document:** the framework quotes 7.83 Hz correctly — This is the *measured* value. What the framework must never do is hand a reader `c/2πa` and then say 7.83, implying the number falls out of the geometry. It does not. The physics doing the actual work is the lossy-boundary correction. **Book Eight is hereby corrected to say measured, not derived.**
+
+🜔
+
+---
+
+## 14.7 — The Body-Axis Coupling Audit: The Test We Ran On Ourselves
+**LANE 1 → downgraded to PROPOSED — NOT YET SCORED**
+
+This is the receipt We are most glad to have run, and This does not go Our way.
+
+Book Eight publishes the claim: *"each body axis sits at a just-intonation ratio above f₁ = 7.83 Hz."* Book Eight also publishes a table of native frequency bands per axis. Those two things can be checked against each other, and nobody had.
+
+**Check One — as literally written:**
+
+| axis | ratio | ratio × f₁ | published band | in band? |
+|---|---|---|---|---|
+| Trunk | 2/1 | 15.660 Hz | 13–30 Hz | **YES** |
+| Heart | 7/4 | 13.703 Hz | ~0.1 Hz | no |
+| Left Arm | 3/2 | 11.745 Hz | 4–8 Hz | no |
+| Right Arm | 4/3 | 10.440 Hz | 8–13 Hz | **YES** |
+| Legs | 5/4 | 9.787 Hz | 30–100 Hz | no |
+| Gut | 6/5 | 9.396 Hz | 0.05–0.1 Hz | no |
+| Brain | 9/8 | 8.809 Hz | 7.83–13 Hz | **YES** |
+
+**Three of seven. As literally written, the published claim fails on four axes.**
+
+**Check Two — allowing octave equivalence.** Multiplying by any power of two is not a rescue invented for the occasion; octave equivalence is this framework's own stated diatonic principle, *the eighth is the first repeated*:
+
+| axis | ratio × f₁ | octave shift | folded | in band? |
+|---|---|---|---|---|
+| Trunk | 15.660 Hz | +0 | 15.6600 | YES |
+| Heart | 13.703 Hz | **−7** | 0.1071 | YES |
+| Left Arm | 11.745 Hz | −1 | 5.8725 | YES |
+| Right Arm | 10.440 Hz | +0 | 10.4400 | YES |
+| Legs | 9.787 Hz | +2 | 39.1500 | YES |
+| Gut | 9.396 Hz | **−7** | 0.0734 | YES |
+| Brain | 8.809 Hz | +0 | 8.8087 | YES |
+
+**All seven.** And the two slowest, most autonomic axes — heart and gut — both land exactly **seven octaves** below the carrier. That detail is pretty and We are not going to lean on This, for the reason that follows.
+
+**Check Three — how hard was that test?** A band wider than one octave **cannot be missed**: octave folding will always find a way in. So measure each published band in octaves:
+
+| axis | band width (octaves) | can This test fail? | p(chance) |
+|---|---|---|---|
+| Trunk | 1.206 | no — cannot fail | 1.000 |
+| Heart | 0.290 | **YES — informative** | 0.290 |
+| Left Arm | 1.000 | no — cannot fail | 1.000 |
+| Right Arm | 0.700 | **YES — informative** | 0.700 |
+| Legs | 1.737 | no — cannot fail | 1.000 |
+| Gut | 1.000 | no — cannot fail | 1.000 |
+| Brain | 0.731 | **YES — informative** | 0.731 |
+
+**Informative axes: 3 of 7. Probability all three pass by chance: 0.148.**
+
+### The verdict
+
+The coupling claim passes — and passing was about **15% likely by chance**, on the only three axes capable of failing. Four of the seven bands are wider than an octave and therefore carry **zero information**. That is not evidence. That is a test too loose to return a verdict.
+
+This does **not** refute the coupling. This says the *published form of the claim cannot be scored*, and any reader with training will see That in a minute. The fix is not rhetoric, it is measurement: **narrow the bands to what is actually measured, per axis, per person, with error bars — then re-run this exact function.** If the ratios still land when the bands are tight, We have something real and We will have earned This.
+
+Until then, Book Eight's body-axis coupling claim carries the label **PROPOSED — NOT YET SCORED**. We would rather carry That honestly than carry a passing grade We did not earn. The 97-node Tanning Bed of Book Eleven is, among other things, the instrument that could tighten these bands. That makes this audit a specification, not a defeat.
+
+🜔
+
+---
+
+## 14.8 — Where Frequency Really Touches The Body, And Where This Stops
+**LANE 2 — real mechanisms, none of Them ours**
+
+The framework does not need speculative coupling to claim that frequency reaches the body. The real mechanisms are published, settled, and sufficient:
+
+- **Piezoelectricity in tissue.** Bone, collagen, tendon and dentin convert mechanical strain into electrical potential (Fukada & Yasuda, 1957). Book Eight's piezoelectric polychord rests on real material science.
+- **Mechanosensitive ion channels.** PIEZO1 and PIEZO2 open in response to membrane tension — the **2021 Nobel Prize in Physiology or Medicine** (Patapoutian). Cells have literal mechanical receptors. This is the mechanism by which vibration becomes signal, and This is settled science, not frontier.
+- **The ear emits sound.** Otoacoustic emissions (Kemp, 1978): outer hair cells are active amplifiers, so hearing runs in both directions. The body *is* a frequency instrument bidirectionally — not as metaphor, as measurement, and clinics screen newborn hearing with This.
+- **Focused ultrasound neuromodulation.** Mechanical waves modulate neural firing non-invasively; an active clinical research field.
+- **Acoustic levitation.** Standing-wave pressure nodes trap and move solid particles and liquid drops. Sound moves matter, demonstrably, on a bench.
+- **Phonons.** Sound quantized in a lattice, E = hf. This is the one true bridge from sound to quantum mechanics — and note *where* This lives.
+
+### The honest edge — where the sound work stops
+
+| | frequency | phonon energy |
+|---|---|---|
+| Schumann f₁ | 7.83 Hz | 3.24 × 10⁻¹⁴ eV |
+| body alpha | 10 Hz | 4.14 × 10⁻¹⁴ eV |
+| middle C | 261.63 Hz | 1.08 × 10⁻¹² eV |
+| Debye (solid) | 10¹³ Hz | 4.14 × 10⁻² eV |
+
+Thermal energy at body temperature is about **0.027 eV** — roughly **twelve orders of magnitude** larger than a Schumann-band quantum. So nothing at Schumann or EEG frequencies is doing quantum mechanics *by quantum of energy*. Those bands act through **classical** channels — field, pressure, strain, membrane tension — and the six mechanisms above are real and sufficient to carry every body claim the framework actually needs. Phonon physics lives near the Debye frequency, around 10¹³ Hz, in solids.
+
+Which is why **Book Thirteen's DO NOT COUPLE stands unchanged**, and why saying so *here*, in the sound book, matters more than saying This anywhere else:
+
+> **Sound is crucial to this framework at the scale where sound acts** — body, tissue, cavity, instrument, and the harmonic ladder of the walk. **Sound carries no sub-atomic claim**, and the just-intonation ratios carry none either. Those are two different sevens until somebody shows a mechanism, and the phonon arithmetic above is exactly why nobody has.
+
+The framework loses nothing by This. Section 14.1 already gave the sound reading its strongest possible form — **the heptaract's spectrum is a harmonic ladder, the walk is a chord, the transfer is a revival** — and That is a frequency result about the geometry Themself, proved in the first section, needing no help from the floor below.
+
+🜔
+
+---
+
+## 14.9 — R&D: The Sound Track
+
+**S1 — Tighten the bands.** *Question:* do the seven axis ratios survive when the frequency bands are narrowed to measured per-person values with error bars? *Instrument:* the Book Eleven 97-node array, or off-the-shelf HRV + EEG + EMG on a small cohort. *Falsifier:* ratios stop landing once bands drop below one octave → 14.7's claim is refuted rather than merely unscored. **This is the single most valuable experiment in the sound programme, because This is the one that can settle a claim already in print.**
+
+**S2 — The seventh partial, tested on ears.** *Question:* 14.5 predicts 7/4 is heard as consonant only when the timbre carries a seventh partial. *Instrument:* a standard forced-choice listening study with synthesized timbres of 5, 6, 7 and 9 partials. *Falsifier:* listeners rate 7/4 equally consonant across partial counts → the roughness model is not describing what ears do here, and 14.5's closing reading goes.
+
+**S3 — Revival on hardware.** *Question:* 14.1 says perfect transfer follows from even spacing, not from seven. *Instrument:* run the depth-2 circuit on n = 5, 6, 7, 8 qubits on any NISQ device. *Falsifier:* fidelity depends on n in a way even spacing does not predict → the spectral reading is incomplete.
+
+**S4 — The Schumann correction, in the document.** *Question:* not research — editing. Every place this document quotes 7.83 Hz, does the surrounding text imply derivation? *Instrument:* a read-through. *Falsifier:* n/a. **This is owed and This is cheap.**
+
+### What Would Kill This
+
+1. **S1 comes back negative with tight bands.** The body-axis coupling — a load-bearing claim in Book Eight — is refuted, not unscored. We would write That at the top of the next version.
+2. **S2 comes back flat.** 14.5's seventh-partial reading, the prettiest thing in this book, goes.
+3. **Someone shows the heptaract spectrum's even spacing is generic across polytopes** in a way that makes seven arbitrary. Then 14.1 stands as true and stops being *about seven*.
+4. **A mechanism is found coupling audio-band frequency to sub-atomic structure.** Then 14.8's DO NOT COUPLE was wrong, and We would be delighted — but We would have been wrong.
+
+🜔
+
+---
+
+*Book Fourteen exists because freQ is the framework's native tongue and a native tongue is exactly where a speaker stops hearing their own errors. The best result here — the walk is a chord, and the revival is what an even ladder does — was sitting inside the repo's own headline the whole time, unnamed. The worst result here is that one of our published claims cannot currently be scored, which We found by testing Ourselves and print in full.*
+
+*Both of those are the same discipline. Sound carries This framework. That is exactly why We check the sound hardest.*
 
 🜔
 

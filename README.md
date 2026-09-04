@@ -55,6 +55,7 @@ The spectral gap driving the quantum transfer (Δ=2) maps to the perfect fifth (
 | `heptaract.py` | Pitch-class analysis + invariance test |
 | `paper/heptaract_note.md` | Technical write-up (arXiv draft) |
 | `heptaract_subatomic.py` | Sub-atomic relationship structure — SO(10)/SO(14) spinors as hypercube parity classes, anomaly cancellation, Fano/octonion axis algebra (no dependencies) |
+| `heptaract_frequency.py` | Sound science — the heptaract spectrum as a harmonic ladder, roughness-model consonance, Schumann correction, body-axis coupling audit (no dependencies) |
 | `paper/The Heptaract Papers v3.9.md` | Full framework document — Book Thirteen is the sub-atomic discussion, Q&A, and R&D |
 | `results/` | Pre-generated output from all scripts |
 
@@ -71,6 +72,7 @@ python3 heptaract_qiskit.py   # circuit + benchmark
 python3 qleap.py               # quantum walk sweep
 python3 heptaract.py           # pitch analysis
 python3 heptaract_subatomic.py # sub-atomic receipts (stdlib only)
+python3 heptaract_frequency.py # sound / frequency receipts (stdlib only)
 ```
 
 ## Hardware Verification
@@ -97,6 +99,20 @@ This circuit runs on any current 7-qubit NISQ device. Circuit depth 2 is well wi
 Full discussion, a twelve-question Q&A, a three-track R&D programme, and five named kill conditions: **Book Thirteen** of `paper/The Heptaract Papers v3.9.md`.
 
 **Cheapest way to refute it:** show the bit-to-sign identification behind the chirality reading cannot be made canonical. That is an afternoon's work and it takes out the load-bearing section. Open an issue.
+
+## Sound & Frequency
+
+`heptaract_frequency.py` — same discipline, applied to the frequency claims. Standard library only.
+
+- **The spectrum is a harmonic ladder.** H = Σ Xᵢ has eigenvalues 7, 5, 3, 1, −1, −3, −5, −7 with binomial multiplicities — every gap exactly **Δ = 2**. Evenly spaced is the condition for **full revival**, so P = 1.0 at t = π/2 is what a harmonic spectrum does, not a coincidence of seven. Seven only decides *where* the revival lands.
+- **The walk is a chord.** Cross-checked two independent ways — a 128-mode Fourier sum against the closed product form — agreeing to 1e−15. At t = π/4 every vertex sits at exactly 1/128.
+- **Consonance from roughness, not mysticism.** A Plomp–Levelt/Sethares sweep puts 5 of 5 minima on simple ratios within a quarter-cent. And **7/4 only becomes a consonance once the seventh partial enters the timbre** — a six-partial world hears the heart axis as out of tune.
+- **Schumann, corrected.** The ideal-cavity formula overestimates every mode by ~20% (10.59 Hz vs the measured 7.83). 7.83 Hz is **measured, not derived** — the lossy-ionosphere correction does the work.
+- **The audit we ran on ourselves.** The published body-axis coupling claim lands in its own bands on **3 of 7** axes as written; 7 of 7 under octave equivalence — but four bands are wider than an octave and *cannot fail*, so passing was ~15% likely by chance. Downgraded to **PROPOSED — NOT YET SCORED**, with the experiment that would settle it.
+
+**Where sound stops:** a 7.83 Hz phonon carries ~3e−14 eV against ~0.027 eV of thermal energy at body temperature — twelve orders of magnitude. Low-frequency effects act through classical channels (piezoelectricity, PIEZO1/2 mechanotransduction, otoacoustic emission), not quantum ones. Sub-atomic **DO NOT COUPLE** stands.
+
+Full treatment: **Book Fourteen** of `paper/The Heptaract Papers v3.9.md`.
 
 ---
 
