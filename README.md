@@ -55,6 +55,10 @@ The spectral gap driving the quantum transfer (Δ=2) maps to the perfect fifth (
 | `heptaract.py` | Pitch-class analysis + invariance test |
 | `paper/heptaract_note.md` | Technical write-up (arXiv draft) |
 | `results/` | Pre-generated output from all scripts |
+| `paper/The Heptaract Papers v3.91.md` | The full book — current edition (supersedes v3.9) |
+| `paper/QUESTIONS_WORTH_TESTING.md` | The sieve — 22 logged experiments, every receipt |
+| `paper/APPENDIX_E_base7_QPU_proposal.md` | Base-7 QPU proposal — the two falsifiable hardware targets |
+| `paper/CONTINUE_HERE_session_brief.md` | Session handoff brief — where the work stopped and how to resume |
 
 ## Requirements
 
@@ -72,7 +76,17 @@ python3 heptaract.py           # pitch analysis
 
 ## Hardware Verification
 
-This circuit runs on any current 7-qubit NISQ device. Circuit depth 2 is well within fidelity range. If you run it on real hardware, open an issue with your results.
+**Run on real hardware (IBM, 2026): P(|1111111⟩) = 94.7%** over 8192 shots. The miss profile is
+94.7% perfect / 5.1% one bit off / 0.2% two bits off — consistent with the prediction that, with no
+entanglement to decohere, the circuit is a pure single-qubit readout benchmark.
+
+The same session ran a wider suite on IBM hardware — syndrome measurement, the bit-flip / phase-flip /
+Shor-9 / Steane-7 error-correction ladder, teleportation at 94.8%, entanglement swapping (W ≈ 1.82),
+CHSH (S = 2.685, 31σ) and GHZ/Mermin (M = 3.68, 76σ). Every run is logged with its scope and caveats
+in `paper/QUESTIONS_WORTH_TESTING.md`.
+
+This circuit runs on any current 7-qubit NISQ device; circuit depth 2 is well within fidelity range.
+If you run it on other hardware, open an issue with your results.
 
 ## Open Questions
 
