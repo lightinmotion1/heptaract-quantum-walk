@@ -71,8 +71,8 @@ BODY_REGIONS = [
     (0, "Trunk",   "2/1", 13, "Spine (7) + sternum (3) + solar plexus (3)",          "Structural foundation, core field"),
     (1, "L. Arm",  "3/2", 13, "Shoulder (2) + elbow (2) + wrist (3) + hand (6)",     "Reach axis, gesture field"),
     (2, "R. Arm",  "4/3", 13, "Shoulder (2) + elbow (2) + wrist (3) + hand (6)",     "Reach axis, gesture field"),
-    (3, "L. Leg",  "5/4", 13, "Hip (2) + knee (2) + ankle (3) + foot (6)",           "Ground axis, earth connection"),
-    (4, "R. Leg",  "6/5", 13, "Hip (2) + knee (2) + ankle (3) + foot (6)",           "Ground axis, earth connection"),
+    (3, "Legs",    "5/4", 13, "Pelvic floor (1) + [hip, knee, ankle, heel, ball, toe] x 2", "Ground axis, earth connection"),
+    (4, "Gut",     "6/5", 13, "Stomach (2) + small intestine (5) + colon (5) + navel (1)", "Easy rhythm, enteric field"),
     (5, "Brain",   "9/8", 13, "17-node helmet subset: 13 primary (4 reference later)","Full spectrum neural field"),
     (6, "Heart★",  "7/4", 13, "Chest center (7) + back (3) + neck/throat (3)",        "HOME VERTEX — cardiac field"),
 ]
@@ -81,8 +81,8 @@ JUNCTION_NODES = [
     "Throat (trunk↔brain junction)",
     "L. Shoulder (trunk↔L.arm)",
     "R. Shoulder (trunk↔R.arm)",
-    "L. Hip (trunk↔L.leg)",
-    "R. Hip (trunk↔R.leg)",
+    "Pelvis (trunk↔legs)",
+    "Diaphragm (trunk↔gut)",
     "Heart center (all axes converge ★)",
 ]
 
