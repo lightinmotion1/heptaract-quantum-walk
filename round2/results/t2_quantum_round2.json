@@ -1,0 +1,308 @@
+{
+ "T-2.5": {
+  "cells": [
+   {
+    "L": 2,
+    "target": "n",
+    "by_n": {
+     "5": {
+      "fidelity": 0.463187,
+      "t": 40.535
+     },
+     "6": {
+      "fidelity": 0.33267,
+      "t": 41.335
+     },
+     "7": {
+      "fidelity": 0.296016,
+      "t": 44.645
+     },
+     "8": {
+      "fidelity": 0.335981,
+      "t": 57.905
+     }
+    },
+    "winner": 5,
+    "seven_wins_by_0.01": false
+   },
+   {
+    "L": 2,
+    "target": "top",
+    "by_n": {
+     "5": {
+      "fidelity": 0.654871,
+      "t": 34.28
+     },
+     "6": {
+      "fidelity": 0.449661,
+      "t": 25.305
+     },
+     "7": {
+      "fidelity": 0.452767,
+      "t": 51.035
+     },
+     "8": {
+      "fidelity": 0.398642,
+      "t": 31.285
+     }
+    },
+    "winner": 5,
+    "seven_wins_by_0.01": false
+   },
+   {
+    "L": 3,
+    "target": "n",
+    "by_n": {
+     "5": {
+      "fidelity": 0.346963,
+      "t": 38.275
+     },
+     "6": {
+      "fidelity": 0.252171,
+      "t": 19.78
+     },
+     "7": {
+      "fidelity": 0.347731,
+      "t": 58.085
+     },
+     "8": {
+      "fidelity": 0.230262,
+      "t": 25.06
+     }
+    },
+    "winner": 7,
+    "seven_wins_by_0.01": false
+   },
+   {
+    "L": 3,
+    "target": "top",
+    "by_n": {
+     "5": {
+      "fidelity": 0.511508,
+      "t": 54.86
+     },
+     "6": {
+      "fidelity": 0.587374,
+      "t": 7.54
+     },
+     "7": {
+      "fidelity": 0.407285,
+      "t": 46.345
+     },
+     "8": {
+      "fidelity": 0.328376,
+      "t": 33.145
+     }
+    },
+    "winner": 6,
+    "seven_wins_by_0.01": false
+   }
+  ],
+  "seven_wins_cells": 0,
+  "of": 4,
+  "verdict": "FAIL",
+  "rule": "PASS needs n=7 to beat every other n by >0.01 in a majority (>=3) of the 4 cells"
+ },
+ "T-2.6": {
+  "by_n": {
+   "3": {
+    "max_share_leaving_hub": 0.75,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.75
+   },
+   "4": {
+    "max_share_leaving_hub": 0.8,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.8
+   },
+   "5": {
+    "max_share_leaving_hub": 0.833333,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.833333
+   },
+   "6": {
+    "max_share_leaving_hub": 0.857143,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.857143
+   },
+   "7": {
+    "max_share_leaving_hub": 0.875,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.875
+   },
+   "8": {
+    "max_share_leaving_hub": 0.888889,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.888889
+   },
+   "9": {
+    "max_share_leaving_hub": 0.9,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.9
+   },
+   "10": {
+    "max_share_leaving_hub": 0.909091,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.909091
+   },
+   "11": {
+    "max_share_leaving_hub": 0.916667,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.916667
+   },
+   "12": {
+    "max_share_leaving_hub": 0.923077,
+    "analytic_bound_4n_over_(n+4)": null,
+    "analytic_max_share": 0.923077
+   }
+  },
+  "note": "Two-level reduction: the hub talks only to the even rim state; the most that ever leaves is n/(n+1), rising smoothly with n. Nothing singles out n=7."
+ },
+ "T-2.7": {
+  "rows": [
+   {
+    "d": 2,
+    "bits_per_read": 1.0,
+    "readout_break_even_at_0.99": 0.99,
+    "gate_error_multiplier": 1.0,
+    "embedding_waste_levels": 0,
+    "prime": true
+   },
+   {
+    "d": 3,
+    "bits_per_read": 1.585,
+    "readout_break_even_at_0.99": 0.9842,
+    "gate_error_multiplier": 2.512,
+    "embedding_waste_levels": 1,
+    "prime": true
+   },
+   {
+    "d": 4,
+    "bits_per_read": 2.0,
+    "readout_break_even_at_0.99": 0.9801,
+    "gate_error_multiplier": 4.0,
+    "embedding_waste_levels": 0,
+    "prime": false
+   },
+   {
+    "d": 5,
+    "bits_per_read": 2.3219,
+    "readout_break_even_at_0.99": 0.97693,
+    "gate_error_multiplier": 5.391,
+    "embedding_waste_levels": 3,
+    "prime": true
+   },
+   {
+    "d": 6,
+    "bits_per_read": 2.585,
+    "readout_break_even_at_0.99": 0.97435,
+    "gate_error_multiplier": 6.682,
+    "embedding_waste_levels": 2,
+    "prime": false
+   },
+   {
+    "d": 7,
+    "bits_per_read": 2.8074,
+    "readout_break_even_at_0.99": 0.97218,
+    "gate_error_multiplier": 7.881,
+    "embedding_waste_levels": 1,
+    "prime": true
+   },
+   {
+    "d": 8,
+    "bits_per_read": 3.0,
+    "readout_break_even_at_0.99": 0.9703,
+    "gate_error_multiplier": 9.0,
+    "embedding_waste_levels": 0,
+    "prime": false
+   },
+   {
+    "d": 9,
+    "bits_per_read": 3.1699,
+    "readout_break_even_at_0.99": 0.96864,
+    "gate_error_multiplier": 10.048,
+    "embedding_waste_levels": 7,
+    "prime": false
+   },
+   {
+    "d": 10,
+    "bits_per_read": 3.3219,
+    "readout_break_even_at_0.99": 0.96716,
+    "gate_error_multiplier": 11.035,
+    "embedding_waste_levels": 6,
+    "prime": false
+   },
+   {
+    "d": 11,
+    "bits_per_read": 3.4594,
+    "readout_break_even_at_0.99": 0.96583,
+    "gate_error_multiplier": 11.968,
+    "embedding_waste_levels": 5,
+    "prime": true
+   },
+   {
+    "d": 12,
+    "bits_per_read": 3.585,
+    "readout_break_even_at_0.99": 0.96461,
+    "gate_error_multiplier": 12.852,
+    "embedding_waste_levels": 4,
+    "prime": false
+   },
+   {
+    "d": 13,
+    "bits_per_read": 3.7004,
+    "readout_break_even_at_0.99": 0.96349,
+    "gate_error_multiplier": 13.693,
+    "embedding_waste_levels": 3,
+    "prime": true
+   },
+   {
+    "d": 14,
+    "bits_per_read": 3.8074,
+    "readout_break_even_at_0.99": 0.96246,
+    "gate_error_multiplier": 14.496,
+    "embedding_waste_levels": 2,
+    "prime": false
+   },
+   {
+    "d": 15,
+    "bits_per_read": 3.9069,
+    "readout_break_even_at_0.99": 0.9615,
+    "gate_error_multiplier": 15.264,
+    "embedding_waste_levels": 1,
+    "prime": false
+   },
+   {
+    "d": 16,
+    "bits_per_read": 4.0,
+    "readout_break_even_at_0.99": 0.9606,
+    "gate_error_multiplier": 16.0,
+    "embedding_waste_levels": 0,
+    "prime": false
+   }
+  ],
+  "second_difference_at_7": {
+   "readout": 0.00029,
+   "gate": -0.08
+  },
+  "second_difference_at_6": {
+   "readout": 0.00041,
+   "gate": -0.092
+  },
+  "verdict": "FAIL",
+  "reading": "Both curves are smooth functions of log2 d; d=7 lies on them. Seven's distinctions: prime (full set of mutually unbiased bases) and the largest prime that fits inside three qubits (one spare level)."
+ },
+ "P-3": {
+  "results": {
+   "GHZ7": {
+    "pair_concurrence": 0.0,
+    "after_one_leaves_negativity_3v3": -0.0
+   },
+   "W7": {
+    "pair_concurrence": 0.285714,
+    "after_one_leaves_negativity_3v3": 0.363054
+   }
+  },
+  "reading": "GHZ: no pair holds any entanglement, and once one member leaves the remaining six hold none either (the whole bond needs everyone). W: every pair holds a little (2/7), and the remaining six stay entangled after a departure."
+ }
+}

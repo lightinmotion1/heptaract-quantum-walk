@@ -1,0 +1,1155 @@
+{
+ "test": "T-5.5 Heart and breath at just ratios",
+ "preregistration": "/mnt/user-data/outputs/heptaract-tests/PREREGISTRATION-2026-09-17.md",
+ "preregistration_sha256": "8d9d804f718cb5c085c82f469468cb83380d4f4dd7c86f25663fd6954b3620fc",
+ "data": {
+  "source": "https://physionet.org/files/slpdb/1.0.0/",
+  "n_records_in_db": 18,
+  "n_files_sha256_verified": 54,
+  "n_records_used": 18,
+  "n_windows_used": 5117,
+  "n_windows_total": 5137,
+  "drops_total": {
+   "invalid_resp": 0,
+   "no_valid_rr": 11,
+   "flat_resp": 0,
+   "lt4_breaths": 3,
+   "f_breath_range": 6,
+   "f_heart_range": 0
+  }
+ },
+ "parameters": {
+  "window_s": 60.0,
+  "rr_valid_s": [
+   0.3,
+   2.0
+  ],
+  "rr_rule": "consecutive beat annotations both 'N'; RR assigned to window of its ending beat",
+  "bandpass_hz": [
+   0.1,
+   0.7
+  ],
+  "butter_order": 2,
+  "bandpass_note": "scipy butter(2, band) -> 4th-order band-pass, applied with sosfiltfilt (zero-phase) to the whole record",
+  "peak_min_spacing_s": 1.5,
+  "peak_prominence": "0.3 x std of band-passed signal in the window",
+  "min_breath_peaks": 4,
+  "f_breath_rule": "(n_peaks - 1) / (t_last_peak - t_first_peak)",
+  "f_breath_hz": [
+   0.1,
+   0.7
+  ],
+  "f_heart_hz": [
+   0.6,
+   2.5
+  ],
+  "resp_priority": [
+   "Resp (nasal)",
+   "Resp (chest)",
+   [
+    "Resp (abdomen)",
+    "Resp (abdominal)"
+   ],
+   "Resp (sum)"
+  ],
+  "kde_bandwidth": 0.05,
+  "kde_boundary": "reflection at rho'=1 and rho'=2 (data augmented with 2-x and 4-x, normalised by N)",
+  "window_half_width": 0.01,
+  "poisson_p": "P(X >= obs | mean = exp)",
+  "n_boot": 2000,
+  "seed": 20260917
+ },
+ "records": [
+  {
+   "record": "slp01a",
+   "resp_channel": "Resp (sum)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C4-A1)",
+    "Resp (sum)"
+   ],
+   "fs": 250.0,
+   "duration_h": 2.0,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 7806
+   },
+   "n_windows_total": 120,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 120
+  },
+  {
+   "record": "slp01b",
+   "resp_channel": "Resp (sum)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C4-A1)",
+    "Resp (sum)"
+   ],
+   "fs": 250.0,
+   "duration_h": 3.0,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 11465,
+    "S": 2
+   },
+   "n_windows_total": 180,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 180
+  },
+  {
+   "record": "slp02a",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (O2-A1)",
+    "Resp (nasal)"
+   ],
+   "fs": 250.0,
+   "duration_h": 3.0,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 16135,
+    "S": 10
+   },
+   "n_windows_total": 180,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 180
+  },
+  {
+   "record": "slp02b",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (O2-A1)",
+    "Resp (nasal)"
+   ],
+   "fs": 250.0,
+   "duration_h": 2.25,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 11282,
+    "S": 33
+   },
+   "n_windows_total": 135,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 135
+  },
+  {
+   "record": "slp03",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)"
+   ],
+   "fs": 250.0,
+   "duration_h": 6.0,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 24890,
+    "S": 24,
+    "V": 3
+   },
+   "n_windows_total": 360,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 8,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 352
+  },
+  {
+   "record": "slp04",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)"
+   ],
+   "fs": 250.0,
+   "duration_h": 6.0,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 27026,
+    "Q": 3
+   },
+   "n_windows_total": 360,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 360
+  },
+  {
+   "record": "slp14",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)"
+   ],
+   "fs": 250.0,
+   "duration_h": 6.0,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 22892,
+    "S": 4,
+    "V": 24
+   },
+   "n_windows_total": 360,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 360
+  },
+  {
+   "record": "slp16",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)"
+   ],
+   "fs": 250.0,
+   "duration_h": 6.0,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 27603,
+    "S": 1
+   },
+   "n_windows_total": 360,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 360
+  },
+  {
+   "record": "slp32",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C4-A1)",
+    "Resp (nasal)",
+    "Resp (chest)",
+    "EOG",
+    "EMG"
+   ],
+   "fs": 250.0,
+   "duration_h": 5.333333333333333,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 21707,
+    "Q": 1,
+    "V": 10
+   },
+   "n_windows_total": 320,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 320
+  },
+  {
+   "record": "slp37",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C4-A1)",
+    "Resp (nasal)",
+    "Resp (abdominal)",
+    "EOG (right)",
+    "EMG"
+   ],
+   "fs": 250.0,
+   "duration_h": 5.833333333333333,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 30610,
+    "S": 1
+   },
+   "n_windows_total": 350,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 1,
+    "f_breath_range": 1,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 348
+  },
+  {
+   "record": "slp41",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C4-A1)",
+    "Resp (nasal)",
+    "Resp (abdominal)",
+    "EOG (right)",
+    "EMG"
+   ],
+   "fs": 250.0,
+   "duration_h": 6.5,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 25668,
+    "S": 205,
+    "V": 11
+   },
+   "n_windows_total": 390,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 390
+  },
+  {
+   "record": "slp45",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)",
+    "Resp (abdominal)",
+    "EOG (right)",
+    "EMG"
+   ],
+   "fs": 250.0,
+   "duration_h": 6.333333333333333,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 27678,
+    "S": 8
+   },
+   "n_windows_total": 380,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 380
+  },
+  {
+   "record": "slp48",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)",
+    "Resp (chest)",
+    "EOG (right)",
+    "EMG"
+   ],
+   "fs": 250.0,
+   "duration_h": 6.333333333333333,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 24692,
+    "S": 19
+   },
+   "n_windows_total": 380,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 380
+  },
+  {
+   "record": "slp59",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)",
+    "Resp (abdominal)",
+    "SV",
+    "SO2"
+   ],
+   "fs": 250.0,
+   "duration_h": 4.0,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 16901
+   },
+   "n_windows_total": 240,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 1,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 239
+  },
+  {
+   "record": "slp60",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (abdominal)",
+    "Resp (nasal)",
+    "SV",
+    "SO2"
+   ],
+   "fs": 250.0,
+   "duration_h": 5.916666666666667,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 25016,
+    "S": 1
+   },
+   "n_windows_total": 355,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 3,
+    "flat_resp": 0,
+    "lt4_breaths": 1,
+    "f_breath_range": 5,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 346
+  },
+  {
+   "record": "slp61",
+   "resp_channel": "Resp (abdominal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (abdominal)",
+    "SV",
+    "SO2"
+   ],
+   "fs": 250.0,
+   "duration_h": 6.166666666666667,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "F": 4,
+    "N": 25410,
+    "Q": 1,
+    "S": 1,
+    "V": 66
+   },
+   "n_windows_total": 370,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 370
+  },
+  {
+   "record": "slp66",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)",
+    "Resp (abdomen)",
+    "SV",
+    "SO2"
+   ],
+   "fs": 250.0,
+   "duration_h": 3.6666666666666665,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 15774,
+    "S": 1
+   },
+   "n_windows_total": 220,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 220
+  },
+  {
+   "record": "slp67x",
+   "resp_channel": "Resp (nasal)",
+   "all_channels": [
+    "ECG",
+    "BP",
+    "EEG (C3-O1)",
+    "Resp (nasal)",
+    "Resp (chest)",
+    "SV",
+    "SO2"
+   ],
+   "fs": 250.0,
+   "duration_h": 1.2833333333333334,
+   "n_invalid_resp_samples": 0,
+   "beat_symbol_counts": {
+    "N": 5372,
+    "S": 2
+   },
+   "n_windows_total": 77,
+   "drops": {
+    "invalid_resp": 0,
+    "no_valid_rr": 0,
+    "flat_resp": 0,
+    "lt4_breaths": 0,
+    "f_breath_range": 0,
+    "f_heart_range": 0
+   },
+   "n_windows_kept": 77
+  }
+ ],
+ "enrichment_H": [
+  {
+   "ratio": "9/8",
+   "value": 1.125,
+   "window": [
+    1.11375,
+    1.13625
+   ],
+   "obs": 151,
+   "exp": 164.71166494619604,
+   "E": 0.9167535283510428,
+   "p_poisson_ge": 0.8666467290743177
+  },
+  {
+   "ratio": "6/5",
+   "value": 1.2,
+   "window": [
+    1.188,
+    1.212
+   ],
+   "obs": 162,
+   "exp": 156.0037970525838,
+   "E": 1.0384362628391353,
+   "p_poisson_ge": 0.3260766632008634
+  },
+  {
+   "ratio": "5/4",
+   "value": 1.25,
+   "window": [
+    1.2375,
+    1.2625
+   ],
+   "obs": 139,
+   "exp": 146.54493970190765,
+   "E": 0.9485144985746005,
+   "p_poisson_ge": 0.7443709645822736
+  },
+  {
+   "ratio": "4/3",
+   "value": 1.3333333333333333,
+   "window": [
+    1.3199999999999998,
+    1.3466666666666667
+   ],
+   "obs": 156,
+   "exp": 153.1818572687253,
+   "E": 1.0183973662516106,
+   "p_poisson_ge": 0.4206336673556745
+  },
+  {
+   "ratio": "3/2",
+   "value": 1.5,
+   "window": [
+    1.4849999999999999,
+    1.5150000000000001
+   ],
+   "obs": 166,
+   "exp": 162.1209807465657,
+   "E": 1.0239266949630546,
+   "p_poisson_ge": 0.39068976058357163
+  },
+  {
+   "ratio": "7/4",
+   "value": 1.75,
+   "window": [
+    1.7325,
+    1.7675
+   ],
+   "obs": 121,
+   "exp": 118.91320613549885,
+   "E": 1.0175488823514127,
+   "p_poisson_ge": 0.43626037188302824
+  }
+ ],
+ "enrichment_rivals": [
+  {
+   "ratio": "7/6",
+   "value": 1.1666666666666667,
+   "window": [
+    1.155,
+    1.1783333333333335
+   ],
+   "obs": 184,
+   "exp": 162.231798028877,
+   "E": 1.1341796259155577,
+   "p_poisson_ge": 0.04967721128546341
+  },
+  {
+   "ratio": "8/7",
+   "value": 1.1428571428571428,
+   "window": [
+    1.1314285714285715,
+    1.1542857142857141
+   ],
+   "obs": 166,
+   "exp": 164.42983411978003,
+   "E": 1.0095491544379724,
+   "p_poisson_ge": 0.46161771859487116
+  },
+  {
+   "ratio": "7/5",
+   "value": 1.4,
+   "window": [
+    1.386,
+    1.414
+   ],
+   "obs": 184,
+   "exp": 170.3297856786312,
+   "E": 1.08025733295503,
+   "p_poisson_ge": 0.15645196006059714
+  },
+  {
+   "ratio": "8/5",
+   "value": 1.6,
+   "window": [
+    1.584,
+    1.616
+   ],
+   "obs": 131,
+   "exp": 129.0641831954185,
+   "E": 1.0149988692188168,
+   "p_poisson_ge": 0.4440105502447223
+  },
+  {
+   "ratio": "5/3",
+   "value": 1.6666666666666667,
+   "window": [
+    1.6500000000000001,
+    1.6833333333333333
+   ],
+   "obs": 97,
+   "exp": 114.96195725029303,
+   "E": 0.8437573813119188,
+   "p_poisson_ge": 0.9603989413948435
+  },
+  {
+   "ratio": "9/5",
+   "value": 1.8,
+   "window": [
+    1.782,
+    1.818
+   ],
+   "obs": 134,
+   "exp": 124.31623853040662,
+   "E": 1.0778961910693978,
+   "p_poisson_ge": 0.20366035713237007
+  },
+  {
+   "ratio": "11/8",
+   "value": 1.375,
+   "window": [
+    1.36125,
+    1.38875
+   ],
+   "obs": 168,
+   "exp": 164.62502200297882,
+   "E": 1.020501002556951,
+   "p_poisson_ge": 0.40656682291251417
+  },
+  {
+   "ratio": "13/8",
+   "value": 1.625,
+   "window": [
+    1.60875,
+    1.64125
+   ],
+   "obs": 132,
+   "exp": 122.64783100681295,
+   "E": 1.0762522167446038,
+   "p_poisson_ge": 0.21044781572657265
+  }
+ ],
+ "mean_E_H": 0.9939295388884761,
+ "mean_E_rivals": 1.032173971776281,
+ "verdict_rule": "PASS iff mean E(H) > 1.2 AND mean E(H) > mean E(rivals)",
+ "verdict": "FAIL",
+ "not_part_of_verdict": {
+  "per_record": [
+   {
+    "record": "slp01a",
+    "resp_channel": "Resp (sum)",
+    "n_windows": 120,
+    "median_rho": 5.610754956849613,
+    "obs_H_total": 24,
+    "exp_H_total": 22.901671287158234,
+    "obs_R_total": 47,
+    "exp_R_total": 35.217027221880684,
+    "mean_E_H": 1.467734747143307,
+    "mean_E_rivals": 0.963139689803304,
+    "diff": 0.5045950573400031
+   },
+   {
+    "record": "slp01b",
+    "resp_channel": "Resp (sum)",
+    "n_windows": 180,
+    "median_rho": 5.8125285950007815,
+    "obs_H_total": 33,
+    "exp_H_total": 34.355179923592395,
+    "obs_R_total": 51,
+    "exp_R_total": 49.40864542568461,
+    "mean_E_H": 0.9657962513600388,
+    "mean_E_rivals": 0.9899394722841017,
+    "diff": -0.024143220924062958
+   },
+   {
+    "record": "slp02a",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 180,
+    "median_rho": 4.041206080681256,
+    "obs_H_total": 26,
+    "exp_H_total": 26.69037198430719,
+    "obs_R_total": 35,
+    "exp_R_total": 33.301681307139155,
+    "mean_E_H": 0.9524147690325754,
+    "mean_E_rivals": 0.9892354628754711,
+    "diff": -0.03682069384289577
+   },
+   {
+    "record": "slp02b",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 135,
+    "median_rho": 3.979434907010014,
+    "obs_H_total": 14,
+    "exp_H_total": 16.497074335907982,
+    "obs_R_total": 29,
+    "exp_R_total": 28.743381714674925,
+    "mean_E_H": 0.7511492879943686,
+    "mean_E_rivals": 1.0551998728829477,
+    "diff": -0.30405058488857906
+   },
+   {
+    "record": "slp03",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 352,
+    "median_rho": 4.682482669900834,
+    "obs_H_total": 87,
+    "exp_H_total": 83.165548242428,
+    "obs_R_total": 92,
+    "exp_R_total": 75.43479015052961,
+    "mean_E_H": 0.8608499078745573,
+    "mean_E_rivals": 1.2218395321943087,
+    "diff": -0.36098962431975146
+   },
+   {
+    "record": "slp04",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 360,
+    "median_rho": 6.137846716226285,
+    "obs_H_total": 60,
+    "exp_H_total": 56.55183209543746,
+    "obs_R_total": 98,
+    "exp_R_total": 98.27382833157257,
+    "mean_E_H": 1.0272700405559556,
+    "mean_E_rivals": 0.9448721680275751,
+    "diff": 0.08239787252838049
+   },
+   {
+    "record": "slp14",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 360,
+    "median_rho": 4.294008284259668,
+    "obs_H_total": 56,
+    "exp_H_total": 57.511173027562485,
+    "obs_R_total": 63,
+    "exp_R_total": 60.74245361871888,
+    "mean_E_H": 1.0363308094899655,
+    "mean_E_rivals": 0.9196441189842203,
+    "diff": 0.1166866905057452
+   },
+   {
+    "record": "slp16",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 360,
+    "median_rho": 4.91439801883435,
+    "obs_H_total": 80,
+    "exp_H_total": 80.14936152483413,
+    "obs_R_total": 86,
+    "exp_R_total": 77.98481429634039,
+    "mean_E_H": 0.9514106438142859,
+    "mean_E_rivals": 1.105181017250092,
+    "diff": -0.15377037343580613
+   },
+   {
+    "record": "slp32",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 320,
+    "median_rho": 5.406763001166066,
+    "obs_H_total": 39,
+    "exp_H_total": 48.402712318999185,
+    "obs_R_total": 57,
+    "exp_R_total": 69.75227659142972,
+    "mean_E_H": 0.7924312611310916,
+    "mean_E_rivals": 0.8112414124240925,
+    "diff": -0.0188101512930009
+   },
+   {
+    "record": "slp37",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 348,
+    "median_rho": 6.4809714887844745,
+    "obs_H_total": 69,
+    "exp_H_total": 60.395562475726194,
+    "obs_R_total": 78,
+    "exp_R_total": 74.95352656710878,
+    "mean_E_H": 1.1565526521795968,
+    "mean_E_rivals": 1.010903973804452,
+    "diff": 0.14564867837514472
+   },
+   {
+    "record": "slp41",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 390,
+    "median_rho": 3.2268157514587834,
+    "obs_H_total": 60,
+    "exp_H_total": 61.75664437244262,
+    "obs_R_total": 123,
+    "exp_R_total": 109.53240620656237,
+    "mean_E_H": 0.953294996888662,
+    "mean_E_rivals": 1.0808051510701715,
+    "diff": -0.12751015418150946
+   },
+   {
+    "record": "slp45",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 380,
+    "median_rho": 5.906989383289328,
+    "obs_H_total": 65,
+    "exp_H_total": 63.74379540244799,
+    "obs_R_total": 116,
+    "exp_R_total": 106.34585334442984,
+    "mean_E_H": 0.8257395679046423,
+    "mean_E_rivals": 1.1617388701646747,
+    "diff": -0.3359993022600324
+   },
+   {
+    "record": "slp48",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 380,
+    "median_rho": 4.58852233403473,
+    "obs_H_total": 67,
+    "exp_H_total": 76.22363984025633,
+    "obs_R_total": 68,
+    "exp_R_total": 70.22337399894218,
+    "mean_E_H": 0.7546315224822656,
+    "mean_E_rivals": 0.933911007208546,
+    "diff": -0.1792794847262804
+   },
+   {
+    "record": "slp59",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 239,
+    "median_rho": 4.31845857344213,
+    "obs_H_total": 31,
+    "exp_H_total": 33.43155703364932,
+    "obs_R_total": 50,
+    "exp_R_total": 45.583546997713654,
+    "mean_E_H": 0.9212539564278098,
+    "mean_E_rivals": 1.0908792746915352,
+    "diff": -0.1696253182637254
+   },
+   {
+    "record": "slp60",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 346,
+    "median_rho": 5.859154875703307,
+    "obs_H_total": 62,
+    "exp_H_total": 58.06985391361297,
+    "obs_R_total": 73,
+    "exp_R_total": 80.31021886040371,
+    "mean_E_H": 1.0580918204929002,
+    "mean_E_rivals": 0.8952672150059663,
+    "diff": 0.1628246054869339
+   },
+   {
+    "record": "slp61",
+    "resp_channel": "Resp (abdominal)",
+    "n_windows": 370,
+    "median_rho": 5.211198060397564,
+    "obs_H_total": 83,
+    "exp_H_total": 74.50252000808929,
+    "obs_R_total": 84,
+    "exp_R_total": 84.22066308005621,
+    "mean_E_H": 1.1452968802793049,
+    "mean_E_rivals": 1.0085835926183826,
+    "diff": 0.13671328766092228
+   },
+   {
+    "record": "slp66",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 220,
+    "median_rho": 4.223871955065514,
+    "obs_H_total": 26,
+    "exp_H_total": 31.853142956649947,
+    "obs_R_total": 30,
+    "exp_R_total": 34.73362846390843,
+    "mean_E_H": 0.5460684709037401,
+    "mean_E_rivals": 0.8385438756980192,
+    "diff": -0.29247540479427914
+   },
+   {
+    "record": "slp67x",
+    "resp_channel": "Resp (nasal)",
+    "n_windows": 77,
+    "median_rho": 5.66526772265682,
+    "obs_H_total": 13,
+    "exp_H_total": 15.274805108375556,
+    "obs_R_total": 16,
+    "exp_R_total": 17.84453363610239,
+    "mean_E_H": 0.8945224360243951,
+    "mean_E_rivals": 0.9054656343068136,
+    "diff": -0.01094319828241852
+   }
+  ],
+  "bootstrap_records": {
+   "stat": "mean E(H) - mean E(rivals), records resampled with replacement, KDE refit per draw",
+   "point": -0.03824443288780488,
+   "mean": -0.03996188479997647,
+   "ci95": [
+    -0.09306627945743264,
+    0.013443778131488797
+   ],
+   "frac_gt_0": 0.077,
+   "mean_E_H_ci95": [
+    0.9401945424345258,
+    1.0353710392105375
+   ],
+   "frac_mean_E_H_gt_1.2": 0.0
+  }
+ },
+ "exploratory": {
+  "rho_unfolded": {
+   "median": 4.967207550261598,
+   "q25": 4.18697201689546,
+   "q75": 5.947258647851073,
+   "min": 2.4627147651752574,
+   "max": 14.03867568104991
+  },
+  "f_heart_hz_median": 1.169366098855068,
+  "f_breath_hz_median": 0.23745159640534816,
+  "octave_counts_floor_log2_rho": {
+   "1": 1000,
+   "2": 3906,
+   "3": 211
+  },
+  "near_integers": {
+   "window": "+-1%",
+   "expectation": "Gaussian KDE of ln(rho), bandwidth 0.05, no reflection",
+   "table": [
+    {
+     "integer": 3,
+     "window": [
+      2.9699999999999998,
+      3.0300000000000002
+     ],
+     "obs": 22,
+     "exp": 23.263477365000995,
+     "E": 0.9456883704367496,
+     "p_poisson_ge": 0.6312606598074726
+    },
+    {
+     "integer": 4,
+     "window": [
+      3.96,
+      4.04
+     ],
+     "obs": 135,
+     "exp": 120.48064833521815,
+     "E": 1.120511898511569,
+     "p_poisson_ge": 0.1023086478365382
+    },
+    {
+     "integer": 5,
+     "window": [
+      4.95,
+      5.05
+     ],
+     "obs": 130,
+     "exp": 138.5854419386538,
+     "E": 0.9380494674003766,
+     "p_poisson_ge": 0.7781947197445019
+    }
+   ]
+  },
+  "rho_folded_histogram": {
+   "edges": [
+    1.0,
+    1.025,
+    1.05,
+    1.075,
+    1.1,
+    1.125,
+    1.15,
+    1.175,
+    1.2,
+    1.225,
+    1.25,
+    1.275,
+    1.3,
+    1.325,
+    1.35,
+    1.375,
+    1.4,
+    1.425,
+    1.45,
+    1.475,
+    1.5,
+    1.525,
+    1.55,
+    1.5750000000000002,
+    1.6,
+    1.625,
+    1.65,
+    1.675,
+    1.7000000000000002,
+    1.725,
+    1.75,
+    1.775,
+    1.8,
+    1.8250000000000002,
+    1.85,
+    1.875,
+    1.9,
+    1.925,
+    1.9500000000000002,
+    1.975,
+    2.0
+   ],
+   "counts": [
+    188,
+    173,
+    212,
+    182,
+    180,
+    179,
+    207,
+    158,
+    148,
+    146,
+    133,
+    154,
+    113,
+    147,
+    153,
+    158,
+    153,
+    159,
+    160,
+    150,
+    124,
+    109,
+    114,
+    100,
+    106,
+    89,
+    73,
+    80,
+    86,
+    81,
+    89,
+    91,
+    90,
+    70,
+    93,
+    89,
+    78,
+    105,
+    94,
+    103
+   ]
+  }
+ }
+}

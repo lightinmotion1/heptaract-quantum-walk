@@ -330,3 +330,53 @@
 Hit both → base-7 wins in practice. Miss → it doesn't. **"Base-7 is better" is now a precise engineering question with numbers on it, not a vibe.** Can't run native qu7its on free (qubit-only) IBM — the test itself needs qudit hardware (trapped-ion / photonic / pulse-level). But the *targets* are set. `base2_vs_base7_comparison.py` in the repo.
 
 **Where the arc stands:** Rung 1 (base-7 measures more of the space per read) ✅ proven. Rung 2 (does it survive on hardware?) → reduced to two checkable fidelity/error targets, pending qudit hardware. Rung 3 (faster) → 7.88× fewer QFT gates, same caveat. Rung 4 (novel answers) → the open horizon, now standing on three quantified rungs.
+
+
+---
+
+## ROUND 2 (2026-09-17): beat a rival, not only the null
+
+**New rule.** Every prediction faces a rival:
+- where the framework says *seven*, the same test runs on the neighbouring numbers;
+- where the framework says *the seven just ratios*, the same test runs on a matched set of control ratios.
+
+The predictions, windows and rivals were declared and hashed before any data was touched: `HEPTARACT/tests/PREREGISTRATION-2026-09-17.md`, SHA-256 `8d9d804f…3620fc`. The full tables are in `HEPTARACT/tests/ROUND2-RESULTS.md`.
+
+## Q23 — Does the helix of heptagons carry a state better than other helices?  ✅ TESTED (computed) — NO
+
+We ran quantum walks on helices of 5-, 6-, 7- and 8-gons, where the eighth vertex sits one climb above the first. Across two and three climbs, 5-gons won three of the four cells. Seven won one cell by 0.0008, below the declared 0.01 margin. None of the helices transfers perfectly. **The perfect transfer on the 7-cube belongs to the hypercube, not the helix.**
+
+## Q24 — Is d = 7 off the base-d break-even curves?  ✅ COMPUTED — NO
+
+The readout target (0.99^log₂d) and the gate multiplier ((log₂d)²) are both smooth in d, and d = 7 sits on both curves. **Seven stands apart only by being prime, and by being the largest prime that fits inside three qubits (one spare level).**
+
+## Q25 — Are exoplanet orbits enriched for the seven just ratios, against rivals?  ✅ TESTED (public data) — MIXED
+
+1,041 neighbouring pairs (NASA Exoplanet Archive), just-wide windows.
+- **(a) PASS.** The seven beat the first-order ratios the framework omits (7/6, 8/7, 10/9): mean enrichment 1.05 vs 0.36. The pass is carried by 3:2 and 2:1, which orbital dynamics already favours.
+- **(b) FAIL.** 7/4 is depleted (E = 0.72) and loses to every same-order rival (5/2, 8/5, 10/7, 11/8).
+- The solar system has no neighbouring pair near 7/4.
+
+## Q26 — Do resting alpha peaks sit at 9/8 or 7/4 of 7.83 Hz?  ✅ TESTED (public data) — NO
+
+109 people, eyes closed (PhysioNet EEGMMIDB). Alpha peaks centre at 10.08 Hz (sd 1.06).
+- No excess at 8.81 Hz: E = 1.00, p = 0.55, and the 10.30 Hz rival scored higher.
+- No peaks at all near 13.70 Hz, which sits in the beta band.
+
+## Q27 — Do heart and breath lock at just ratios?  ✅ TESTED (public data) — NO
+
+5,117 one-minute windows from 18 sleep recordings (PhysioNet slpdb), folded into one octave. The just ratios averaged E = 0.99, below the control ratios at 1.03. The record-level bootstrap difference was −0.038, with a 95% interval of [−0.093, +0.013].
+
+## Q28 — Particles of thought, the model rung: whole without pairs, and bonds that survive a departure  ✅ COMPUTED
+
+- **GHZ₇:** no pair holds any entanglement, yet the whole group does, and once one member leaves the remaining six hold none.
+- **W₇:** every pair holds 2/7 (concurrence 0.286), and the remaining six stay entangled after a departure (negativity 0.363).
+- "Many minds at once rather than pairs" therefore has an exact mathematical home.
+- **Limit:** entanglement alone cannot carry a message (no-signalling).
+
+## Q29 — Is anything special at seven qubits on one chip? Does a star state stay whole when the center is read from its face?  🔶 BUILT, NOT RUN
+
+- **What's ready:** a GHZ size scan (5–9 qubits on one chain), the star-graph "fire" read in X versus Z, and a pairs-versus-whole reading on GHZ-7. All three are built and simulated (`round2/round2_hardware.py`).
+- **What's blocking:** the saved IBM key no longer matches an instance. Renew it with `save_creds.py`, then run `submit`, `fetch`, `analyze`.
+
+**Where round 2 leaves the sieve.** The framework's hard content concentrates in two places: the algebra of 𝔽₇ and 𝔽₈ (MUBs, the [[7,1,4]] seven-share code, frame invariants) and the hypercube's dynamics. Direct seven-or-just-ratio mappings onto orbits, brains and breath did not beat their rivals.
