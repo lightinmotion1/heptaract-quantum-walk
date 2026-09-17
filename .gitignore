@@ -1,0 +1,13 @@
+# credentials — never commit
+apikey*.json
+*apikey*.json
+*.token
+.env
+qiskit-ibm.json
+
+# local environments and system files
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
