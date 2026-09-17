@@ -1,0 +1,261 @@
+{
+ "job_id": "dam750tr85ps73fcblg0",
+ "backend": "ibm_marrakesh",
+ "chain": [
+  12,
+  13,
+  14,
+  15,
+  19,
+  35,
+  34,
+  33,
+  32
+ ],
+ "two_qubit_gate": "cz",
+ "meta": [
+  {
+   "kind": "pop",
+   "n": 5
+  },
+  {
+   "kind": "par",
+   "n": 5,
+   "j": 0
+  },
+  {
+   "kind": "par",
+   "n": 5,
+   "j": 1
+  },
+  {
+   "kind": "par",
+   "n": 5,
+   "j": 2
+  },
+  {
+   "kind": "par",
+   "n": 5,
+   "j": 3
+  },
+  {
+   "kind": "pop",
+   "n": 6
+  },
+  {
+   "kind": "par",
+   "n": 6,
+   "j": 0
+  },
+  {
+   "kind": "par",
+   "n": 6,
+   "j": 1
+  },
+  {
+   "kind": "par",
+   "n": 6,
+   "j": 2
+  },
+  {
+   "kind": "par",
+   "n": 6,
+   "j": 3
+  },
+  {
+   "kind": "pop",
+   "n": 7
+  },
+  {
+   "kind": "par",
+   "n": 7,
+   "j": 0
+  },
+  {
+   "kind": "par",
+   "n": 7,
+   "j": 1
+  },
+  {
+   "kind": "par",
+   "n": 7,
+   "j": 2
+  },
+  {
+   "kind": "par",
+   "n": 7,
+   "j": 3
+  },
+  {
+   "kind": "pop",
+   "n": 8
+  },
+  {
+   "kind": "par",
+   "n": 8,
+   "j": 0
+  },
+  {
+   "kind": "par",
+   "n": 8,
+   "j": 1
+  },
+  {
+   "kind": "par",
+   "n": 8,
+   "j": 2
+  },
+  {
+   "kind": "par",
+   "n": 8,
+   "j": 3
+  },
+  {
+   "kind": "pop",
+   "n": 9
+  },
+  {
+   "kind": "par",
+   "n": 9,
+   "j": 0
+  },
+  {
+   "kind": "par",
+   "n": 9,
+   "j": 1
+  },
+  {
+   "kind": "par",
+   "n": 9,
+   "j": 2
+  },
+  {
+   "kind": "par",
+   "n": 9,
+   "j": 3
+  },
+  {
+   "kind": "pair",
+   "basis": "X"
+  },
+  {
+   "kind": "pair",
+   "basis": "Y"
+  },
+  {
+   "kind": "fire",
+   "center_basis": "X",
+   "j": 0
+  },
+  {
+   "kind": "fire",
+   "center_basis": "X",
+   "j": 1
+  },
+  {
+   "kind": "fire",
+   "center_basis": "X",
+   "j": 2
+  },
+  {
+   "kind": "fire",
+   "center_basis": "X",
+   "j": 3
+  },
+  {
+   "kind": "fire",
+   "center_basis": "Z",
+   "j": 0
+  },
+  {
+   "kind": "fire",
+   "center_basis": "Z",
+   "j": 1
+  },
+  {
+   "kind": "fire",
+   "center_basis": "Z",
+   "j": 2
+  },
+  {
+   "kind": "fire",
+   "center_basis": "Z",
+   "j": 3
+  }
+ ],
+ "twoq_counts": [
+  4,
+  4,
+  4,
+  4,
+  4,
+  5,
+  5,
+  5,
+  5,
+  5,
+  6,
+  6,
+  6,
+  6,
+  6,
+  7,
+  7,
+  7,
+  7,
+  7,
+  8,
+  8,
+  8,
+  8,
+  8,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6
+ ],
+ "depths": [
+  20,
+  20,
+  22,
+  22,
+  22,
+  24,
+  24,
+  26,
+  26,
+  26,
+  28,
+  28,
+  30,
+  30,
+  30,
+  32,
+  32,
+  34,
+  34,
+  34,
+  36,
+  36,
+  38,
+  38,
+  38,
+  28,
+  28,
+  17,
+  19,
+  19,
+  19,
+  17,
+  19,
+  19,
+  19
+ ],
+ "submitted_utc": "2026-09-17T23:06:44Z"
+}

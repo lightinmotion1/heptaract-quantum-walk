@@ -159,6 +159,61 @@ The number seven, or the seven just ratios, attached directly to orbits, brains 
 - tomography under real error;
 - frame-invariant fingerprints.
 
+## Hardware round · run 2026-09-17 on ibm_marrakesh
+
+**Job** `dam750tr85ps73fcblg0` · chain [12, 13, 14, 15, 19, 35, 34, 33, 32] · 4096 shots per circuit · **40 seconds of QPU time**
+(of the 600 in the 28-day window). Pre-registered in `PREREGISTRATION-2026-09-17.md`
+(SHA-256 8d9d804f…20fc) before the account existed; nothing was changed after the data arrived.
+
+| Test | Prediction | Verdict |
+|---|---|---|
+| T-1.5 | f₇ sits above the trend through n = 5, 6, 8, 9 by more than two bootstrap SE | **Narrows** (residual 0.00091, z = 1.21) |
+| P-1 | reading the center in X leaves the rim bonded; reading in Z does not | **Holds** (C₆ = 0.802 vs 0.018) |
+| P-2 | the seven-body correlation survives where every pair carries nothing | **Holds** (max pair 0.036, C₇ = 0.806) |
+
+### T-1.5 · Is anything special at seven qubits?
+
+| n | GHZ fidelity | Coherence | Population | Per-qubit f |
+|---|---|---|---|---|
+| 5 | 0.9044 | 0.8809 | 0.9280 | 0.98011 |
+| 6 | 0.8768 | 0.8400 | 0.9136 | 0.97833 |
+| 7 | 0.8562 | 0.8064 | 0.9060 | 0.97807 |
+| 8 | 0.8282 | 0.7704 | 0.8860 | 0.97671 |
+| 9 | 0.7853 | 0.7219 | 0.8486 | 0.97350 |
+
+Fidelity falls smoothly as the state grows. Seven sits 0.00091 above the line
+through its neighbors, against a bootstrap standard error of 0.00075 — z = 1.21, well
+inside the noise. **Seven is not special to the machine.** The decline is the machine's own: each added
+member costs roughly two percent of per-qubit fidelity.
+
+### P-1 · The fire read two ways
+
+The center qubit is read in one basis, and the six around it are scored afterward.
+
+| Center read in | Rim C₆ |
+|---|---|
+| X | 0.8018 |
+| Z | 0.0177 |
+
+Same state, same chip, same moment. Reading the center along X leaves the six holding a bonded state;
+reading along Z leaves them holding nothing measurable. The rim's condition is not a property the rim
+owns on its own — the center's manner of reading decides. That is the fire reading, on hardware.
+
+### P-2 · Pairs versus the whole
+
+Every one of the 21 pairs of a GHZ-7 was measured in XX and in YY. The largest correlation of any pair is
+0.0356 — nothing. The seven-body parity is 0.7969, and C₇ = 0.8064.
+**The bond lives in the whole and in no part of it.** Take one member away and the rest carry nothing;
+this is the GHZ character computed in P-3, now measured.
+
+### What the hardware round teaches
+
+The two predictions that held are about *relationship*: how the whole is read, and where the bond lives.
+The one that narrowed is about *the number itself*. Seven earns nothing from the machine for being seven.
+This is the same lesson round 2 gave from orbits, brains and breath, now from the cleanest instrument we
+have — and it points the remaining work at the algebra (𝔽₇, 𝔽₈, MUBs, [[7,1,4]]₇) rather than at
+seven-ness in nature.
+
 ## Files
 
 - **Scripts:** `scripts/t2_quantum_round2.py`, `t4_5_orbits.py`, `t4_1_alpha.py`, `t5_5_heart_breath.py`, `round2_hardware.py`
