@@ -1,0 +1,114 @@
+{
+ "backend": "ibm_marrakesh",
+ "job_id": "dam7g4g2fm4c73f2hc9g",
+ "chain": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  19,
+  35,
+  34
+ ],
+ "shots": 4096,
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 54,
+  "status": "complete"
+ },
+ "timestamp_utc": "2026-09-17T23:30:27Z",
+ "P-4": {
+  "curve": {
+   "0": 0.0186,
+   "15": 0.2155,
+   "30": 0.4061,
+   "45": 0.6086,
+   "60": 0.729,
+   "75": 0.8148,
+   "90": 0.8349
+  },
+  "fits": {
+   "sin": {
+    "sse": 0.000795,
+    "amplitude": 0.8407
+   },
+   "ramp": {
+    "sse": 0.050201,
+    "amplitude": 0.9793
+   },
+   "step": {
+    "sse": 0.24351,
+    "amplitude": 0.7468
+   }
+  },
+  "best_shape": "sin",
+  "sin_wins_fraction_of_bootstraps": 1.0,
+  "verdict": "PASS",
+  "rule": "PASS if the sine shape fits better than both rivals in at least 95% of bootstraps"
+ },
+ "P-5": {
+  "by_cut": {
+   "7+7": {
+    "C13": 0.6702,
+    "population": 0.799,
+    "F13": 0.7346,
+    "P": [
+     0.669,
+     0.2808,
+     -0.5803,
+     -0.2045
+    ],
+    "bootstrap_se": 0.0126
+   },
+   "6+8": {
+    "C13": 0.6665,
+    "population": 0.8088,
+    "F13": 0.7377,
+    "P": [
+     0.6655,
+     0.1714,
+     -0.6349,
+     -0.1214
+    ],
+    "bootstrap_se": 0.012
+   },
+   "5+9": {
+    "C13": 0.6942,
+    "population": 0.8102,
+    "F13": 0.7522,
+    "P": [
+     0.6856,
+     0.1872,
+     -0.6442,
+     -0.2118
+    ],
+    "bootstrap_se": 0.0116
+   },
+   "mono": {
+    "C13": 0.692,
+    "population": 0.7893,
+    "F13": 0.7407,
+    "P": [
+     0.6465,
+     0.333,
+     -0.604,
+     -0.2603
+    ],
+    "bootstrap_se": 0.0088
+   }
+  },
+  "winner": "5+9",
+  "z_of_7+7_over": {
+   "6+8": 0.21,
+   "5+9": -1.4
+  },
+  "verdict": "FAIL",
+  "rule": "PASS if 7+7 carries the largest C13 and beats each rival cut by at least 2 SE"
+ }
+}
