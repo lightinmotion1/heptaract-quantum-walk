@@ -1,0 +1,21 @@
+# limf-lightbox hosts private client portals alongside one public project.
+# The default is noindex. HEPTARACT's public tree is the single exception, and its
+# sealed room stays out of the index even though the contents are encrypted.
+#
+# Netlify applies every matching rule in order; for a repeated header the last match wins,
+# so these three blocks must stay in this order.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/lightbox/heptaract/*"
+  [headers.values]
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/lightbox/heptaract/enc/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
