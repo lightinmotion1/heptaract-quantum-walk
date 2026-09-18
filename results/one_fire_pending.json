@@ -1,0 +1,370 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  12,
+  13,
+  14,
+  15,
+  19,
+  35,
+  34,
+  33,
+  32
+ ],
+ "job_id": "dam9oe82fm4c73f2k8lg",
+ "meta": [
+  {
+   "k": 1,
+   "kind": "sort",
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 0,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 1,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 2,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 3,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 4,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 5,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 6,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 7,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "F",
+   "t": 0,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "F",
+   "t": 1,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "F",
+   "t": 2,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "F",
+   "t": 3,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "F",
+   "t": 4,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "F",
+   "t": 5,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "F",
+   "t": 6,
+   "twoq": 13
+  },
+  {
+   "k": 1,
+   "kind": "bond",
+   "reading": "F",
+   "t": 7,
+   "twoq": 13
+  },
+  {
+   "k": 2,
+   "kind": "sort",
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 0,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 1,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 2,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 3,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 4,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 5,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 6,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 7,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "F",
+   "t": 0,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "F",
+   "t": 1,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "F",
+   "t": 2,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "F",
+   "t": 3,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "F",
+   "t": 4,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "F",
+   "t": 5,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "F",
+   "t": 6,
+   "twoq": 29
+  },
+  {
+   "k": 2,
+   "kind": "bond",
+   "reading": "F",
+   "t": 7,
+   "twoq": 29
+  },
+  {
+   "k": 3,
+   "kind": "sort",
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 0,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 1,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 2,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 3,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 4,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 5,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 6,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "Z",
+   "t": 7,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "F",
+   "t": 0,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "F",
+   "t": 1,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "F",
+   "t": 2,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "F",
+   "t": 3,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "F",
+   "t": 4,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "F",
+   "t": 5,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "F",
+   "t": 6,
+   "twoq": 64
+  },
+  {
+   "k": 3,
+   "kind": "bond",
+   "reading": "F",
+   "t": 7,
+   "twoq": 64
+  }
+ ],
+ "shots": 2048,
+ "submitted_utc": "2026-09-18T02:04:41Z"
+}
