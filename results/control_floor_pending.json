@@ -1,0 +1,143 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  6,
+  5,
+  4,
+  3,
+  2
+ ],
+ "job_id": "damascf8gn2s739l3t9g",
+ "meta": [
+  {
+   "arm": "floor_private",
+   "t": 0
+  },
+  {
+   "arm": "floor_private",
+   "t": 1
+  },
+  {
+   "arm": "floor_private",
+   "t": 2
+  },
+  {
+   "arm": "floor_private",
+   "t": 3
+  },
+  {
+   "arm": "floor_private",
+   "t": 4
+  },
+  {
+   "arm": "floor_private",
+   "t": 5
+  },
+  {
+   "arm": "floor_private",
+   "t": 6
+  },
+  {
+   "arm": "floor_private",
+   "t": 7
+  },
+  {
+   "arm": "floor_product",
+   "t": 0
+  },
+  {
+   "arm": "floor_product",
+   "t": 1
+  },
+  {
+   "arm": "floor_product",
+   "t": 2
+  },
+  {
+   "arm": "floor_product",
+   "t": 3
+  },
+  {
+   "arm": "floor_product",
+   "t": 4
+  },
+  {
+   "arm": "floor_product",
+   "t": 5
+  },
+  {
+   "arm": "floor_product",
+   "t": 6
+  },
+  {
+   "arm": "floor_product",
+   "t": 7
+  },
+  {
+   "arm": "ceiling",
+   "t": 0
+  },
+  {
+   "arm": "ceiling",
+   "t": 1
+  },
+  {
+   "arm": "ceiling",
+   "t": 2
+  },
+  {
+   "arm": "ceiling",
+   "t": 3
+  },
+  {
+   "arm": "ceiling",
+   "t": 4
+  },
+  {
+   "arm": "ceiling",
+   "t": 5
+  },
+  {
+   "arm": "ceiling",
+   "t": 6
+  },
+  {
+   "arm": "ceiling",
+   "t": 7
+  },
+  {
+   "arm": "signal",
+   "t": 0
+  },
+  {
+   "arm": "signal",
+   "t": 1
+  },
+  {
+   "arm": "signal",
+   "t": 2
+  },
+  {
+   "arm": "signal",
+   "t": 3
+  },
+  {
+   "arm": "signal",
+   "t": 4
+  },
+  {
+   "arm": "signal",
+   "t": 5
+  },
+  {
+   "arm": "signal",
+   "t": 6
+  },
+  {
+   "arm": "signal",
+   "t": 7
+  }
+ ],
+ "shots": 4096,
+ "submitted_utc": "2026-09-18T03:21:22Z"
+}

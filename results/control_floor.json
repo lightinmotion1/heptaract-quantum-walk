@@ -1,0 +1,49 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  6,
+  5,
+  4,
+  3,
+  2
+ ],
+ "shots": 4096,
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 41,
+  "status": "complete"
+ },
+ "arms": {
+  "floor_private": {
+   "bond": 0.0291,
+   "bootstrap_sd": 0.0067
+  },
+  "floor_product": {
+   "bond": 0.0313,
+   "bootstrap_sd": 0.007
+  },
+  "ceiling": {
+   "bond": 0.2183,
+   "bootstrap_sd": 0.0061
+  },
+  "signal": {
+   "bond": 0.0784,
+   "bootstrap_sd": 0.008
+  }
+ },
+ "floor": {
+  "private": 0.0291,
+  "product": 0.0313,
+  "relative_difference": 0.072,
+  "pooled": 0.0302,
+  "pooled_sd": 0.0048
+ },
+ "signal_over_floor_sd": 5.1,
+ "surviving_fraction_at_60us": {
+  "value": 0.256,
+  "sd": 0.051
+ },
+ "verdict": {
+  "two_floor_estimates_agree_within_15pc": true,
+  "signal_above_floor_by_5sd": true
+ }
+}
