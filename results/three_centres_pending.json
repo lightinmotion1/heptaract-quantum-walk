@@ -1,0 +1,139 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  12,
+  13,
+  14,
+  15,
+  19,
+  35,
+  34,
+  33,
+  32
+ ],
+ "job_id": "dam9r0o2fm4c73f2keig",
+ "meta": [
+  {
+   "reading": "mine",
+   "t": 0,
+   "twoq": 25
+  },
+  {
+   "reading": "mine",
+   "t": 1,
+   "twoq": 25
+  },
+  {
+   "reading": "mine",
+   "t": 2,
+   "twoq": 25
+  },
+  {
+   "reading": "mine",
+   "t": 3,
+   "twoq": 25
+  },
+  {
+   "reading": "mine",
+   "t": 4,
+   "twoq": 25
+  },
+  {
+   "reading": "mine",
+   "t": 5,
+   "twoq": 25
+  },
+  {
+   "reading": "mine",
+   "t": 6,
+   "twoq": 25
+  },
+  {
+   "reading": "mine",
+   "t": 7,
+   "twoq": 25
+  },
+  {
+   "reading": "yours",
+   "t": 0,
+   "twoq": 25
+  },
+  {
+   "reading": "yours",
+   "t": 1,
+   "twoq": 25
+  },
+  {
+   "reading": "yours",
+   "t": 2,
+   "twoq": 25
+  },
+  {
+   "reading": "yours",
+   "t": 3,
+   "twoq": 25
+  },
+  {
+   "reading": "yours",
+   "t": 4,
+   "twoq": 25
+  },
+  {
+   "reading": "yours",
+   "t": 5,
+   "twoq": 25
+  },
+  {
+   "reading": "yours",
+   "t": 6,
+   "twoq": 25
+  },
+  {
+   "reading": "yours",
+   "t": 7,
+   "twoq": 25
+  },
+  {
+   "reading": "ours",
+   "t": 0,
+   "twoq": 30
+  },
+  {
+   "reading": "ours",
+   "t": 1,
+   "twoq": 30
+  },
+  {
+   "reading": "ours",
+   "t": 2,
+   "twoq": 30
+  },
+  {
+   "reading": "ours",
+   "t": 3,
+   "twoq": 30
+  },
+  {
+   "reading": "ours",
+   "t": 4,
+   "twoq": 30
+  },
+  {
+   "reading": "ours",
+   "t": 5,
+   "twoq": 30
+  },
+  {
+   "reading": "ours",
+   "t": 6,
+   "twoq": 30
+  },
+  {
+   "reading": "ours",
+   "t": 7,
+   "twoq": 30
+  }
+ ],
+ "shots": 2048,
+ "submitted_utc": "2026-09-18T02:10:11Z"
+}

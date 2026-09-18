@@ -1,0 +1,137 @@
+{
+ "backend": "ibm_marrakesh",
+ "job_id": "dam9r0o2fm4c73f2keig",
+ "shots": 2048,
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 15,
+  "status": "complete"
+ },
+ "by_reading": {
+  "mine": {
+   "bond_A": 0.0427,
+   "bond_B": 0.037,
+   "bond_across": 0.0404,
+   "by_outcome": {
+    "0": {
+     "A": 0.0467,
+     "B": 0.0399,
+     "across": 0.0448,
+     "series_across": [
+      0.021,
+      -0.0134,
+      -0.0167,
+      -0.0259,
+      0.0657,
+      0.0037,
+      0.0312,
+      -0.0105
+     ]
+    },
+    "1": {
+     "A": 0.0388,
+     "B": 0.0341,
+     "across": 0.0361,
+     "series_across": [
+      -0.08,
+      -0.0457,
+      -0.0515,
+      -0.0175,
+      -0.015,
+      -0.0613,
+      0.001,
+      -0.001
+     ]
+    }
+   },
+   "two_qubit_gates": [
+    25
+   ]
+  },
+  "yours": {
+   "bond_A": 0.0608,
+   "bond_B": 0.036,
+   "bond_across": 0.0383,
+   "by_outcome": {
+    "0": {
+     "A": 0.0778,
+     "B": 0.0329,
+     "across": 0.0524,
+     "series_across": [
+      -0.0429,
+      -0.0211,
+      -0.0532,
+      0.0505,
+      0.012,
+      -0.0433,
+      -0.0087,
+      0.0388
+     ]
+    },
+    "1": {
+     "A": 0.0438,
+     "B": 0.0392,
+     "across": 0.0242,
+     "series_across": [
+      -0.041,
+      -0.002,
+      -0.0502,
+      -0.0433,
+      -0.0057,
+      -0.0233,
+      0.0108,
+      -0.0138
+     ]
+    }
+   },
+   "two_qubit_gates": [
+    25
+   ]
+  },
+  "ours": {
+   "bond_A": 0.0544,
+   "bond_B": 0.0281,
+   "bond_across": 0.1906,
+   "by_outcome": {
+    "0": {
+     "A": 0.0699,
+     "B": 0.0208,
+     "across": 0.2063,
+     "series_across": [
+      0.0059,
+      0.3946,
+      0.6879,
+      0.3487,
+      -0.0408,
+      0.3147,
+      0.6923,
+      0.3438
+     ]
+    },
+    "1": {
+     "A": 0.039,
+     "B": 0.0354,
+     "across": 0.175,
+     "series_across": [
+      -0.0156,
+      -0.4043,
+      -0.6622,
+      -0.3157,
+      -0.0774,
+      -0.4127,
+      -0.6683,
+      -0.3145
+     ]
+    }
+   },
+   "two_qubit_gates": [
+    30
+   ]
+  }
+ },
+ "verdict": {
+  "shared_reading_keeps_the_bond_across": true,
+  "private_readings_keep_their_own": false,
+  "ratio_ours_over_mine": 4.72,
+  "ratio_ours_over_yours": 4.98
+ }
+}
