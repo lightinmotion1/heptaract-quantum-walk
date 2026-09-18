@@ -1,0 +1,73 @@
+{
+ "field": 7,
+ "classical": {
+  "C  [7,4]": {
+   "distance": 4,
+   "mds": true
+  },
+  "C* [7,3]": {
+   "distance": 5,
+   "mds": true
+  },
+  "dual_of_C_is_C*": true,
+  "C*_inside_C": true
+ },
+ "quantum_code": {
+  "parameters": "[[7,1,4]]_7",
+  "distance_by_enumeration": 4,
+  "encodes_qudits": 1,
+  "singleton_bound_k_max": 1,
+  "meets_singleton": true,
+  "single_error_syndromes": {
+   "errors": 336,
+   "collisions": 0,
+   "distinct": 336
+  },
+  "light_errors_sampled": 12572,
+  "undetected_light_errors": 0
+ },
+ "qubit_route": {
+  "best_binary_[7,4]_distance": 3,
+  "best_binary_[7,3]_distance": 4,
+  "generator_of_best_[7,4]": [
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  "css_distance_available_over_F2": 3,
+  "verdict": "closed: no binary [7,4] code reaches distance 4, so the CSS route to [[7,1,4]] over qubits does not exist"
+ }
+}
