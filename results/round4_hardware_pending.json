@@ -1,0 +1,266 @@
+{
+ "job_id": "dam81778gn2s739kvg7g",
+ "backend": "ibm_marrakesh",
+ "chain": [
+  98,
+  91,
+  92
+ ],
+ "meta": [
+  {
+   "kind": "return",
+   "map": "F8_period7",
+   "k": 1,
+   "period": 7
+  },
+  {
+   "kind": "return",
+   "map": "F8_period7",
+   "k": 2,
+   "period": 7
+  },
+  {
+   "kind": "return",
+   "map": "F8_period7",
+   "k": 3,
+   "period": 7
+  },
+  {
+   "kind": "return",
+   "map": "F8_period7",
+   "k": 4,
+   "period": 7
+  },
+  {
+   "kind": "return",
+   "map": "F8_period7",
+   "k": 5,
+   "period": 7
+  },
+  {
+   "kind": "return",
+   "map": "F8_period7",
+   "k": 6,
+   "period": 7
+  },
+  {
+   "kind": "return",
+   "map": "F8_period7",
+   "k": 7,
+   "period": 7
+  },
+  {
+   "kind": "return",
+   "map": "linear_period4",
+   "k": 1,
+   "period": 4
+  },
+  {
+   "kind": "return",
+   "map": "linear_period4",
+   "k": 2,
+   "period": 4
+  },
+  {
+   "kind": "return",
+   "map": "linear_period4",
+   "k": 3,
+   "period": 4
+  },
+  {
+   "kind": "return",
+   "map": "linear_period4",
+   "k": 4,
+   "period": 4
+  },
+  {
+   "kind": "return",
+   "map": "rotate_period3",
+   "k": 1,
+   "period": 3
+  },
+  {
+   "kind": "return",
+   "map": "rotate_period3",
+   "k": 2,
+   "period": 3
+  },
+  {
+   "kind": "return",
+   "map": "rotate_period3",
+   "k": 3,
+   "period": 3
+  },
+  {
+   "kind": "return",
+   "map": "counter_period8",
+   "k": 1,
+   "period": 8
+  },
+  {
+   "kind": "return",
+   "map": "counter_period8",
+   "k": 2,
+   "period": 8
+  },
+  {
+   "kind": "return",
+   "map": "counter_period8",
+   "k": 3,
+   "period": 8
+  },
+  {
+   "kind": "return",
+   "map": "counter_period8",
+   "k": 4,
+   "period": 8
+  },
+  {
+   "kind": "return",
+   "map": "counter_period8",
+   "k": 5,
+   "period": 8
+  },
+  {
+   "kind": "return",
+   "map": "counter_period8",
+   "k": 6,
+   "period": 8
+  },
+  {
+   "kind": "return",
+   "map": "counter_period8",
+   "k": 7,
+   "period": 8
+  },
+  {
+   "kind": "return",
+   "map": "counter_period8",
+   "k": 8,
+   "period": 8
+  },
+  {
+   "kind": "orbit",
+   "map": "F8_period7",
+   "k": 0,
+   "period": 7
+  },
+  {
+   "kind": "orbit",
+   "map": "F8_period7",
+   "k": 1,
+   "period": 7
+  },
+  {
+   "kind": "orbit",
+   "map": "F8_period7",
+   "k": 2,
+   "period": 7
+  },
+  {
+   "kind": "orbit",
+   "map": "F8_period7",
+   "k": 3,
+   "period": 7
+  },
+  {
+   "kind": "orbit",
+   "map": "F8_period7",
+   "k": 4,
+   "period": 7
+  },
+  {
+   "kind": "orbit",
+   "map": "F8_period7",
+   "k": 5,
+   "period": 7
+  },
+  {
+   "kind": "orbit",
+   "map": "F8_period7",
+   "k": 6,
+   "period": 7
+  },
+  {
+   "kind": "orbit",
+   "map": "linear_period4",
+   "k": 0,
+   "period": 4
+  },
+  {
+   "kind": "orbit",
+   "map": "linear_period4",
+   "k": 1,
+   "period": 4
+  },
+  {
+   "kind": "orbit",
+   "map": "linear_period4",
+   "k": 2,
+   "period": 4
+  },
+  {
+   "kind": "orbit",
+   "map": "linear_period4",
+   "k": 3,
+   "period": 4
+  },
+  {
+   "kind": "orbit",
+   "map": "rotate_period3",
+   "k": 0,
+   "period": 3
+  },
+  {
+   "kind": "orbit",
+   "map": "rotate_period3",
+   "k": 1,
+   "period": 3
+  },
+  {
+   "kind": "orbit",
+   "map": "rotate_period3",
+   "k": 2,
+   "period": 3
+  }
+ ],
+ "twoq": [
+  7,
+  10,
+  6,
+  13,
+  9,
+  10,
+  0,
+  4,
+  6,
+  4,
+  0,
+  14,
+  11,
+  0,
+  13,
+  24,
+  35,
+  46,
+  57,
+  68,
+  79,
+  90,
+  0,
+  5,
+  10,
+  9,
+  11,
+  7,
+  8,
+  0,
+  2,
+  4,
+  2,
+  0,
+  12,
+  9
+ ],
+ "submitted_utc": "2026-09-18T00:06:53Z"
+}

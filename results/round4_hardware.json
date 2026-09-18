@@ -1,0 +1,125 @@
+{
+ "backend": "ibm_marrakesh",
+ "job_id": "dam81778gn2s739kvg7g",
+ "chain": [
+  98,
+  91,
+  92
+ ],
+ "shots": 4096,
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 41,
+  "status": "complete"
+ },
+ "timestamp_utc": "2026-09-18T00:06:53Z",
+ "P-6": {
+  "by_map": {
+   "F8_period7": {
+    "1": 0.2559,
+    "2": 0.2668,
+    "3": 0.283,
+    "4": 0.2312,
+    "5": 0.2332,
+    "6": 0.2266,
+    "7": 0.9956
+   },
+   "linear_period4": {
+    "1": 0.2507,
+    "2": 0.9731,
+    "3": 0.2375,
+    "4": 0.9929
+   },
+   "rotate_period3": {
+    "1": 0.2446,
+    "2": 0.2319,
+    "3": 0.9939
+   },
+   "counter_period8": {
+    "1": 0.0125,
+    "2": 0.0073,
+    "3": 0.2734,
+    "4": 0.032,
+    "5": 0.2397,
+    "6": 0.0222,
+    "7": 0.0354,
+    "8": 0.6973
+   }
+  },
+  "two_qubit_gates": {
+   "F8_period7": {
+    "1": 7,
+    "2": 10,
+    "3": 6,
+    "4": 13,
+    "5": 9,
+    "6": 10,
+    "7": 0
+   },
+   "linear_period4": {
+    "1": 4,
+    "2": 6,
+    "3": 4,
+    "4": 0
+   },
+   "rotate_period3": {
+    "1": 14,
+    "2": 11,
+    "3": 0
+   },
+   "counter_period8": {
+    "1": 13,
+    "2": 24,
+    "3": 35,
+    "4": 46,
+    "5": 57,
+    "6": 68,
+    "7": 79,
+    "8": 90
+   }
+  },
+  "F8_home_at_7": 0.9956,
+  "F8_worst_away_1_to_6": 0.283,
+  "counter_home_at_8": 0.6973,
+  "z_F8_over_counter": 41.13,
+  "verdict": "PASS",
+  "rule": "PASS if the F8 cycle reads 000 at least 0.70 at k=7, stays at or under 0.45 for k=1..6, and beats the counter's own return by at least 2 SE"
+ },
+ "P-7": {
+  "orbits": {
+   "F8_period7": {
+    "visited": [
+     "001",
+     "010",
+     "100",
+     "011",
+     "110",
+     "111",
+     "101"
+    ],
+    "distinct": 7,
+    "min_confidence": 0.9373
+   },
+   "linear_period4": {
+    "visited": [
+     "100",
+     "110",
+     "101",
+     "111"
+    ],
+    "distinct": 4,
+    "min_confidence": 0.9604
+   },
+   "rotate_period3": {
+    "visited": [
+     "001",
+     "010",
+     "100"
+    ],
+    "distinct": 3,
+    "min_confidence": 0.949
+   }
+  },
+  "verdict": "PASS",
+  "rule": "PASS if the F8 orbit reads seven distinct states, each identified with at least 0.60, and the rivals read four and three"
+ }
+}
