@@ -1,0 +1,91 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  6,
+  5,
+  4,
+  3,
+  2
+ ],
+ "published": {
+  "6": {
+   "T1_us": 175.4,
+   "T2_us": 152.7
+  },
+  "5": {
+   "T1_us": 328.5,
+   "T2_us": 243.9
+  },
+  "4": {
+   "T1_us": 172.3,
+   "T2_us": 207.5
+  },
+  "3": {
+   "T1_us": 300.0,
+   "T2_us": 236.9
+  },
+  "2": {
+   "T1_us": 209.1,
+   "T2_us": 217.0
+  }
+ },
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 32,
+  "status": "complete"
+ },
+ "measured": {
+  "6": {
+   "excited_population": {
+    "0": 0.9893,
+    "60": 0.791,
+    "180": 0.4844
+   },
+   "T1_us": 252.1,
+   "T2_star_amplitude": {
+    "0": 0.9902,
+    "60": 0.4547,
+    "180": 0.2156
+   },
+   "T2_star_us": 118.1,
+   "T2_echo_amplitude": {
+    "0": 0.9954,
+    "60": 0.4687,
+    "180": 0.2722
+   },
+   "T2_echo_us": 138.8,
+   "zz_phase_shift_rad": -1.4804,
+   "zz_coupling_kHz": 3.93
+  },
+  "2": {
+   "excited_population": {
+    "0": 0.9844,
+    "60": 0.8096,
+    "180": 0.5439
+   },
+   "T1_us": 303.5,
+   "T2_star_amplitude": {
+    "0": 0.9972,
+    "60": 0.6109,
+    "180": 0.3609
+   },
+   "T2_star_us": 177.1,
+   "T2_echo_amplitude": {
+    "0": 0.9981,
+    "60": 0.6426,
+    "180": 0.4551
+   },
+   "T2_echo_us": 229.2,
+   "zz_phase_shift_rad": -1.4329,
+   "zz_coupling_kHz": 3.8
+  }
+ },
+ "model": {
+  "published_two_body_us": 89.6,
+  "measured_T2star_two_body_us": 70.9,
+  "zz_total_kHz": 7.73,
+  "zz_dephasing_time_us": 20.6,
+  "measured_plus_zz_us": 16.0,
+  "observed_bond_decay_us_from_P14": 30.0,
+  "note": "P-14's 60 us point implies a bond decay near 30 us; the models above are what each measured channel predicts for a two-carrier bond"
+ }
+}
