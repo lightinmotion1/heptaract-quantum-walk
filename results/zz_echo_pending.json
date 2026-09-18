@@ -1,0 +1,517 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  6,
+  5,
+  4,
+  3,
+  2
+ ],
+ "job_id": "damap6tr85ps73fcgr4g",
+ "meta": [
+  {
+   "reading": "ours",
+   "delay_us": 0,
+   "treatment": "silent",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 0,
+   "treatment": "silent",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 0,
+   "treatment": "silent",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 0,
+   "treatment": "silent",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 0,
+   "treatment": "silent",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 0,
+   "treatment": "silent",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 0,
+   "treatment": "silent",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 0,
+   "treatment": "silent",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "clock",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "clock",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "clock",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "clock",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "clock",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "clock",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "clock",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "clock",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "zz",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "zz",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "zz",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "zz",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "zz",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "zz",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "zz",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "zz",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "both",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "both",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "both",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "both",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "both",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "both",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "both",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 60,
+   "treatment": "both",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "silent",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "silent",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "silent",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "silent",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "silent",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "silent",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "silent",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "silent",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "clock",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "clock",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "clock",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "clock",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "clock",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "clock",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "clock",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "clock",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "zz",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "zz",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "zz",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "zz",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "zz",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "zz",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "zz",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "zz",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "both",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "both",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "both",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "both",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "both",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "both",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "both",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "delay_us": 180,
+   "treatment": "both",
+   "t": 7
+  },
+  {
+   "reading": "private",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 0
+  },
+  {
+   "reading": "private",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 1
+  },
+  {
+   "reading": "private",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 2
+  },
+  {
+   "reading": "private",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 3
+  },
+  {
+   "reading": "private",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 4
+  },
+  {
+   "reading": "private",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 5
+  },
+  {
+   "reading": "private",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 6
+  },
+  {
+   "reading": "private",
+   "delay_us": 60,
+   "treatment": "silent",
+   "t": 7
+  }
+ ],
+ "shots": 1024,
+ "coherence": {
+  "6": {
+   "T1_us": 175.4,
+   "T2_us": 152.7
+  },
+  "5": {
+   "T1_us": 328.5,
+   "T2_us": 243.9
+  },
+  "4": {
+   "T1_us": 172.3,
+   "T2_us": 207.5
+  },
+  "3": {
+   "T1_us": 300.0,
+   "T2_us": 236.9
+  },
+  "2": {
+   "T1_us": 209.1,
+   "T2_us": 217.0
+  }
+ },
+ "submitted_utc": "2026-09-18T03:14:35Z"
+}

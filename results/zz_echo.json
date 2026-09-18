@@ -1,0 +1,107 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  6,
+  5,
+  4,
+  3,
+  2
+ ],
+ "shots": 1024,
+ "coherence": {
+  "6": {
+   "T1_us": 175.4,
+   "T2_us": 152.7
+  },
+  "5": {
+   "T1_us": 328.5,
+   "T2_us": 243.9
+  },
+  "4": {
+   "T1_us": 172.3,
+   "T2_us": 207.5
+  },
+  "3": {
+   "T1_us": 300.0,
+   "T2_us": 236.9
+  },
+  "2": {
+   "T1_us": 209.1,
+   "T2_us": 217.0
+  }
+ },
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 32,
+  "status": "complete"
+ },
+ "bond": {
+  "ours/0us/silent": 0.262,
+  "ours/60us/silent": 0.0413,
+  "ours/60us/clock": 0.0739,
+  "ours/60us/zz": 0.0953,
+  "ours/60us/both": 0.0918,
+  "ours/180us/silent": 0.0375,
+  "ours/180us/clock": 0.0456,
+  "ours/180us/zz": 0.0584,
+  "ours/180us/both": 0.0337,
+  "private/60us/silent": 0.0874
+ },
+ "floor": 0.0874,
+ "fraction_of_ceiling": {
+  "ours/0us/silent": 1.0,
+  "ours/60us/silent": 0.0,
+  "ours/60us/clock": 0.0,
+  "ours/60us/zz": 0.045,
+  "ours/60us/both": 0.025,
+  "ours/180us/silent": 0.0,
+  "ours/180us/clock": 0.0,
+  "ours/180us/zz": 0.0,
+  "ours/180us/both": 0.0
+ },
+ "best_by_delay": {
+  "60": {
+   "treatment": "zz",
+   "fraction": 0.045,
+   "tau_us": 19.3,
+   "all": {
+    "silent": 0.0,
+    "clock": 0.0,
+    "zz": 0.045,
+    "both": 0.025
+   }
+  },
+  "180": {
+   "treatment": "silent",
+   "fraction": 0.0,
+   "tau_us": null,
+   "all": {
+    "silent": 0.0,
+    "clock": 0.0,
+    "zz": 0.0,
+    "both": 0.0
+   }
+  }
+ },
+ "verdict": {
+  "staggered_beats_clock_at_60us": true,
+  "centre_only_beats_silence_at_60us": true,
+  "best_keeps_15pc_at_180us": false,
+  "ratio_both_over_clock_60us": 25000000.0,
+  "ratio_zz_over_silent_60us": 45000000.0
+ },
+ "floor_sensitivity": {
+  "this_run_private_control": 0.0874,
+  "pooled_previous_runs": 0.0439,
+  "fractions_pooled_floor": {
+   "ours/0us/silent": 1.0,
+   "ours/60us/silent": 0.0,
+   "ours/60us/clock": 0.138,
+   "ours/60us/zz": 0.236,
+   "ours/60us/both": 0.22,
+   "ours/180us/silent": 0.0,
+   "ours/180us/clock": 0.008,
+   "ours/180us/zz": 0.066,
+   "ours/180us/both": 0.0
+  }
+ }
+}
