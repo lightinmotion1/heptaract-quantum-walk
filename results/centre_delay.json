@@ -1,0 +1,102 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  26,
+  25,
+  37,
+  45,
+  44,
+  43,
+  42,
+  41,
+  40
+ ],
+ "shots": 1024,
+ "coherence": {
+  "26": {
+   "T1_us": 140.5,
+   "T2_us": 123.2
+  },
+  "25": {
+   "T1_us": 387.9,
+   "T2_us": 28.4
+  },
+  "37": {
+   "T1_us": 153.8,
+   "T2_us": 32.5
+  },
+  "45": {
+   "T1_us": 42.5,
+   "T2_us": 65.0
+  },
+  "44": {
+   "T1_us": 189.3,
+   "T2_us": 223.1
+  },
+  "43": {
+   "T1_us": 158.9,
+   "T2_us": 56.5
+  },
+  "42": {
+   "T1_us": 220.6,
+   "T2_us": 127.6
+  },
+  "41": {
+   "T1_us": 208.1,
+   "T2_us": 60.5
+  },
+  "40": {
+   "T1_us": 85.6,
+   "T2_us": 49.0
+  }
+ },
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 25,
+  "status": "complete"
+ },
+ "by_arm": {
+  "together": {
+   "0": 0.2256,
+   "30": 0.0402,
+   "90": 0.0431
+  },
+  "spanned": {
+   "0": 0.2098,
+   "30": 0.0651,
+   "90": 0.0438
+  },
+  "private": {
+   "0": 0.069,
+   "30": 0.0537,
+   "90": 0.0503
+  }
+ },
+ "decay": {
+  "noise_floor": 0.052,
+  "floor_corrected_bond": {
+   "0": 0.1736,
+   "30": 0.0,
+   "90": 0.0
+  },
+  "shared_bond_decay_us": null,
+  "shared_bond_decay_upper_bound_us": 10.5,
+  "rim_T2_us": {
+   "26": 123.2,
+   "25": 28.4,
+   "37": 32.5,
+   "42": 127.6,
+   "41": 60.5,
+   "40": 49.0
+  },
+  "six_body_prediction_us": 8.4,
+  "chain_mean_T2_us": 85.1,
+  "measured_over_six_body": 1.25,
+  "note": "a six-body coherence decays at the SUM of its carriers' rates, so the yardstick is the six-body prediction, not a single qubit's T2"
+ },
+ "verdict": {
+  "shared_beats_private_at_zero_delay": true,
+  "shared_beats_private_at_every_delay": false,
+  "spanning_costs_nothing_extra": true,
+  "decays_no_faster_than_its_carriers": true
+ }
+}
