@@ -1,0 +1,61 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  40,
+  41,
+  36,
+  21,
+  20
+ ],
+ "shots": 4096,
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 42,
+  "status": "complete"
+ },
+ "arms": {
+  "swap": {
+   "bond": 0.5332,
+   "bond_sd": 0.0091,
+   "z_correlation": 0.8463,
+   "fidelity": 0.7282,
+   "fidelity_sd": 0.0055,
+   "shots_in_branch": 2077
+  },
+  "private": {
+   "bond": 0.0167,
+   "bond_sd": 0.0082,
+   "z_correlation": 0.0271,
+   "fidelity": 0.2651,
+   "fidelity_sd": 0.0058,
+   "shots_in_branch": 2096
+  },
+  "none": {
+   "bond": 0.0651,
+   "bond_sd": 0.0468,
+   "z_correlation": 0.0244,
+   "fidelity": 0.2886,
+   "fidelity_sd": 0.0289,
+   "shots_in_branch": 4085
+  },
+  "linked": {
+   "bond": 0.5284,
+   "bond_sd": 0.0102,
+   "z_correlation": 0.8233,
+   "fidelity": 0.72,
+   "fidelity_sd": 0.0059,
+   "shots_in_branch": 2106
+  }
+ },
+ "floor": {
+  "value": 0.0409,
+  "sd": 0.0238
+ },
+ "swap_over_floor_sd": 19.4,
+ "swap_fidelity_over_half_sd": 41.5,
+ "verdict": {
+  "reading_creates_a_bond": true,
+  "entanglement_witnessed": true,
+  "no_reading_no_bond": true,
+  "swap_vs_linked_ratio": 1.01
+ }
+}

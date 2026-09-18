@@ -1,0 +1,159 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  40,
+  41,
+  36,
+  21,
+  20
+ ],
+ "job_id": "damb30gpqrnc73978170",
+ "meta": [
+  {
+   "arm": "swap",
+   "kind": "pop"
+  },
+  {
+   "arm": "swap",
+   "kind": "par0"
+  },
+  {
+   "arm": "swap",
+   "kind": "par1"
+  },
+  {
+   "arm": "swap",
+   "kind": "par2"
+  },
+  {
+   "arm": "swap",
+   "kind": "par3"
+  },
+  {
+   "arm": "swap",
+   "kind": "par4"
+  },
+  {
+   "arm": "swap",
+   "kind": "par5"
+  },
+  {
+   "arm": "swap",
+   "kind": "par6"
+  },
+  {
+   "arm": "swap",
+   "kind": "par7"
+  },
+  {
+   "arm": "private",
+   "kind": "pop"
+  },
+  {
+   "arm": "private",
+   "kind": "par0"
+  },
+  {
+   "arm": "private",
+   "kind": "par1"
+  },
+  {
+   "arm": "private",
+   "kind": "par2"
+  },
+  {
+   "arm": "private",
+   "kind": "par3"
+  },
+  {
+   "arm": "private",
+   "kind": "par4"
+  },
+  {
+   "arm": "private",
+   "kind": "par5"
+  },
+  {
+   "arm": "private",
+   "kind": "par6"
+  },
+  {
+   "arm": "private",
+   "kind": "par7"
+  },
+  {
+   "arm": "none",
+   "kind": "pop"
+  },
+  {
+   "arm": "none",
+   "kind": "par0"
+  },
+  {
+   "arm": "none",
+   "kind": "par1"
+  },
+  {
+   "arm": "none",
+   "kind": "par2"
+  },
+  {
+   "arm": "none",
+   "kind": "par3"
+  },
+  {
+   "arm": "none",
+   "kind": "par4"
+  },
+  {
+   "arm": "none",
+   "kind": "par5"
+  },
+  {
+   "arm": "none",
+   "kind": "par6"
+  },
+  {
+   "arm": "none",
+   "kind": "par7"
+  },
+  {
+   "arm": "linked",
+   "kind": "pop"
+  },
+  {
+   "arm": "linked",
+   "kind": "par0"
+  },
+  {
+   "arm": "linked",
+   "kind": "par1"
+  },
+  {
+   "arm": "linked",
+   "kind": "par2"
+  },
+  {
+   "arm": "linked",
+   "kind": "par3"
+  },
+  {
+   "arm": "linked",
+   "kind": "par4"
+  },
+  {
+   "arm": "linked",
+   "kind": "par5"
+  },
+  {
+   "arm": "linked",
+   "kind": "par6"
+  },
+  {
+   "arm": "linked",
+   "kind": "par7"
+  }
+ ],
+ "shots": 4096,
+ "submitted_utc": "2026-09-18T03:35:30Z"
+}
