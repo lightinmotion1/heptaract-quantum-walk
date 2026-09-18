@@ -1,0 +1,62 @@
+[
+ {
+  "line": [
+   12,
+   13,
+   14,
+   15,
+   19,
+   35,
+   34,
+   33
+  ],
+  "median_T2_us": 323.9,
+  "worst_T2_us": 152.1,
+  "median_readout": 0.0168,
+  "worst_readout": 0.0334,
+  "median_2q_err": 0.00213,
+  "backend": "ibm_kingston",
+  "pending": 2,
+  "quality": 0.1488
+ },
+ {
+  "line": [
+   20,
+   21,
+   22,
+   23,
+   16,
+   3,
+   4,
+   5
+  ],
+  "median_T2_us": 152.2,
+  "worst_T2_us": 88.0,
+  "median_readout": 0.0146,
+  "worst_readout": 0.0781,
+  "median_2q_err": 0.0032,
+  "backend": "ibm_fez",
+  "pending": 100,
+  "quality": -0.281
+ },
+ {
+  "line": [
+   9,
+   8,
+   7,
+   6,
+   5,
+   4,
+   3,
+   2
+  ],
+  "median_T2_us": 207.5,
+  "worst_T2_us": 35.7,
+  "median_readout": 0.0092,
+  "worst_readout": 0.0135,
+  "median_2q_err": 0.0027,
+  "backend": "ibm_marrakesh",
+  "pending": 0,
+  "quality": -0.6771
+ }
+]
