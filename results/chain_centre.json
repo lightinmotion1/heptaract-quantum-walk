@@ -1,0 +1,78 @@
+{
+ "backend": "ibm_fez",
+ "chain": [
+  20,
+  21,
+  22,
+  23,
+  16,
+  3,
+  4,
+  5
+ ],
+ "shots": 4096,
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 31,
+  "status": "complete"
+ },
+ "views": {
+  "ceiling_gate": {
+   "bond": 0.9272,
+   "bond_sd": 0.0032,
+   "z_correlation": 0.9067,
+   "fidelity": 0.9403,
+   "fidelity_sd": 0.0024,
+   "shots_in_branch": 4096
+  },
+  "floor_none": {
+   "bond": 0.0097,
+   "bond_sd": 0.0066,
+   "z_correlation": 0.0078,
+   "fidelity": 0.2568,
+   "fidelity_sd": 0.0043,
+   "shots_in_branch": 4096
+  },
+  "one_hop": {
+   "bond": 0.6023,
+   "bond_sd": 0.0091,
+   "z_correlation": 0.7724,
+   "fidelity": 0.7443,
+   "fidelity_sd": 0.0055,
+   "shots_in_branch": 2050
+  },
+  "floor_one_short": {
+   "bond": 0.0215,
+   "bond_sd": 0.0096,
+   "z_correlation": 0.0303,
+   "fidelity": 0.2683,
+   "fidelity_sd": 0.0065,
+   "shots_in_branch": 2050
+  },
+  "two_hops": {
+   "bond": 0.0621,
+   "bond_sd": 0.0109,
+   "z_correlation": 0.5865,
+   "fidelity": 0.4277,
+   "fidelity_sd": 0.007,
+   "shots_in_branch": 2036
+  }
+ },
+ "floor": {
+  "value": 0.0156,
+  "sd": 0.0058
+ },
+ "two_hops_over_floor_sd": 3.8,
+ "two_hops_fidelity_over_half_sd": -10.3,
+ "cost_per_hop": {
+  "hop1_of_ceiling": 0.65,
+  "hop2_of_hop1": 0.103,
+  "hop2_of_ceiling": 0.067,
+  "multiplicative": 0.355
+ },
+ "verdict": {
+  "centre_composes": false,
+  "second_hop_still_entangled": false,
+  "floors_agree_within_2sd": true,
+  "cost_is_multiplicative_within_0p1": false
+ }
+}
