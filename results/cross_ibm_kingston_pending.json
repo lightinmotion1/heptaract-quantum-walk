@@ -1,0 +1,169 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  12,
+  13,
+  14,
+  15,
+  19,
+  35,
+  34,
+  33
+ ],
+ "job_id": "damc0v5r85ps73fcj3k0",
+ "meta": [
+  {
+   "arm": "none",
+   "kind": "pop"
+  },
+  {
+   "arm": "none",
+   "kind": "par0"
+  },
+  {
+   "arm": "none",
+   "kind": "par1"
+  },
+  {
+   "arm": "none",
+   "kind": "par2"
+  },
+  {
+   "arm": "none",
+   "kind": "par3"
+  },
+  {
+   "arm": "none",
+   "kind": "par4"
+  },
+  {
+   "arm": "none",
+   "kind": "par5"
+  },
+  {
+   "arm": "none",
+   "kind": "par6"
+  },
+  {
+   "arm": "none",
+   "kind": "par7"
+  },
+  {
+   "arm": "first",
+   "kind": "pop"
+  },
+  {
+   "arm": "first",
+   "kind": "par0"
+  },
+  {
+   "arm": "first",
+   "kind": "par1"
+  },
+  {
+   "arm": "first",
+   "kind": "par2"
+  },
+  {
+   "arm": "first",
+   "kind": "par3"
+  },
+  {
+   "arm": "first",
+   "kind": "par4"
+  },
+  {
+   "arm": "first",
+   "kind": "par5"
+  },
+  {
+   "arm": "first",
+   "kind": "par6"
+  },
+  {
+   "arm": "first",
+   "kind": "par7"
+  },
+  {
+   "arm": "both",
+   "kind": "pop"
+  },
+  {
+   "arm": "both",
+   "kind": "par0"
+  },
+  {
+   "arm": "both",
+   "kind": "par1"
+  },
+  {
+   "arm": "both",
+   "kind": "par2"
+  },
+  {
+   "arm": "both",
+   "kind": "par3"
+  },
+  {
+   "arm": "both",
+   "kind": "par4"
+  },
+  {
+   "arm": "both",
+   "kind": "par5"
+  },
+  {
+   "arm": "both",
+   "kind": "par6"
+  },
+  {
+   "arm": "both",
+   "kind": "par7"
+  }
+ ],
+ "shots": 3072,
+ "calibration": {
+  "12": {
+   "readout_err": 0.03345,
+   "T1_us": 317.6,
+   "T2_us": 298.4
+  },
+  "13": {
+   "readout_err": 0.0083,
+   "T1_us": 315.4,
+   "T2_us": 516.0
+  },
+  "14": {
+   "readout_err": 0.02197,
+   "T1_us": 215.7,
+   "T2_us": 409.4
+  },
+  "15": {
+   "readout_err": 0.00537,
+   "T1_us": 245.5,
+   "T2_us": 283.1
+  },
+  "19": {
+   "readout_err": 0.01538,
+   "T1_us": 137.2,
+   "T2_us": 152.1
+  },
+  "35": {
+   "readout_err": 0.01685,
+   "T1_us": 281.8,
+   "T2_us": 323.9
+  },
+  "34": {
+   "readout_err": 0.01953,
+   "T1_us": 234.9,
+   "T2_us": 222.8
+  },
+  "33": {
+   "readout_err": 0.00708,
+   "T1_us": 324.5,
+   "T2_us": 465.7
+  }
+ },
+ "two_hop_duration_us": 16.29,
+ "submitted_utc": "2026-09-18T04:39:24Z"
+}

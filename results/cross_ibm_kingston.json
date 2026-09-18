@@ -1,0 +1,125 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  12,
+  13,
+  14,
+  15,
+  19,
+  35,
+  34,
+  33
+ ],
+ "shots": 3072,
+ "calibration": {
+  "12": {
+   "readout_err": 0.03345,
+   "T1_us": 317.6,
+   "T2_us": 298.4
+  },
+  "13": {
+   "readout_err": 0.0083,
+   "T1_us": 315.4,
+   "T2_us": 516.0
+  },
+  "14": {
+   "readout_err": 0.02197,
+   "T1_us": 215.7,
+   "T2_us": 409.4
+  },
+  "15": {
+   "readout_err": 0.00537,
+   "T1_us": 245.5,
+   "T2_us": 283.1
+  },
+  "19": {
+   "readout_err": 0.01538,
+   "T1_us": 137.2,
+   "T2_us": 152.1
+  },
+  "35": {
+   "readout_err": 0.01685,
+   "T1_us": 281.8,
+   "T2_us": 323.9
+  },
+  "34": {
+   "readout_err": 0.01953,
+   "T1_us": 234.9,
+   "T2_us": 222.8
+  },
+  "33": {
+   "readout_err": 0.00708,
+   "T1_us": 324.5,
+   "T2_us": 465.7
+  }
+ },
+ "two_hop_duration_us": 16.29,
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 25,
+  "status": "complete"
+ },
+ "views": {
+  "ceiling_gate": {
+   "bond": 0.9187,
+   "bond_sd": 0.0035,
+   "z_correlation": 0.9401,
+   "fidelity": 0.9444,
+   "fidelity_sd": 0.0022,
+   "shots_in_branch": 3072
+  },
+  "floor_none": {
+   "bond": 0.0188,
+   "bond_sd": 0.0085,
+   "z_correlation": 0.0299,
+   "fidelity": 0.2669,
+   "fidelity_sd": 0.006,
+   "shots_in_branch": 3072
+  },
+  "one_hop": {
+   "bond": 0.7403,
+   "bond_sd": 0.0084,
+   "z_correlation": 0.7646,
+   "fidelity": 0.8113,
+   "fidelity_sd": 0.0059,
+   "shots_in_branch": 1503
+  },
+  "floor_one_short": {
+   "bond": 0.034,
+   "bond_sd": 0.011,
+   "z_correlation": 0.0129,
+   "fidelity": 0.2702,
+   "fidelity_sd": 0.007,
+   "shots_in_branch": 1503
+  },
+  "two_hops": {
+   "bond": 0.551,
+   "bond_sd": 0.0102,
+   "z_correlation": 0.6365,
+   "fidelity": 0.6846,
+   "fidelity_sd": 0.0071,
+   "shots_in_branch": 1518
+  }
+ },
+ "floor": {
+  "value": 0.0264,
+  "sd": 0.007
+ },
+ "two_over_floor_sd": 42.5,
+ "two_fidelity_over_half_sd": 26.0,
+ "of_ceiling": {
+  "one_hop": 0.806,
+  "two_hops": 0.6
+ },
+ "multiplicative": {
+  "target": 0.649,
+  "observed": 0.6,
+  "gap": 0.05
+ },
+ "p19_collapse_reproduced": false,
+ "clearly_works": true,
+ "verdict": {
+  "composes_here": true,
+  "entangled_here": true,
+  "multiplicative_here": true
+ }
+}
