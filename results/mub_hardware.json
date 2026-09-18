@@ -1,0 +1,97 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  88,
+  89,
+  90
+ ],
+ "qpu_usage": {
+  "mub": {
+   "qpu_charge_time_seconds": 11,
+   "status": "complete"
+  },
+  "pauli": {
+   "qpu_charge_time_seconds": 11,
+   "status": "complete"
+  }
+ },
+ "two_qubit_gates": {
+  "mub": [
+   0,
+   1,
+   5,
+   29,
+   30,
+   32
+  ],
+  "pauli": [
+   0,
+   1,
+   5,
+   19,
+   20,
+   23,
+   24,
+   26
+  ]
+ },
+ "by_state": {
+  "level 0": {
+   "mub": {
+    "infidelity": 0.17654,
+    "bootstrap_sd": 0.00876,
+    "leak_to_level_7": 0.02396
+   },
+   "pauli": {
+    "infidelity": 0.10349,
+    "bootstrap_sd": 0.01222,
+    "leak_to_level_7": 0.00716
+   },
+   "z_mub_better": -4.86
+  },
+  "uniform": {
+   "mub": {
+    "infidelity": 0.3384,
+    "bootstrap_sd": 0.01405,
+    "leak_to_level_7": 0.03143
+   },
+   "pauli": {
+    "infidelity": 0.22232,
+    "bootstrap_sd": 0.01677,
+    "leak_to_level_7": 0.02751
+   },
+   "z_mub_better": -5.31
+  },
+  "ends": {
+   "mub": {
+    "infidelity": 0.28991,
+    "bootstrap_sd": 0.00961,
+    "leak_to_level_7": 0.0281
+   },
+   "pauli": {
+    "infidelity": 0.21123,
+    "bootstrap_sd": 0.01308,
+    "leak_to_level_7": 0.01751
+   },
+   "z_mub_better": -4.85
+  },
+  "random": {
+   "mub": {
+    "infidelity": 0.34527,
+    "bootstrap_sd": 0.01246,
+    "leak_to_level_7": 0.03474
+   },
+   "pauli": {
+    "infidelity": 0.23491,
+    "bootstrap_sd": 0.01598,
+    "leak_to_level_7": 0.02879
+   },
+   "z_mub_better": -5.45
+  }
+ },
+ "mean_infidelity": {
+  "mub": 0.28753,
+  "pauli": 0.19299
+ },
+ "verdict": "the hardware cost of the MUB readings eats the advantage"
+}

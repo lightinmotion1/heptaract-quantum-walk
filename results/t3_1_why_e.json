@@ -1,0 +1,139 @@
+{
+ "self_check": {
+  "C major reads": "D",
+  "cents_12tet": 0.0,
+  "cents_pythagorean": 3.93,
+  "cents_just": 38.49,
+  "seven_even_rays_magnitude": 0.0,
+  "climb_on_E_axis": "F#",
+  "climb_on_E_symmetric": true,
+  "passes": true
+ },
+ "scan_rows": 432,
+ "criterion": {
+  "primary": "largest axis magnitude among symmetric spreads",
+  "best_magnitude": 0.74641,
+  "how_many_configurations_tie": 72,
+  "centres_that_tie": [
+   "A",
+   "A#",
+   "B",
+   "C",
+   "C#",
+   "D",
+   "D#",
+   "E",
+   "F",
+   "F#",
+   "G",
+   "G#"
+  ],
+  "steps_that_tie": [
+   1
+  ],
+  "E_is_unique_maximiser": false
+ },
+ "structure": {
+  "magnitude_identical_across_centres": true,
+  "axis_offset_from_centre_is_fixed_per_configuration": true,
+  "magnitude_range_per_centre": {
+   "C": [
+    0.05359,
+    0.74641
+   ],
+   "C#": [
+    0.05359,
+    0.74641
+   ],
+   "D": [
+    0.05359,
+    0.74641
+   ],
+   "D#": [
+    0.05359,
+    0.74641
+   ],
+   "E": [
+    0.05359,
+    0.74641
+   ],
+   "F": [
+    0.05359,
+    0.74641
+   ],
+   "F#": [
+    0.05359,
+    0.74641
+   ],
+   "G": [
+    0.05359,
+    0.74641
+   ],
+   "G#": [
+    0.05359,
+    0.74641
+   ],
+   "A": [
+    0.05359,
+    0.74641
+   ],
+   "A#": [
+    0.05359,
+    0.74641
+   ],
+   "B": [
+    0.05359,
+    0.74641
+   ]
+  }
+ },
+ "by_step_12tet": {
+  "1": {
+   "magnitude": 0.74641,
+   "symmetric": true
+  },
+  "2": {
+   "magnitude": 0.2,
+   "symmetric": true
+  },
+  "3": {
+   "magnitude": 0.2,
+   "symmetric": false
+  },
+  "4": {
+   "magnitude": 0.2,
+   "symmetric": false
+  },
+  "5": {
+   "magnitude": 0.05359,
+   "symmetric": true
+  },
+  "6": {
+   "magnitude": 0.2,
+   "symmetric": false
+  }
+ },
+ "climb_examples": {
+  "C": [
+   "G#",
+   "A#",
+   "C",
+   "D",
+   "E"
+  ],
+  "E": [
+   "C",
+   "D",
+   "E",
+   "F#",
+   "G#"
+  ],
+  "G": [
+   "D#",
+   "F",
+   "G",
+   "A",
+   "B"
+  ]
+ }
+}

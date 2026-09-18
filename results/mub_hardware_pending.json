@@ -1,0 +1,1143 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  88,
+  89,
+  90
+ ],
+ "jobs": {
+  "mub": {
+   "job_id": "dam961tr85ps73fce540",
+   "index": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+   ]
+  },
+  "pauli": {
+   "job_id": "dam9625r85ps73fce54g",
+   "index": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139
+   ]
+  }
+ },
+ "meta": [
+  {
+   "state": "level 0",
+   "scheme": "mub",
+   "setting": 0,
+   "shots": 1024,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "mub",
+   "setting": 1,
+   "shots": 1024,
+   "twoq": 29
+  },
+  {
+   "state": "level 0",
+   "scheme": "mub",
+   "setting": 2,
+   "shots": 1024,
+   "twoq": 29
+  },
+  {
+   "state": "level 0",
+   "scheme": "mub",
+   "setting": 3,
+   "shots": 1024,
+   "twoq": 29
+  },
+  {
+   "state": "level 0",
+   "scheme": "mub",
+   "setting": 4,
+   "shots": 1024,
+   "twoq": 29
+  },
+  {
+   "state": "level 0",
+   "scheme": "mub",
+   "setting": 5,
+   "shots": 1024,
+   "twoq": 29
+  },
+  {
+   "state": "level 0",
+   "scheme": "mub",
+   "setting": 6,
+   "shots": 1024,
+   "twoq": 29
+  },
+  {
+   "state": "level 0",
+   "scheme": "mub",
+   "setting": 7,
+   "shots": 1024,
+   "twoq": 29
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 0,
+   "shots": 304,
+   "twoq": 19
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 1,
+   "shots": 304,
+   "twoq": 19
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 2,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 3,
+   "shots": 304,
+   "twoq": 19
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 4,
+   "shots": 304,
+   "twoq": 19
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 5,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 6,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 7,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 8,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 9,
+   "shots": 304,
+   "twoq": 23
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 10,
+   "shots": 304,
+   "twoq": 23
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 11,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 12,
+   "shots": 304,
+   "twoq": 23
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 13,
+   "shots": 304,
+   "twoq": 23
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 14,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 15,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 16,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 17,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 18,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 19,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 20,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 21,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 22,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 23,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 24,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 25,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "level 0",
+   "scheme": "pauli",
+   "setting": 26,
+   "shots": 304,
+   "twoq": 0
+  },
+  {
+   "state": "uniform",
+   "scheme": "mub",
+   "setting": 0,
+   "shots": 1024,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "mub",
+   "setting": 1,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "uniform",
+   "scheme": "mub",
+   "setting": 2,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "uniform",
+   "scheme": "mub",
+   "setting": 3,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "uniform",
+   "scheme": "mub",
+   "setting": 4,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "uniform",
+   "scheme": "mub",
+   "setting": 5,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "uniform",
+   "scheme": "mub",
+   "setting": 6,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "uniform",
+   "scheme": "mub",
+   "setting": 7,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 0,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 1,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 2,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 3,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 4,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 5,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 6,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 7,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 8,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 9,
+   "shots": 304,
+   "twoq": 26
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 10,
+   "shots": 304,
+   "twoq": 26
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 11,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 12,
+   "shots": 304,
+   "twoq": 26
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 13,
+   "shots": 304,
+   "twoq": 26
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 14,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 15,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 16,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 17,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 18,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 19,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 20,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 21,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 22,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 23,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 24,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 25,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "uniform",
+   "scheme": "pauli",
+   "setting": 26,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "ends",
+   "scheme": "mub",
+   "setting": 0,
+   "shots": 1024,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "mub",
+   "setting": 1,
+   "shots": 1024,
+   "twoq": 30
+  },
+  {
+   "state": "ends",
+   "scheme": "mub",
+   "setting": 2,
+   "shots": 1024,
+   "twoq": 30
+  },
+  {
+   "state": "ends",
+   "scheme": "mub",
+   "setting": 3,
+   "shots": 1024,
+   "twoq": 30
+  },
+  {
+   "state": "ends",
+   "scheme": "mub",
+   "setting": 4,
+   "shots": 1024,
+   "twoq": 30
+  },
+  {
+   "state": "ends",
+   "scheme": "mub",
+   "setting": 5,
+   "shots": 1024,
+   "twoq": 30
+  },
+  {
+   "state": "ends",
+   "scheme": "mub",
+   "setting": 6,
+   "shots": 1024,
+   "twoq": 30
+  },
+  {
+   "state": "ends",
+   "scheme": "mub",
+   "setting": 7,
+   "shots": 1024,
+   "twoq": 30
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 0,
+   "shots": 304,
+   "twoq": 20
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 1,
+   "shots": 304,
+   "twoq": 20
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 2,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 3,
+   "shots": 304,
+   "twoq": 20
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 4,
+   "shots": 304,
+   "twoq": 20
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 5,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 6,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 7,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 8,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 9,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 10,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 11,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 12,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 13,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 14,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 15,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 16,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 17,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 18,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 19,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 20,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 21,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 22,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 23,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 24,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 25,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "ends",
+   "scheme": "pauli",
+   "setting": 26,
+   "shots": 304,
+   "twoq": 1
+  },
+  {
+   "state": "random",
+   "scheme": "mub",
+   "setting": 0,
+   "shots": 1024,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "mub",
+   "setting": 1,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "random",
+   "scheme": "mub",
+   "setting": 2,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "random",
+   "scheme": "mub",
+   "setting": 3,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "random",
+   "scheme": "mub",
+   "setting": 4,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "random",
+   "scheme": "mub",
+   "setting": 5,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "random",
+   "scheme": "mub",
+   "setting": 6,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "random",
+   "scheme": "mub",
+   "setting": 7,
+   "shots": 1024,
+   "twoq": 32
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 0,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 1,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 2,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 3,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 4,
+   "shots": 304,
+   "twoq": 24
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 5,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 6,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 7,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 8,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 9,
+   "shots": 304,
+   "twoq": 26
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 10,
+   "shots": 304,
+   "twoq": 26
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 11,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 12,
+   "shots": 304,
+   "twoq": 26
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 13,
+   "shots": 304,
+   "twoq": 26
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 14,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 15,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 16,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 17,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 18,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 19,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 20,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 21,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 22,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 23,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 24,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 25,
+   "shots": 304,
+   "twoq": 5
+  },
+  {
+   "state": "random",
+   "scheme": "pauli",
+   "setting": 26,
+   "shots": 304,
+   "twoq": 5
+  }
+ ],
+ "submitted_utc": "2026-09-18T01:25:28Z"
+}
