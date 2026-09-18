@@ -1,0 +1,123 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  12,
+  13,
+  14,
+  15,
+  19,
+  35,
+  34,
+  33
+ ],
+ "shots": 4096,
+ "circuit_dt": {
+  "none": null,
+  "first": null,
+  "naive": null,
+  "parked": null,
+  "parallel": null,
+  "parked_parallel": null
+ },
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 62,
+  "status": "complete"
+ },
+ "views": {
+  "ceiling_gate": {
+   "bond": 0.92,
+   "bond_sd": 0.0031,
+   "z_correlation": 0.937,
+   "fidelity": 0.9442,
+   "fidelity_sd": 0.0021,
+   "shots_in_branch": 4096
+  },
+  "floor_none": {
+   "bond": 0.0159,
+   "bond_sd": 0.0075,
+   "z_correlation": 0.0039,
+   "fidelity": 0.2589,
+   "fidelity_sd": 0.0046,
+   "shots_in_branch": 4096
+  },
+  "one_hop": {
+   "bond": 0.7505,
+   "bond_sd": 0.0073,
+   "z_correlation": 0.7811,
+   "fidelity": 0.8205,
+   "fidelity_sd": 0.005,
+   "shots_in_branch": 2107
+  },
+  "floor_one_short": {
+   "bond": 0.0114,
+   "bond_sd": 0.0076,
+   "z_correlation": 0.0396,
+   "fidelity": 0.2656,
+   "fidelity_sd": 0.006,
+   "shots_in_branch": 2107
+  },
+  "naive": {
+   "bond": 0.5766,
+   "bond_sd": 0.0094,
+   "z_correlation": 0.6737,
+   "fidelity": 0.7067,
+   "fidelity_sd": 0.0063,
+   "shots_in_branch": 2079
+  },
+  "parked": {
+   "bond": 0.5579,
+   "bond_sd": 0.0097,
+   "z_correlation": 0.6264,
+   "fidelity": 0.6855,
+   "fidelity_sd": 0.0066,
+   "shots_in_branch": 2086
+  },
+  "parallel": {
+   "bond": 0.4331,
+   "bond_sd": 0.0101,
+   "z_correlation": 0.3385,
+   "fidelity": 0.5512,
+   "fidelity_sd": 0.0074,
+   "shots_in_branch": 2051
+  },
+  "parked_parallel": {
+   "bond": 0.4463,
+   "bond_sd": 0.0102,
+   "z_correlation": 0.3335,
+   "fidelity": 0.5565,
+   "fidelity_sd": 0.0074,
+   "shots_in_branch": 2036
+  }
+ },
+ "replicates_p19": {
+  "naive_bond": 0.5766,
+  "p19_value": 0.0621,
+  "within_3sd": false,
+  "below_0p15": false
+ },
+ "over_naive_sd": {
+  "parked": -1.4,
+  "parallel": -10.4,
+  "parked_parallel": -9.4
+ },
+ "of_ceiling": {
+  "one_hop": 0.816,
+  "naive": 0.627,
+  "parked": 0.606,
+  "parallel": 0.471,
+  "parked_parallel": 0.485
+ },
+ "best_fix": "parked",
+ "multiplicative_target": 0.665,
+ "mechanism": {
+  "parked_gain": -0.0187,
+  "parallel_gain": -0.1435,
+  "verdict": "neighbours"
+ },
+ "verdict": {
+  "p19_replicated": false,
+  "a_fix_works": false,
+  "entanglement_recovered": true,
+  "diagnosis_stands": false
+ }
+}
