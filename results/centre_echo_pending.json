@@ -1,0 +1,298 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  10,
+  9,
+  8,
+  7,
+  6,
+  5,
+  4,
+  3,
+  2
+ ],
+ "job_id": "damaekgpqrnc7397709g",
+ "meta": [
+  {
+   "reading": "ours",
+   "treatment": "zero",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "treatment": "zero",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "treatment": "zero",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "treatment": "zero",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "treatment": "zero",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "treatment": "zero",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "treatment": "zero",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "treatment": "zero",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "treatment": "none",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "treatment": "none",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "treatment": "none",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "treatment": "none",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "treatment": "none",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "treatment": "none",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "treatment": "none",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "treatment": "none",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo2",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo2",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo2",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo2",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo2",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo2",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo2",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo2",
+   "t": 7
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo8",
+   "t": 0
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo8",
+   "t": 1
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo8",
+   "t": 2
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo8",
+   "t": 3
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo8",
+   "t": 4
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo8",
+   "t": 5
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo8",
+   "t": 6
+  },
+  {
+   "reading": "ours",
+   "treatment": "echo8",
+   "t": 7
+  },
+  {
+   "reading": "private",
+   "treatment": "none",
+   "t": 0
+  },
+  {
+   "reading": "private",
+   "treatment": "none",
+   "t": 1
+  },
+  {
+   "reading": "private",
+   "treatment": "none",
+   "t": 2
+  },
+  {
+   "reading": "private",
+   "treatment": "none",
+   "t": 3
+  },
+  {
+   "reading": "private",
+   "treatment": "none",
+   "t": 4
+  },
+  {
+   "reading": "private",
+   "treatment": "none",
+   "t": 5
+  },
+  {
+   "reading": "private",
+   "treatment": "none",
+   "t": 6
+  },
+  {
+   "reading": "private",
+   "treatment": "none",
+   "t": 7
+  },
+  {
+   "reading": "private",
+   "treatment": "echo8",
+   "t": 0
+  },
+  {
+   "reading": "private",
+   "treatment": "echo8",
+   "t": 1
+  },
+  {
+   "reading": "private",
+   "treatment": "echo8",
+   "t": 2
+  },
+  {
+   "reading": "private",
+   "treatment": "echo8",
+   "t": 3
+  },
+  {
+   "reading": "private",
+   "treatment": "echo8",
+   "t": 4
+  },
+  {
+   "reading": "private",
+   "treatment": "echo8",
+   "t": 5
+  },
+  {
+   "reading": "private",
+   "treatment": "echo8",
+   "t": 6
+  },
+  {
+   "reading": "private",
+   "treatment": "echo8",
+   "t": 7
+  }
+ ],
+ "shots": 1024,
+ "coherence": {
+  "10": {
+   "T1_us": 274.2,
+   "T2_us": 158.5
+  },
+  "9": {
+   "T1_us": 164.3,
+   "T2_us": 197.8
+  },
+  "8": {
+   "T1_us": 201.9,
+   "T2_us": 115.3
+  },
+  "7": {
+   "T1_us": 252.2,
+   "T2_us": 35.7
+  },
+  "6": {
+   "T1_us": 175.4,
+   "T2_us": 152.7
+  },
+  "5": {
+   "T1_us": 328.5,
+   "T2_us": 243.9
+  },
+  "4": {
+   "T1_us": 172.3,
+   "T2_us": 207.5
+  },
+  "3": {
+   "T1_us": 300.0,
+   "T2_us": 236.9
+  },
+  "2": {
+   "T1_us": 209.1,
+   "T2_us": 217.0
+  }
+ },
+ "wait_us": 30,
+ "submitted_utc": "2026-09-18T02:52:03Z"
+}

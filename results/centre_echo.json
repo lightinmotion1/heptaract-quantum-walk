@@ -1,0 +1,99 @@
+{
+ "backend": "ibm_marrakesh",
+ "chain": [
+  10,
+  9,
+  8,
+  7,
+  6,
+  5,
+  4,
+  3,
+  2
+ ],
+ "shots": 1024,
+ "wait_us": 30,
+ "coherence": {
+  "10": {
+   "T1_us": 274.2,
+   "T2_us": 158.5
+  },
+  "9": {
+   "T1_us": 164.3,
+   "T2_us": 197.8
+  },
+  "8": {
+   "T1_us": 201.9,
+   "T2_us": 115.3
+  },
+  "7": {
+   "T1_us": 252.2,
+   "T2_us": 35.7
+  },
+  "6": {
+   "T1_us": 175.4,
+   "T2_us": 152.7
+  },
+  "5": {
+   "T1_us": 328.5,
+   "T2_us": 243.9
+  },
+  "4": {
+   "T1_us": 172.3,
+   "T2_us": 207.5
+  },
+  "3": {
+   "T1_us": 300.0,
+   "T2_us": 236.9
+  },
+  "2": {
+   "T1_us": 209.1,
+   "T2_us": 217.0
+  }
+ },
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 17,
+  "status": "complete"
+ },
+ "bond": {
+  "ours/zero": 0.1954,
+  "ours/none": 0.0562,
+  "ours/echo2": 0.0833,
+  "ours/echo8": 0.0689,
+  "private/none": 0.0426,
+  "private/echo8": 0.0472
+ },
+ "floor": 0.0426,
+ "recovered": {
+  "ours/zero": 0.1528,
+  "ours/none": 0.0136,
+  "ours/echo2": 0.0407,
+  "ours/echo8": 0.0263,
+  "private/none": 0.0,
+  "private/echo8": 0.0046
+ },
+ "verdict": {
+  "echo_beats_silence": false,
+  "echo_recovers_fraction_of_ceiling": 0.266,
+  "eight_beats_two": false
+ },
+ "derived": {
+  "rim_T2": {
+   "10": 158.5,
+   "9": 197.8,
+   "8": 115.3,
+   "4": 207.5,
+   "3": 236.9,
+   "2": 217.0
+  },
+  "six_body_prediction_us": 29.7,
+  "silent_fraction": 0.089,
+  "silent_tau_us": 12.4,
+  "echo2_fraction": 0.266,
+  "echo2_tau_us": 22.7,
+  "echo8_fraction": 0.172,
+  "echo8_tau_us": 17.0,
+  "echo2_over_silent_corrected": 2.99,
+  "echo2_over_silent_raw": 1.48
+ }
+}
