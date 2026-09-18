@@ -1,0 +1,97 @@
+{
+ "backend": "ibm_kingston",
+ "chain": [
+  12,
+  13,
+  14,
+  15,
+  19
+ ],
+ "shots": 1024,
+ "coherence": {
+  "12": {
+   "T1_us": 293.4,
+   "T2_us": 328.7
+  },
+  "13": {
+   "T1_us": 315.5,
+   "T2_us": 618.1
+  },
+  "14": {
+   "T1_us": 310.3,
+   "T2_us": 502.6
+  },
+  "15": {
+   "T1_us": 137.1,
+   "T2_us": 174.9
+  },
+  "19": {
+   "T1_us": 264.1,
+   "T2_us": 241.0
+  }
+ },
+ "qpu_usage": {
+  "qpu_charge_time_seconds": 32,
+  "status": "complete"
+ },
+ "bond": {
+  "ours/0us/none": 0.2532,
+  "ours/60us/none": 0.0724,
+  "ours/60us/echo2": 0.0962,
+  "ours/60us/echo4": 0.0836,
+  "ours/60us/echo8": 0.083,
+  "ours/180us/none": 0.0658,
+  "ours/180us/echo2": 0.056,
+  "ours/180us/echo4": 0.0543,
+  "ours/180us/echo8": 0.0408,
+  "private/60us/none": 0.0452
+ },
+ "floor": 0.0452,
+ "ceiling_above_floor": 0.208,
+ "fraction_of_ceiling": {
+  "ours/0us/none": 1.0,
+  "ours/60us/none": 0.131,
+  "ours/60us/echo2": 0.245,
+  "ours/60us/echo4": 0.185,
+  "ours/60us/echo8": 0.182,
+  "ours/180us/none": 0.099,
+  "ours/180us/echo2": 0.052,
+  "ours/180us/echo4": 0.044,
+  "ours/180us/echo8": 0.0
+ },
+ "rim_T2_us": {
+  "12": 328.7,
+  "19": 241.0
+ },
+ "two_body_prediction_us": 139.0,
+ "best_by_delay": {
+  "60": {
+   "treatment": "echo2",
+   "fraction": 0.245,
+   "tau_us": 42.7,
+   "all": {
+    "none": 0.131,
+    "echo2": 0.245,
+    "echo4": 0.185,
+    "echo8": 0.182
+   }
+  },
+  "180": {
+   "treatment": "none",
+   "fraction": 0.099,
+   "tau_us": 77.8,
+   "all": {
+    "none": 0.099,
+    "echo2": 0.052,
+    "echo4": 0.044,
+    "echo8": 0.0
+   }
+  }
+ },
+ "verdict": {
+  "two_carriers_beat_six_at_matched_wait": null,
+  "echo_helps_at_every_delay": false,
+  "small_pulse_count_wins": false,
+  "reaches_180us": false
+ }
+}
